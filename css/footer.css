@@ -1,0 +1,14 @@
+footer {
+  padding: 20px 50px;
+  background: #285129;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-icons a {
+  margin-left: 15px;
+  color: white;
+  font-size: 18px;
+}

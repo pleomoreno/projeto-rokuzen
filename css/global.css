@@ -1,0 +1,97 @@
+/* ======================================================== */
+/* 1. ESTILOS GERAIS E TIPOGRAFIA (EXISTENTE) */
+/* ======================================================== */
+
+body {
+  font-family: "SF Pro Display", "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #EBF4E3;
+  color: #6B8E54;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #1d311d;
+}
+
+.btn, .btn-primary, .btn-secondary {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn {
+  background: #b6e0b6;
+  color: #1d311d;
+}
+
+.btn-primary {
+  background: #2e7d32;
+  color: white;
+}
+
+.btn-secondary {
+  border: 2px solid #2e7d32;
+  color: #2e7d32;
+}
+
+
+/* ======================================================== */
+/* 2. LAYOUT GLOBAL: CONTAINER DE SERVIÇOS E UNIDADES (NOVO) */
+/* Ocupa a largura total da página e aplica Flexbox. */
+/* ======================================================== */
+
+.services-units-container {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;
+  gap: 40px;
+  /* Expande o container para ocupar a largura total da página */
+  margin: 40px 0; 
+  width: 100%;
+  /* Adiciona respiro nas laterais */
+  padding: 0 40px; 
+  box-sizing: border-box;
+}
+
+.services-section,
+.units-section {
+  /* Permite que os blocos cresçam e ocupem 50% cada */
+  flex: 1 1 0; 
+  
+  /* Sobrescreve a largura máxima e margem de centralização que impediam a expansão */
+  max-width: none !important; 
+  margin: 0 !important; 
+  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  
+  /* Propriedades visuais replicadas aqui para garantir que não sejam perdidas */
+  background-color: #8EAF79;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ======================================================== */
+/* 3. RESPONSIVIDADE PARA O LAYOUT GLOBAL (NOVO) */
+/* ======================================================== */
+
+@media (max-width: 600px) {
+  .services-units-container {
+    flex-direction: column; /* Empilha no mobile */
+    gap: 20px;
+    padding: 0 10px;
+  }
+  
+  .services-section,
+  .units-section {
+    /* No mobile, voltamos a centralizar e limitar a largura */
+    max-width: 95% !important; 
+    margin: 0 auto !important; 
+  }
+}

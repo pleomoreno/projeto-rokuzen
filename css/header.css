@@ -1,0 +1,133 @@
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  flex-wrap: wrap;
+}
+
+/* LOGO */
+header .logo {
+  margin-right: 104px;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+header .logo span {
+  color: #2e7d32;
+}
+
+/* NAV */
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 44px; 
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap; 
+}
+
+/* LINKS */
+header nav ul li a {
+  text-decoration: none;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  display: inline-block;
+  color: #6B8E54;
+  text-align: center;
+}
+
+header nav ul li a.menu-inicio {
+  color: #285129;
+}
+
+/* ÍCONE DE BUSCA */
+header nav ul li a.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 39px;
+  height: 39px;
+}
+
+/* BOTÃO AGENDE SEU HORÁRIO */
+header .btn {
+  background: #6B8E54;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 28px;
+  width: 302px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 10px; /* garante espaçamento no mobile */
+}
+
+/* Tablets - largura até 1024px */
+@media (max-width: 1024px) {
+  header {
+    padding: 15px 30px;
+  }
+
+  header .logo {
+    margin-right: 60px;
+  }
+
+  header nav ul {
+    gap: 30px;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  header .btn {
+    width: 250px;
+    height: 50px;
+  }
+}
+
+/* Mobile - largura até 600px */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+
+  header .logo {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+
+  header nav ul li a {
+    width: 100%;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  header nav ul li a.search-icon {
+    align-self: flex-end;
+  }
+
+  header .btn {
+    width: 100%;
+    max-width: 302px;
+    margin-top: 15px;
+  }
+}
