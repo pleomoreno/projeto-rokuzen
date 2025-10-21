@@ -1,0 +1,35 @@
+.container {
+    padding: 5em;
+}
+
+.container__titulo {
+    font-size: 64px;
+    font-weight: bold;
+    color: #6B8E54 ;
+}
+
+.container__opcoes-unidades {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 2em;
+    background-color: #BDCFA8;
+    border-radius: 40px;
+    margin: 2em 6em;
+    gap: 2em;
+}
+
+.opcao__unidade-texto {
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.opcao__radio-personalizado {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin-right: 0.75em;
+}
