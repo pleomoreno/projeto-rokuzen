@@ -2,8 +2,8 @@
 .hero {
   display: flex;
   align-items: center;
-  justify-content: center; /* centraliza melhor o conteúdo */
-  padding: 60px 5vw;
+  justify-content: center;
+  padding: 60px 50px;
   gap: 60px;
   flex-wrap: wrap;
   width: 100%;
@@ -15,14 +15,14 @@
 /* ===== TEXTO ===== */
 .hero-text {
   flex: 1;
-  min-width: 320px;
+  min-width: 280px;
   max-width: 600px;
   text-align: left;
 }
 
 .hero h1 {
   font-family: "SF Pro Display", sans-serif;
-  font-size: clamp(36px, 6vw, 96px);
+  font-size: 96px;
   font-weight: 700;
   line-height: 1.1;
   color: #6B8E54;
@@ -31,7 +31,7 @@
 
 .hero p {
   font-family: "SF Pro Display", sans-serif;
-  font-size: clamp(16px, 2vw, 28px);
+  font-size: 28px;
   font-weight: 400;
   line-height: 1.5;
   color: #285129;
@@ -83,10 +83,7 @@
 /* ====== TABLET (até 1024px) ====== */
 @media (max-width: 1024px) {
   .hero {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 40px 6vw;
+    padding: 40px 50px;
     gap: 50px;
   }
 
@@ -96,7 +93,7 @@
   }
 
   .hero h1 {
-    font-size: clamp(42px, 6vw, 64px);
+    font-size: 64px;
   }
 
   .hero p {
@@ -115,19 +112,36 @@
 /* ====== MOBILE (até 768px) ====== */
 @media (max-width: 768px) {
   .hero {
-    padding: 35px 7vw;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     gap: 35px;
+    padding: 35px 20px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    text-align: center;
   }
 
   .hero h1 {
-    font-size: clamp(32px, 8vw, 48px);
+    font-size: 48px;
   }
 
   .hero p {
     font-size: 18px;
   }
 
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+  }
+
   .hero-buttons a {
+    width: 100%;
+    max-width: 300px;
     font-size: 18px;
     padding: 12px 28px;
   }
@@ -140,7 +154,8 @@
 /* ====== MOBILE PEQUENO (até 480px) ====== */
 @media (max-width: 480px) {
   .hero {
-    padding: 30px 20px;
+    padding: 30px 18px;
+    gap: 30px;
   }
 
   .hero-text {
@@ -158,12 +173,15 @@
   .hero-buttons {
     flex-direction: column;
     align-items: center;
+    gap: 10px;
   }
 
   .hero-buttons a {
     width: 100%;
     max-width: 280px;
     text-align: center;
+    font-size: 16px;
+    padding: 10px 24px;
   }
 
   .hero-image img {
