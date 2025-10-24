@@ -1,0 +1,125 @@
+body {
+  background-color: #edf5e9;
+  font-family: "SF Pro Display", sans-serif;
+  color: #285129;
+}
+
+/* ===== CONTAINER GERAL ===== */
+.sobre-container {
+  width: 95%;
+  max-width: 1600px;
+  margin: 80px auto;
+  line-height: 1.7;
+}
+
+/* ===== SOBRE NÓS ===== */
+.sobre-nos h1 {
+  font-size: 4.5rem;
+  color: #6B8E54;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.sobre-nos p,
+.estrutura p,
+.missao p {
+  font-size: 1.50rem;
+  color: #285129;
+  margin-bottom: 18px;
+}
+
+.sobre-nos ul {
+  margin: 20px 0 30px 30px;
+  list-style-type: disc;
+}
+
+.sobre-nos ul li {
+  margin-bottom: 8px;
+  font-size: 1.5rem;
+}
+
+/* ===== ESTRUTURA ===== */
+.estrutura {
+  margin-top: 60px;
+}
+
+.estrutura h2 {
+  color: #6B8E54;
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.estrutura-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 140px;
+  margin-top: 40px;
+}
+
+.estrutura-imgs img {
+  width: 340px;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* ===== MISSÃO ===== */
+.missao {
+  margin-top: 70px;
+}
+
+.missao h2 {
+  color: #6B8E54;
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 768px) {
+  .sobre-container {
+    width: 92%;
+    margin: 50px auto;
+  }
+
+  .sobre-nos h1,
+  .estrutura h2,
+  .missao h2 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .estrutura-imgs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .estrutura-imgs img {
+    width: 60%;
+  }
+}
+
+/* ===== LINK ATIVO ===== */
+header a.ativo {
+  color: #6b8e54;
+  font-weight: 700;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #285129;
+  color: #f0f4ef;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+.footer-icons img {
+  width: 22px;
+  margin: 0 8px;
+  filter: brightness(0) invert(1);
+}
