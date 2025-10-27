@@ -1,0 +1,54 @@
+body {
+  background-color: #EBF4E3;
+  font-family: "SF Pro Display", sans-serif;
+  color: #2f4d2f;
+  line-height: 1.6;
+}
+
+/* Container principal */
+.artigo-container {
+  max-width: 900px;
+  margin: 6rem auto;
+  padding: 2rem;
+}
+
+.artigo h1 {
+  color: #365c35;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.artigo h2 {
+  color: #365c35;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.artigo p {
+  margin-bottom: 1rem;
+  color: #2f4d2f;
+  font-size: 1.5rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .artigo-container {
+    padding: 1.2rem;
+    margin-top: 4rem;
+  }
+
+  .artigo h1 {
+    font-size: 1.6rem;
+  }
+
+  .artigo h2 {
+    font-size: 1.3rem;
+  }
+
+  .artigo p {
+    font-size: 1rem;
+  }
+}

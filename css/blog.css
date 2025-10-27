@@ -25,7 +25,9 @@
 .blog-card {
   flex: 1;
   min-width: 320px; 
-  max-width: 380px; 
+  max-width: 380px;
+  text-decoration: none;
+  color: inherit;
   background-color: #AEC8AE;
   border-radius: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
