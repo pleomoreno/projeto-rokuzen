@@ -1,0 +1,90 @@
+body {
+  font-family: "SF Pro Display", sans-serif;
+  color: #1f3b1a;
+}
+
+.parceiros-container {
+  padding: 60px 10%;
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.parceiros-section h1,
+.contato-section h2 {
+  font-size: 50px;
+  color: #6B8E54;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.parceiros-section p,
+.contato-section p {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.parceiro-logo {
+  margin: 30px 0;
+}
+
+.parceiro-logo img {
+  max-width: 400px;
+  height: auto;
+}
+
+.form-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.form-contato label {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.form-contato input,
+.form-contato textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #a7b79f;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.btn-enviar {
+  background-color: #567f46;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.btn-enviar:hover {
+  background-color: #456a3a;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .parceiros-container {
+    padding: 40px 20px;
+  }
+
+  .parceiros-section h1,
+  .contato-section h2 {
+    font-size: 26px;
+  }
+
+  .form-contato input,
+  .form-contato textarea {
+    font-size: 15px;
+  }
+}
