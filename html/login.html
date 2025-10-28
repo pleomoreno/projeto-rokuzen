@@ -14,19 +14,21 @@
 
     <div class="form-section">
       <h2>Acesse sua conta</h2>
-      <form>
+      <form id="login-form">
         <label for="email">E-mail</label>
-        <input type="email" id="email" placeholder="Seu e-mail">
+        <input type="email" id="email" placeholder="Seu e-mail" required>
 
         <label for="senha">Senha</label>
-        <input type="password" id="senha" placeholder="Sua senha">
+        <input type="password" id="senha" placeholder="Sua senha" required>
 
         <button type="submit" class="btn">Entrar</button>
         <a href="cadastro.html" class="btn-outline">Crie sua conta</a>
       </form>
+      <p id="erro-msg" style="color:red; display:none; margin-top:10px;"></p>
     </div>
   </main>
 
+  <!-- Plugin VLibras -->
   <div vw class="enabled">
     <div vw-access-button class="active"></div>
     <div vw-plugin-wrapper>
@@ -37,6 +39,8 @@
   <script>
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
-  
+
+  <!-- Script externo -->
+  <script src="../js/login.js"></script>
 </body>
 </html>
