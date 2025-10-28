@@ -33,3 +33,137 @@
     cursor: pointer;
     margin-right: 0.75em;
 }
+
+.calendar {
+    width: 380px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: #BDCFA8;
+    border-radius: 10px;
+    margin: 2em 26em 4em 6em;
+}
+
+.calendar__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.monthYear {
+    text-align: center;
+    font-weight: 600;
+    width: 150px;
+}
+
+.calendar__header button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    background: #6b8e5499;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+
+.day {
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: 0.2s;
+}
+
+.date:hover,
+.date.active{
+    background: #ff5869;
+    color: #fff;
+}
+
+.date.inactive {
+    color: #0853254c;
+}
+
+.date.inactive:hover {
+    color: #fff;
+}
+
+.date.selected {
+    background: #6B8E54;
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+
+.date.today {
+    border: 2px solid #6B8E54;
+}
+
+.input-style {
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px 12px;
+    border: 1px solid #6B8E54;
+    transition: all 0.3s ease;
+}
+
+.input-style::placeholder {
+    font-weight: medium;
+    font-size: 20px;
+    color: #7B8C73;
+    opacity: 0.8;
+}
+
+.botao-confirmar {
+    background-color: #274E2E;
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 2em 26em 4em 6em;
+}
+
+.botao-confirmar:hover {
+    background-color: #3B6B43;
+    transform: scale(1.02);
+}
+
+.botao-confirmar:active {
+    transform: scale(0.98);
+}
