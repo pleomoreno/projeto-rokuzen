@@ -1,0 +1,55 @@
+/* Container principal para centralizar e dar padding */
+.guia-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.guia-secao {
+    padding: 20px 0;
+}
+
+/* Estilo para os títulos numerados (1., 2., 3.) */
+.titulo-numero {
+    font-size: 2.5em; /* Tamanho maior para destaque */
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+/* Estilo para o subtítulo (3.1.) */
+.subtitulo-numero {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Cor verde para os títulos, seguindo a imagem */
+.cor-verde {
+    color: #365c35;
+}
+
+/* Estilo para o texto do parágrafo */
+.guia-secao p {
+    font-size: 1.1em;
+    color: #2f4d2f;
+    margin-bottom: 25px;
+}
+
+/* Estilo para o cabeçalho (Header) se precisar de ajuste para painel admin */
+/* Se a sua classe '.header.css' já estiver boa, não precisa de mais ajustes aqui. */
+header {
+    border-bottom: 1px solid #eee;
+}
+
+.admin-nav a {
+    /* Cor do texto do menu de navegação, pode ser mais escuro */
+    color: #6B8E54; 
+    padding: 0 15px;
+}
+
+.admin-nav a:hover {
+    color: #2f4d2f;
+}

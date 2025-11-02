@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Rokuzen</title>
+  <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+  <main class="container">
+    <div class="logo-section">
+      <img src="../img/logo.svg" alt="Logo Rokuzen">
+    </div>
+
+    <div class="form-section">
+      <h2>Acesse sua conta</h2>
+      <form id="login-form">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="Seu e-mail" required>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="Sua senha" required>
+
+        <button type="submit" class="btn">Entrar</button>
+        <a href="cadastro.html" class="btn-outline">Crie sua conta</a>
+      </form>
+      <p id="erro-msg" style="color:red; display:none; margin-top:10px;"></p>
+    </div>
+  </main>
+
+  <!-- Plugin VLibras -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  <!-- Script externo -->
+  <script src="../js/login.js"></script>
+</body>
+</html>
