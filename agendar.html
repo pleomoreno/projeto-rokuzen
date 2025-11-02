@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Agendamento | Rokuzen</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/header.css">
@@ -32,62 +33,69 @@
     </header>
 
     <section class="container">
+        <div class="row">
+            <h2 class="container__titulo">1. Escolha a unidade</h2>
+        </div>
+        <div class="row">
+            <form class="container__opcoes-unidades col-12 col-lg-9">
+                <div class="opcoes-unidades__opcao">
+                    <label class="opcao__unidade-texto">
+                        <input class="opcao__radio-personalizado" type="radio" name="unidade" value="golden-square">
+                        Golden Square Shopping - São Bernardo
+                    </label>
+                </div>
+                <div class="opcoes-unidades__opcao">
+                    <label class="opcao__unidade-texto">
+                        <input class="opcao__radio-personalizado" type="radio" name="unidade" value="grand-plaza">
+                        Grand Plaza Shopping - Santo André
+                    </label>
+                </div>
+                <div class="opcoes-unidades__opcao">
+                    <label class="opcao__unidade-texto">
+                        <input class="opcao__radio-personalizado" type="radio" name="unidade" value="mooca-plaza">
+                        Mooca Plaza Shopping - São Paulo
+                    </label>
+                </div>
+                <div class="opcoes-unidades__opcao">
+                    <label class="opcao__unidade-texto">
+                        <input class="opcao__radio-personalizado" type="radio" name="unidade" value="west-plaza">
+                        Shopping West Plaza - São Paulo
+                    </label>
+                </div>
+            </form>
+        </div>
 
-        <h2 class="container__titulo">1. Escolha a unidade</h2>
-        <form class="container__opcoes-unidades">
-            <div class="opcoes-unidades__opcao">
-                <label class="opcao__unidade-texto">
-                    <input class="opcao__radio-personalizado" type="radio" name="unidade" value="golden-square">
-                    Golden Square Shopping - São Bernardo
-                </label>
-            </div>
-            <div class="opcoes-unidades__opcao">
-                <label class="opcao__unidade-texto">
-                    <input class="opcao__radio-personalizado" type="radio" name="unidade" value="grand-plaza">
-                    Grand Plaza Shopping - Santo André
-                </label>
-            </div>
-            <div class="opcoes-unidades__opcao">
-                <label class="opcao__unidade-texto">
-                    <input class="opcao__radio-personalizado" type="radio" name="unidade" value="mooca-plaza">
-                    Mooca Plaza Shopping - São Paulo
-                </label>
-            </div>
-            <div class="opcoes-unidades__opcao">
-                <label class="opcao__unidade-texto">
-                    <input class="opcao__radio-personalizado" type="radio" name="unidade" value="west-plaza">
-                    Shopping West Plaza - São Paulo
-                </label>
-            </div>
-        </form>
-
-        <h2 class="container__titulo">2. Escolha o serviço</h2>
-        <form class="container__opcoes-unidades">
-            <div class="opcoes-unidades__opcao">
-                <label class="opcao__unidade-texto">
-                    <input class="opcao__radio-personalizado" type="radio" name="servico" value="auriculoterapia">
-                    Auriculoterapia
-                </label>
-            </div>
-            <div class="opcoes-unidades__opcao">
-                <label class="opcao__unidade-texto">
-                    <input class="opcao__radio-personalizado" type="radio" name="servico" value="reflexologia-podal">
-                    Reflexologia Podal
-                </label>
-            </div>
-            <div class="opcoes-unidades__opcao">
-                <label class="opcao__unidade-texto">
-                    <input class="opcao__radio-personalizado" type="radio" name="servico" value="quick-massage">
-                    Quick Massage
-                </label>
-            </div>
-            <div class="opcoes-unidades__opcao">
-                <label class="opcao__unidade-texto">
-                    <input class="opcao__radio-personalizado" type="radio" name="servico" value="maca">
-                    Maca
-                </label>
-            </div>
-        </form>
+        <div class="row">
+            <h2 class="container__titulo">2. Escolha o serviço</h2>
+        </div>
+        <div class="row">
+            <form class="container__opcoes-unidades col-12 col-lg-9">
+                <div class="opcoes-unidades__opcao">
+                    <label class="opcao__unidade-texto">
+                        <input class="opcao__radio-personalizado" type="radio" name="servico" value="auriculoterapia">
+                        Auriculoterapia
+                    </label>
+                </div>
+                <div class="opcoes-unidades__opcao">
+                    <label class="opcao__unidade-texto">
+                        <input class="opcao__radio-personalizado" type="radio" name="servico" value="reflexologia-podal">
+                        Reflexologia Podal
+                    </label>
+                </div>
+                <div class="opcoes-unidades__opcao">
+                    <label class="opcao__unidade-texto">
+                        <input class="opcao__radio-personalizado" type="radio" name="servico" value="quick-massage">
+                        Quick Massage
+                    </label>
+                </div>
+                <div class="opcoes-unidades__opcao">
+                    <label class="opcao__unidade-texto">
+                        <input class="opcao__radio-personalizado" type="radio" name="servico" value="maca">
+                        Maca
+                    </label>
+                </div>
+            </form>
+        </div>
 
         <div id="duracao-container"></div>
 
@@ -114,17 +122,26 @@
             <div class="dates" id="dates"></div>
         </div>
 
-        <h2 class="container__titulo">5. Selecione o Terapeuta e o horário</h2>
-        <div class="container__opcoes-unidades">
-            <p class="opcao__unidade-texto">Para essa data entre em contato com a unidade pelo WhatsApp Mooca: +55 11 95084 1087</p>
+        <div class="row">
+            <h2 class="container__titulo">5. Selecione o Terapeuta e o horário</h2>
         </div>
 
-        <h2 class="container__titulo">6. Digite seu e-mail</h2>
-        <div class="container__opcoes-unidades">
-            <input class="input-style" type="email" placeholder="Seu e-mail">
+        <div class="row col-12 col-lg-9">
+            <div class="container__opcoes-unidades">
+                <p class="opcao__unidade-texto">Para essa data entre em contato com a unidade pelo WhatsApp Mooca: +55 11 95084 1087</p>
+            </div>
         </div>
 
-        <button type="submit" class="botao-confirmar">Confirmar Pré-agendamento</button>
+        <div class="row">
+            <h2 class="container__titulo">6. Digite seu e-mail</h2>
+        </div>
+        <div class="row col-12 col-lg-9">
+            <div class="container__opcoes-unidades">
+                <input class="input-style" type="email" placeholder="Seu e-mail">
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-success botao-confirmar px-4 py-3 fw-semibold">Confirmar Pré-agendamento</button>
     </section>
 
     <footer>
@@ -140,6 +157,7 @@
       </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="calendario.js"></script>
     <script>
         const duracaoContainer = document.getElementById('duracao-container');
@@ -184,6 +202,8 @@
             // Cria o container das opções
             const bloco = document.createElement('div');
             bloco.classList.add('container__opcoes-unidades');
+            bloco.classList.add('col-12');
+            bloco.classList.add('col-lg-9');
             duracaoContainer.appendChild(bloco);
 
             opcoes.forEach(opcao => {

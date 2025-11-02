@@ -6,6 +6,7 @@
     font-size: 64px;
     font-weight: bold;
     color: #6B8E54 ;
+    margin-top: 0.5em;
 }
 
 .container__opcoes-unidades {
@@ -14,7 +15,6 @@
     padding: 3em 2em;
     background-color: #BDCFA8;
     border-radius: 40px;
-    margin: 2em 26em 4em 6em;
     gap: 2em;
 }
 
@@ -42,7 +42,6 @@
     padding: 10px;
     background: #BDCFA8;
     border-radius: 10px;
-    margin: 2em 26em 4em 6em;
 }
 
 .calendar__header {
@@ -137,6 +136,7 @@
     padding: 10px 12px;
     border: 1px solid #6B8E54;
     transition: all 0.3s ease;
+    font-size: 20px;
 }
 
 .input-style::placeholder {
@@ -156,7 +156,9 @@
     font-weight: 500;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    margin: 2em 26em 4em 6em;
+    margin: 2em 0 4em 0;
+    width: 100%;
+    max-width: 300px;
 }
 
 .botao-confirmar:hover {
