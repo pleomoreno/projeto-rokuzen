@@ -1,0 +1,131 @@
+/* === CONFIGURAÇÃO GERAL === */
+body {
+  font-family: "SF Pro Display", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e9f0e2;
+  color: #2f4d2f;
+  line-height: 1.6;
+}
+
+/* === HEADER === */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #e9f0e2;
+  border-bottom: 1px solid #dce6d6;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #2f4d2f;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #6b8e54;
+  font-weight: 500;
+  padding: 0 15px;
+  transition: color 0.2s;
+}
+
+.nav a:hover {
+  color: #2f4d2f;
+}
+
+.nav a.active {
+  font-weight: 700;
+  color: #365c35;
+}
+
+/* === CONTAINER CENTRAL === */
+.estatistica-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 🔹 Centraliza todos os elementos horizontalmente */
+  justify-content: center;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 40px;
+  text-align: center; /* 🔹 Centraliza texto */
+  line-height: 1.6;
+}
+
+/* === SEÇÕES DE ESTATÍSTICA === */
+.estat-section {
+  width: 100%;
+  max-width: 800px; /* 🔹 Limita a largura das seções */
+  padding: 40px 0;
+}
+
+/* === TÍTULOS === */
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #365c35;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 600;
+  color: #365c35;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+/* === IMAGENS (Gráficos) === */
+.estat-section img {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto 60px; 
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* === COR VERDE REUTILIZÁVEL === */
+.cor-verde {
+  color: #365c35;
+}
+
+/* === RODAPÉ === */
+.footer {
+  background-color: #284d32;
+  color: #e9f0e2;
+  text-align: center;
+  padding: 25px 20px;
+  font-size: 0.9em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer .social {
+  display: flex;
+  gap: 15px;
+}
+
+.footer .social img {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1);
+  transition: opacity 0.2s ease;
+}
+
+.footer .social img:hover {
+  opacity: 0.75;
+}
