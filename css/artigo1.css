@@ -33,6 +33,11 @@ body {
   font-size: 1.5rem;
 }
 
+.imagem-blog {
+  display: flex;
+  margin-bottom: 2em;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
   .artigo-container {
