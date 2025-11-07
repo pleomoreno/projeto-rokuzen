@@ -1,10 +1,9 @@
 body {
-  background-color: #EBF4E3;
+  background-color: #ebf4e3;
   font-family: "SF Pro Display", sans-serif;
   color: #1f3b1a;
 }
 
-/* ===== CONTAINER GERAL ===== */
 .sobre-container {
   width: 95%;
   max-width: 1600px;
@@ -12,10 +11,9 @@ body {
   line-height: 1.7;
 }
 
-/* ===== SOBRE NÓS ===== */
 .sobre-nos h1 {
   font-size: 4.5rem;
-  color: #6B8E54;
+  color: #6b8e54;
   font-weight: 700;
   margin-bottom: 25px;
 }
@@ -23,7 +21,7 @@ body {
 .sobre-nos p,
 .estrutura p,
 .missao p {
-  font-size: 1.50rem;
+  font-size: 1.5rem;
   color: #285129;
   margin-bottom: 18px;
 }
@@ -38,13 +36,12 @@ body {
   font-size: 1.5rem;
 }
 
-/* ===== ESTRUTURA ===== */
 .estrutura {
   margin-top: 60px;
 }
 
 .estrutura h2 {
-  color: #6B8E54;
+  color: #6b8e54;
   font-size: 4.5rem;
   font-weight: 700;
   margin-bottom: 20px;
@@ -64,19 +61,17 @@ body {
   border-radius: 12px;
 }
 
-/* ===== MISSÃO ===== */
 .missao {
   margin-top: 70px;
 }
 
 .missao h2 {
-  color: #6B8E54;
+  color: #6b8e54;
   font-size: 4.5rem;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-/* ===== RESPONSIVIDADE ===== */
 @media (max-width: 768px) {
   .sobre-container {
     width: 92%;

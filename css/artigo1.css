@@ -1,11 +1,10 @@
 body {
-  background-color: #EBF4E3;
+  background-color: #ebf4e3;
   font-family: "SF Pro Display", sans-serif;
   color: #2f4d2f;
   line-height: 1.6;
 }
 
-/* Container principal */
 .artigo-container {
   max-width: 900px;
   margin: 6rem auto;
@@ -38,7 +37,6 @@ body {
   margin-bottom: 2em;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .artigo-container {
     padding: 1.2rem;

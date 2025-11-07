@@ -1,24 +1,21 @@
-/* ===== HEADER BASE ===== */
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 28px 80px;
-  background-color: #EEF5E6;
+  background-color: #eef5e6;
   flex-wrap: wrap;
   width: 100%;
   box-sizing: border-box;
   overflow-x: hidden;
 }
 
-/* ===== LOGO ===== */
 header .logo img {
   height: 58px;
   width: auto;
   flex-shrink: 0;
 }
 
-/* ===== NAV ===== */
 header nav ul {
   display: flex;
   align-items: center;
@@ -30,25 +27,23 @@ header nav ul {
   flex-wrap: wrap;
 }
 
-/* ===== LINKS ===== */
 header nav ul li a {
   text-decoration: none;
   font-family: "SF Pro Display", sans-serif;
   font-size: 22px;
   font-weight: 600;
-  color: #6B8E54;
+  color: #6b8e54;
   transition: color 0.2s ease-in-out;
 }
 
 header nav ul li a.menu-inicio {
-  color: #6B8E54;
+  color: #6b8e54;
 }
 
 header nav ul li a:hover {
   color: #285129;
 }
 
-/* ===== BOTÕES ===== */
 .header-buttons {
   display: flex;
   align-items: center;
@@ -56,7 +51,7 @@ header nav ul li a:hover {
 }
 
 header .btn {
-  background: #6B8E54;
+  background: #6b8e54;
   color: white;
   font-weight: 600;
   font-size: 19px;
@@ -74,7 +69,6 @@ header .btn:hover {
   background: #5a7a47;
 }
 
-/* ====== TABLET (até 1024px) ====== */
 @media (max-width: 1024px) {
   header {
     padding: 20px 50px;
@@ -95,7 +89,6 @@ header .btn:hover {
   }
 }
 
-/* ====== MOBILE (até 768px) ====== */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -126,7 +119,6 @@ header .btn:hover {
   }
 }
 
-/* ====== MOBILE PEQUENO (até 480px) ====== */
 @media (max-width: 480px) {
   header {
     padding: 18px;

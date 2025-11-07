@@ -1,5 +1,5 @@
 .services-section {
-  background-color: #8EAF79;
+  background-color: #8eaf79;
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -18,17 +18,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 50px; /* mesma altura para alinhar com outros blocos */
+  min-height: 50px;
 }
 
 .services-header h2 {
   font-size: 28px;
   margin: 0;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-/* Grid */
 .services-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -48,8 +47,8 @@
 .service-item img {
   width: 100%;
   max-width: 200px;
-  height: 200px;       /* altura fixa */
-  object-fit: contain; /* mantém proporção da imagem */
+  height: 200px;
+  object-fit: contain;
 }
 
 .service-item h3 {
@@ -59,7 +58,6 @@
   font-weight: 500;
 }
 
-/* Tablet */
 @media (max-width: 1024px) {
   .services-section {
     padding: 15px;
@@ -79,7 +77,6 @@
   }
 }
 
-/* Mobile */
 @media (max-width: 600px) {
   .services-section {
     padding: 10px;
@@ -89,7 +86,7 @@
 
   .services-header {
     padding: 8px 15px;
-    min-height: 40px; /* reduz altura no mobile */
+    min-height: 40px;
   }
 
   .services-header h2 {
@@ -103,7 +100,7 @@
 
   .service-item img {
     max-width: 100%;
-    height: auto; /* libera altura fixa no mobile */
+    height: auto;
   }
 
   .service-item h3 {

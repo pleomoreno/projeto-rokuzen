@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const container = botao.parentElement;
       const lista = container.querySelector(".funcionarios-lista");
 
-      // Cria input e botão de confirmar
       const input = document.createElement("input");
       input.type = "text";
       input.placeholder = "Nome do funcionário";
@@ -16,7 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
       confirmar.textContent = "Salvar";
       confirmar.classList.add("btn-adicionar");
 
-      // Substitui o botão original temporariamente
       container.replaceChild(input, botao);
       container.appendChild(confirmar);
 
@@ -26,8 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
           alert("Digite o nome do funcionário.");
           return;
         }
-
-        // Cria o item de funcionário
         const li = document.createElement("li");
         li.textContent = nome;
 
@@ -41,7 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
         li.appendChild(remover);
         lista.appendChild(li);
 
-        // Restaura o botão original
         container.removeChild(input);
         container.removeChild(confirmar);
         container.appendChild(botao);
