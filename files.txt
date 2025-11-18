@@ -1,0 +1,3293 @@
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                css
+d----          18/11/2025    19:12                html
+d----          18/11/2025    19:12                img
+d----          18/11/2025    19:12                js
+d----          18/11/2025    19:12                node_modules
+d----          18/11/2025    19:12                src
+-a---          18/11/2025    19:12           8196 .DS_Store
+-a---          18/11/2025    19:12             82 .env
+-a---          18/11/2025    19:13              0 files.txt
+-a---          18/11/2025    19:12          39453 package-lock.json
+-a---          18/11/2025    19:12            466 package.json
+-a---          18/11/2025    19:12           2051 server.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\css
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           2838 agendar.css
+-a---          18/11/2025    19:12            833 artigo1.css
+-a---          18/11/2025    19:12           1766 blog.css
+-a---          18/11/2025    19:12           1963 estatistica.css
+-a---          18/11/2025    19:12            237 footer.css
+-a---          18/11/2025    19:12           1713 gerenciamento.css
+-a---          18/11/2025    19:12           1415 global.css
+-a---          18/11/2025    19:12            646 guia-navegacao.css
+-a---          18/11/2025    19:12           2143 header.css
+-a---          18/11/2025    19:12           2818 hero.css
+-a---          18/11/2025    19:12           1766 login.css
+-a---          18/11/2025    19:12           1437 parceiros.css
+-a---          18/11/2025    19:12           1784 quem-somos.css
+-a---          18/11/2025    19:12           1126 reset.css
+-a---          18/11/2025    19:12           1758 services.css
+-a---          18/11/2025    19:12           1881 units.css
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\html
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           2755 admin.html
+-a---          18/11/2025    19:12          10171 agendar.html
+-a---          18/11/2025    19:12           5249 artigo1.html
+-a---          18/11/2025    19:12           3870 artigo2.html
+-a---          18/11/2025    19:12           4499 artigo3.html
+-a---          18/11/2025    19:12           1666 cadastro.html
+-a---          18/11/2025    19:12           2714 estatistica.html
+-a---          18/11/2025    19:12           3328 gerenciamento.html
+-a---          18/11/2025    19:12           4993 index.html
+-a---          18/11/2025    19:12           1507 login.html
+-a---          18/11/2025    19:12           3415 parceiros.html
+-a---          18/11/2025    19:12           4338 quem-somos.html
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\img
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12         314255 Auriculoterapia.svg
+-a---          18/11/2025    19:12            327 contato.png
+-a---          18/11/2025    19:12            499 Facebook.png
+-a---          18/11/2025    19:12         239692 grafico1.png
+-a---          18/11/2025    19:12         169887 grafico2.png
+-a---          18/11/2025    19:12         220289 homem.png
+-a---          18/11/2025    19:12            675 Instagram.png
+-a---          18/11/2025    19:12            582 Linkedin.png
+-a---          18/11/2025    19:12         625445 logo.svg
+-a---          18/11/2025    19:12          37990 LogoQS.png
+-a---          18/11/2025    19:12         144921 loja.png
+-a---          18/11/2025    19:12          18585 Maca.png
+-a---          18/11/2025    19:12            525 Mail.png
+-a---          18/11/2025    19:12         249425 mesas.png
+-a---          18/11/2025    19:12          79703 mudancas-climaticas.svg
+-a---          18/11/2025    19:12        3491588 mulher.svg
+-a---          18/11/2025    19:12          14397 QuickMassage.png
+-a---          18/11/2025    19:12          12120 Reflexologia.png
+-a---          18/11/2025    19:12            415 Search.svg
+-a---          18/11/2025    19:12         128609 temperatura.png
+-a---          18/11/2025    19:12          32929 Tsystem.png
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\js
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           2511 calendario.js
+-a---          18/11/2025    19:12           1477 gerenciamento.js
+-a---          18/11/2025    19:12            680 login.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                @mongodb-js
+d----          18/11/2025    19:12                @types
+d----          18/11/2025    19:12                accepts
+d----          18/11/2025    19:12                body-parser
+d----          18/11/2025    19:12                bson
+d----          18/11/2025    19:12                bytes
+d----          18/11/2025    19:12                call-bind-apply-helpers
+d----          18/11/2025    19:12                call-bound
+d----          18/11/2025    19:12                content-disposition
+d----          18/11/2025    19:12                content-type
+d----          18/11/2025    19:12                cookie
+d----          18/11/2025    19:12                cookie-signature
+d----          18/11/2025    19:12                debug
+d----          18/11/2025    19:12                depd
+d----          18/11/2025    19:12                dotenv
+d----          18/11/2025    19:12                dunder-proto
+d----          18/11/2025    19:12                ee-first
+d----          18/11/2025    19:12                encodeurl
+d----          18/11/2025    19:12                es-define-property
+d----          18/11/2025    19:12                es-errors
+d----          18/11/2025    19:12                es-object-atoms
+d----          18/11/2025    19:12                escape-html
+d----          18/11/2025    19:12                etag
+d----          18/11/2025    19:12                express
+d----          18/11/2025    19:12                express-session
+d----          18/11/2025    19:12                finalhandler
+d----          18/11/2025    19:12                forwarded
+d----          18/11/2025    19:12                fresh
+d----          18/11/2025    19:12                function-bind
+d----          18/11/2025    19:12                get-intrinsic
+d----          18/11/2025    19:12                get-proto
+d----          18/11/2025    19:12                gopd
+d----          18/11/2025    19:12                has-symbols
+d----          18/11/2025    19:12                hasown
+d----          18/11/2025    19:12                http-errors
+d----          18/11/2025    19:12                iconv-lite
+d----          18/11/2025    19:12                inherits
+d----          18/11/2025    19:12                ipaddr.js
+d----          18/11/2025    19:12                is-promise
+d----          18/11/2025    19:12                kareem
+d----          18/11/2025    19:12                math-intrinsics
+d----          18/11/2025    19:12                media-typer
+d----          18/11/2025    19:12                memory-pager
+d----          18/11/2025    19:12                merge-descriptors
+d----          18/11/2025    19:12                mime-db
+d----          18/11/2025    19:12                mime-types
+d----          18/11/2025    19:12                mongodb
+d----          18/11/2025    19:12                mongodb-connection-string-url
+d----          18/11/2025    19:12                mongoose
+d----          18/11/2025    19:12                mpath
+d----          18/11/2025    19:12                mquery
+d----          18/11/2025    19:12                ms
+d----          18/11/2025    19:12                negotiator
+d----          18/11/2025    19:12                object-inspect
+d----          18/11/2025    19:12                on-finished
+d----          18/11/2025    19:12                on-headers
+d----          18/11/2025    19:12                once
+d----          18/11/2025    19:12                parseurl
+d----          18/11/2025    19:12                path-to-regexp
+d----          18/11/2025    19:12                proxy-addr
+d----          18/11/2025    19:12                punycode
+d----          18/11/2025    19:12                qs
+d----          18/11/2025    19:12                random-bytes
+d----          18/11/2025    19:12                range-parser
+d----          18/11/2025    19:12                raw-body
+d----          18/11/2025    19:12                router
+d----          18/11/2025    19:12                safe-buffer
+d----          18/11/2025    19:12                safer-buffer
+d----          18/11/2025    19:12                send
+d----          18/11/2025    19:12                serve-static
+d----          18/11/2025    19:12                setprototypeof
+d----          18/11/2025    19:12                side-channel
+d----          18/11/2025    19:12                side-channel-list
+d----          18/11/2025    19:12                side-channel-map
+d----          18/11/2025    19:12                side-channel-weakmap
+d----          18/11/2025    19:12                sift
+d----          18/11/2025    19:12                sparse-bitfield
+d----          18/11/2025    19:12                statuses
+d----          18/11/2025    19:12                toidentifier
+d----          18/11/2025    19:12                tr46
+d----          18/11/2025    19:12                type-is
+d----          18/11/2025    19:12                uid-safe
+d----          18/11/2025    19:12                unpipe
+d----          18/11/2025    19:12                vary
+d----          18/11/2025    19:12                webidl-conversions
+d----          18/11/2025    19:12                whatwg-url
+d----          18/11/2025    19:12                wrappy
+-a---          18/11/2025    19:12          39150 .package-lock.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\@mongodb-js
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                saslprep
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\@mongodb-js\saslprep
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                dist
+-a---          18/11/2025    19:12           1081 LICENSE
+-a---          18/11/2025    19:12           2760 package.json
+-a---          18/11/2025    19:12            764 readme.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\@mongodb-js\saslprep\dist
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12             92 .esm-wrapper.mjs
+-a---          18/11/2025    19:12            166 browser.d.ts
+-a---          18/11/2025    19:12            161 browser.d.ts.map
+-a---          18/11/2025    19:12            652 browser.js
+-a---          18/11/2025    19:12            370 browser.js.map
+-a---          18/11/2025    19:12            118 code-points-data-browser.d.ts
+-a---          18/11/2025    19:12            192 code-points-data-browser.d.ts.map
+-a---          18/11/2025    19:12         560017 code-points-data-browser.js
+-a---          18/11/2025    19:12            240 code-points-data-browser.js.map
+-a---          18/11/2025    19:12            122 code-points-data.d.ts
+-a---          18/11/2025    19:12            137 code-points-data.d.ts.map
+-a---          18/11/2025    19:12           2898 code-points-data.js
+-a---          18/11/2025    19:12            222 code-points-data.js.map
+-a---          18/11/2025    19:12            395 code-points-src.d.ts
+-a---          18/11/2025    19:12            323 code-points-src.d.ts.map
+-a---          18/11/2025    19:12          29886 code-points-src.js
+-a---          18/11/2025    19:12          30475 code-points-src.js.map
+-a---          18/11/2025    19:12             62 generate-code-points.d.ts
+-a---          18/11/2025    19:12            134 generate-code-points.d.ts.map
+-a---          18/11/2025    19:12           4066 generate-code-points.js
+-a---          18/11/2025    19:12           2239 generate-code-points.js.map
+-a---          18/11/2025    19:12            551 index.d.ts
+-a---          18/11/2025    19:12            414 index.d.ts.map
+-a---          18/11/2025    19:12           3061 index.js
+-a---          18/11/2025    19:12           2988 index.js.map
+-a---          18/11/2025    19:12            490 memory-code-points.d.ts
+-a---          18/11/2025    19:12            214 memory-code-points.d.ts.map
+-a---          18/11/2025    19:12           1199 memory-code-points.js
+-a---          18/11/2025    19:12            818 memory-code-points.js.map
+-a---          18/11/2025    19:12            303 node.d.ts
+-a---          18/11/2025    19:12            244 node.d.ts.map
+-a---          18/11/2025    19:12            665 node.js
+-a---          18/11/2025    19:12            397 node.js.map
+-a---          18/11/2025    19:12            102 util.d.ts
+-a---          18/11/2025    19:12            179 util.d.ts.map
+-a---          18/11/2025    19:12            312 util.js
+-a---          18/11/2025    19:12            402 util.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\@types
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                webidl-conversions
+d----          18/11/2025    19:12                whatwg-url
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\@types\webidl-conversions
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           4167 index.d.ts
+-a---          18/11/2025    19:12           1162 LICENSE
+-a---          18/11/2025    19:12           1014 package.json
+-a---          18/11/2025    19:12            565 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\@types\whatwg-url
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                lib
+-a---          18/11/2025    19:12           5061 index.d.ts
+-a---          18/11/2025    19:12           1162 LICENSE
+-a---          18/11/2025    19:12           1185 package.json
+-a---          18/11/2025    19:12            656 README.md
+-a---          18/11/2025    19:12            130 webidl2js-wrapper.d.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\@types\whatwg-url\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            612 URL-impl.d.ts
+-a---          18/11/2025    19:12           2306 URL.d.ts
+-a---          18/11/2025    19:12            726 URLSearchParams-impl.d.ts
+-a---          18/11/2025    19:12           3449 URLSearchParams.d.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\accepts
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           5468 HISTORY.md
+-a---          18/11/2025    19:12           5491 index.js
+-a---          18/11/2025    19:12           1190 LICENSE
+-a---          18/11/2025    19:12           1204 package.json
+-a---          18/11/2025    19:12           4262 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\body-parser
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                lib
+-a---          18/11/2025    19:12          19008 HISTORY.md
+-a---          18/11/2025    19:12           1395 index.js
+-a---          18/11/2025    19:12           1195 LICENSE
+-a---          18/11/2025    19:12           1321 package.json
+-a---          18/11/2025    19:12          19910 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\body-parser\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                types
+-a---          18/11/2025    19:12           4737 read.js
+-a---          18/11/2025    19:12           1750 utils.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\body-parser\lib\types
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           4714 json.js
+-a---          18/11/2025    19:12           1428 raw.js
+-a---          18/11/2025    19:12           1570 text.js
+-a---          18/11/2025    19:12           4434 urlencoded.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\bson
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                etc
+d----          18/11/2025    19:12                lib
+d----          18/11/2025    19:12                src
+d----          18/11/2025    19:12                vendor
+-a---          18/11/2025    19:12          64566 bson.d.ts
+-a---          18/11/2025    19:12          11558 LICENSE.md
+-a---          18/11/2025    19:12           4149 package.json
+-a---          18/11/2025    19:12          13665 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\bson\etc
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            634 prepare.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\bson\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12         181731 bson.bundle.js
+-a---          18/11/2025    19:12         175232 bson.bundle.js.map
+-a---          18/11/2025    19:12         181777 bson.cjs
+-a---          18/11/2025    19:12         175219 bson.cjs.map
+-a---          18/11/2025    19:12         181028 bson.mjs
+-a---          18/11/2025    19:12         175066 bson.mjs.map
+-a---          18/11/2025    19:12         180849 bson.node.mjs
+-a---          18/11/2025    19:12         174869 bson.node.mjs.map
+-a---          18/11/2025    19:12         182335 bson.rn.cjs
+-a---          18/11/2025    19:12         175643 bson.rn.cjs.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\bson\src
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                parser
+d----          18/11/2025    19:12                utils
+-a---          18/11/2025    19:12          24482 binary.ts
+-a---          18/11/2025    19:12            933 bson_value.ts
+-a---          18/11/2025    19:12           8430 bson.ts
+-a---          18/11/2025    19:12           1902 code.ts
+-a---          18/11/2025    19:12           3679 constants.ts
+-a---          18/11/2025    19:12           3299 db_ref.ts
+-a---          18/11/2025    19:12          28649 decimal128.ts
+-a---          18/11/2025    19:12           3619 double.ts
+-a---          18/11/2025    19:12           2712 error.ts
+-a---          18/11/2025    19:12          17852 extended_json.ts
+-a---          18/11/2025    19:12            625 index.ts
+-a---          18/11/2025    19:12           3211 int_32.ts
+-a---          18/11/2025    19:12          46865 long.ts
+-a---          18/11/2025    19:12            558 max_key.ts
+-a---          18/11/2025    19:12            558 min_key.ts
+-a---          18/11/2025    19:12          11829 objectid.ts
+-a---          18/11/2025    19:12           1236 parse_utf8.ts
+-a---          18/11/2025    19:12           3544 regexp.ts
+-a---          18/11/2025    19:12           1195 symbol.ts
+-a---          18/11/2025    19:12           5507 timestamp.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\bson\src\parser
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                on_demand
+-a---          18/11/2025    19:12           7358 calculate_size.ts
+-a---          18/11/2025    19:12          22822 deserializer.ts
+-a---          18/11/2025    19:12          33045 serializer.ts
+-a---          18/11/2025    19:12           2331 utils.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\bson\src\parser\on_demand
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            823 index.ts
+-a---          18/11/2025    19:12           5232 parse_to_elements.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\bson\src\utils
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           3296 byte_utils.ts
+-a---          18/11/2025    19:12           3325 latin.ts
+-a---          18/11/2025    19:12           6331 node_byte_utils.ts
+-a---          18/11/2025    19:12           7224 number_utils.ts
+-a---          18/11/2025    19:12           1479 string_utils.ts
+-a---          18/11/2025    19:12           6751 web_byte_utils.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\bson\vendor
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                base64
+d----          18/11/2025    19:12                text-encoding
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\bson\vendor\base64
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           4796 base64.js
+-a---          18/11/2025    19:12           1097 LICENSE-MIT.txt
+-a---          18/11/2025    19:12            968 package.json
+-a---          18/11/2025    19:12           4131 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\bson\vendor\text-encoding
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                lib
+-a---          18/11/2025    19:12            267 index.js
+-a---          18/11/2025    19:12          13134 LICENSE.md
+-a---          18/11/2025    19:12           1125 package.json
+-a---          18/11/2025    19:12           3870 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\bson\vendor\text-encoding\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12         530139 encoding-indexes.js
+-a---          18/11/2025    19:12         104402 encoding.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\bytes
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1872 History.md
+-a---          18/11/2025    19:12           3783 index.js
+-a---          18/11/2025    19:12           1176 LICENSE
+-a---          18/11/2025    19:12           1001 package.json
+-a---          18/11/2025    19:12           4922 Readme.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\call-bind-apply-helpers
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12            249 .eslintrc
+-a---          18/11/2025    19:12            148 .nycrc
+-a---          18/11/2025    19:12             23 actualApply.d.ts
+-a---          18/11/2025    19:12            290 actualApply.js
+-a---          18/11/2025    19:12            632 applyBind.d.ts
+-a---          18/11/2025    19:12            274 applyBind.js
+-a---          18/11/2025    19:12           1968 CHANGELOG.md
+-a---          18/11/2025    19:12             34 functionApply.d.ts
+-a---          18/11/2025    19:12            103 functionApply.js
+-a---          18/11/2025    19:12             33 functionCall.d.ts
+-a---          18/11/2025    19:12            101 functionCall.js
+-a---          18/11/2025    19:12           2290 index.d.ts
+-a---          18/11/2025    19:12            526 index.js
+-a---          18/11/2025    19:12           1092 LICENSE
+-a---          18/11/2025    19:12           2565 package.json
+-a---          18/11/2025    19:12           2392 README.md
+-a---          18/11/2025    19:12             85 reflectApply.d.ts
+-a---          18/11/2025    19:12            136 reflectApply.js
+-a---          18/11/2025    19:12            123 tsconfig.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\call-bind-apply-helpers\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            606 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\call-bind-apply-helpers\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           2721 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\call-bound
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12            151 .eslintrc
+-a---          18/11/2025    19:12            148 .nycrc
+-a---          18/11/2025    19:12           2922 CHANGELOG.md
+-a---          18/11/2025    19:12           4745 index.d.ts
+-a---          18/11/2025    19:12            706 index.js
+-a---          18/11/2025    19:12           1092 LICENSE
+-a---          18/11/2025    19:12           2606 package.json
+-a---          18/11/2025    19:12           1950 README.md
+-a---          18/11/2025    19:12            147 tsconfig.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\call-bound\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            593 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\call-bound\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           2479 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\content-disposition
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1178 HISTORY.md
+-a---          18/11/2025    19:12          11053 index.js
+-a---          18/11/2025    19:12           1116 LICENSE
+-a---          18/11/2025    19:12           1150 package.json
+-a---          18/11/2025    19:12           5347 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\content-type
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            552 HISTORY.md
+-a---          18/11/2025    19:12           5227 index.js
+-a---          18/11/2025    19:12           1111 LICENSE
+-a---          18/11/2025    19:12           1117 package.json
+-a---          18/11/2025    19:12           2876 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\cookie
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           8501 index.js
+-a---          18/11/2025    19:12           1199 LICENSE
+-a---          18/11/2025    19:12           1136 package.json
+-a---          18/11/2025    19:12          12086 README.md
+-a---          18/11/2025    19:12           1205 SECURITY.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\cookie-signature
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1551 History.md
+-a---          18/11/2025    19:12           1460 index.js
+-a---          18/11/2025    19:12           1146 LICENSE
+-a---          18/11/2025    19:12            572 package.json
+-a---          18/11/2025    19:12            450 Readme.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\debug
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                src
+-a---          18/11/2025    19:12           1159 LICENSE
+-a---          18/11/2025    19:12           1543 package.json
+-a---          18/11/2025    19:12          22596 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\debug\src
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           6375 browser.js
+-a---          18/11/2025    19:12           7207 common.js
+-a---          18/11/2025    19:12            324 index.js
+-a---          18/11/2025    19:12           4991 node.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\depd
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                lib
+-a---          18/11/2025    19:12           2359 History.md
+-a---          18/11/2025    19:12          11470 index.js
+-a---          18/11/2025    19:12           1116 LICENSE
+-a---          18/11/2025    19:12           1380 package.json
+-a---          18/11/2025    19:12          10268 Readme.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\depd\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                browser
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\depd\lib\browser
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1589 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\dotenv
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                lib
+-a---          18/11/2025    19:12          21792 CHANGELOG.md
+-a---          18/11/2025    19:12             12 config.d.ts
+-a---          18/11/2025    19:12            185 config.js
+-a---          18/11/2025    19:12           1317 LICENSE
+-a---          18/11/2025    19:12           1778 package.json
+-a---          18/11/2025    19:12          15815 README-es.md
+-a---          18/11/2025    19:12          23883 README.md
+-a---          18/11/2025    19:12             70 SECURITY.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\dotenv\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            402 cli-options.js
+-a---          18/11/2025    19:12            761 env-options.js
+-a---          18/11/2025    19:12           5615 main.d.ts
+-a---          18/11/2025    19:12          13221 main.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\dunder-proto
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12             48 .eslintrc
+-a---          18/11/2025    19:12            229 .nycrc
+-a---          18/11/2025    19:12           1571 CHANGELOG.md
+-a---          18/11/2025    19:12            125 get.d.ts
+-a---          18/11/2025    19:12           1010 get.js
+-a---          18/11/2025    19:12           1094 LICENSE
+-a---          18/11/2025    19:12           2184 package.json
+-a---          18/11/2025    19:12           1961 README.md
+-a---          18/11/2025    19:12            148 set.d.ts
+-a---          18/11/2025    19:12           1311 set.js
+-a---          18/11/2025    19:12            125 tsconfig.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\dunder-proto\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            595 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\dunder-proto\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1177 get.js
+-a---          18/11/2025    19:12             55 index.js
+-a---          18/11/2025    19:12           1745 set.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\ee-first
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1779 index.js
+-a---          18/11/2025    19:12           1121 LICENSE
+-a---          18/11/2025    19:12            888 package.json
+-a---          18/11/2025    19:12           2697 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\encodeurl
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1638 index.js
+-a---          18/11/2025    19:12           1111 LICENSE
+-a---          18/11/2025    19:12           1132 package.json
+-a---          18/11/2025    19:12           3330 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\es-define-property
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12            157 .eslintrc
+-a---          18/11/2025    19:12            148 .nycrc
+-a---          18/11/2025    19:12           2325 CHANGELOG.md
+-a---          18/11/2025    19:12             95 index.d.ts
+-a---          18/11/2025    19:12            302 index.js
+-a---          18/11/2025    19:12           1092 LICENSE
+-a---          18/11/2025    19:12           2210 package.json
+-a---          18/11/2025    19:12           2105 README.md
+-a---          18/11/2025    19:12            148 tsconfig.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\es-define-property\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            576 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\es-define-property\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1355 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\es-errors
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12             48 .eslintrc
+-a---          18/11/2025    19:12           1873 CHANGELOG.md
+-a---          18/11/2025    19:12             71 eval.d.ts
+-a---          18/11/2025    19:12             79 eval.js
+-a---          18/11/2025    19:12             59 index.d.ts
+-a---          18/11/2025    19:12             70 index.js
+-a---          18/11/2025    19:12           1092 LICENSE
+-a---          18/11/2025    19:12           2254 package.json
+-a---          18/11/2025    19:12             74 range.d.ts
+-a---          18/11/2025    19:12             81 range.js
+-a---          18/11/2025    19:12           2169 README.md
+-a---          18/11/2025    19:12             86 ref.d.ts
+-a---          18/11/2025    19:12             83 ref.js
+-a---          18/11/2025    19:12             77 syntax.d.ts
+-a---          18/11/2025    19:12             83 syntax.js
+-a---          18/11/2025    19:12           3219 tsconfig.json
+-a---          18/11/2025    19:12             70 type.d.ts
+-a---          18/11/2025    19:12             79 type.js
+-a---          18/11/2025    19:12             68 uri.d.ts
+-a---          18/11/2025    19:12             77 uri.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\es-errors\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            567 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\es-errors\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            375 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\es-object-atoms
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12            245 .eslintrc
+-a---          18/11/2025    19:12           2173 CHANGELOG.md
+-a---          18/11/2025    19:12             62 index.d.ts
+-a---          18/11/2025    19:12             71 index.js
+-a---          18/11/2025    19:12             75 isObject.d.ts
+-a---          18/11/2025    19:12            167 isObject.js
+-a---          18/11/2025    19:12           1092 LICENSE
+-a---          18/11/2025    19:12           2353 package.json
+-a---          18/11/2025    19:12           2666 README.md
+-a---          18/11/2025    19:12            126 RequireObjectCoercible.d.ts
+-a---          18/11/2025    19:12            324 RequireObjectCoercible.js
+-a---          18/11/2025    19:12            359 ToObject.d.ts
+-a---          18/11/2025    19:12            260 ToObject.js
+-a---          18/11/2025    19:12             87 tsconfig.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\es-object-atoms\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            567 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\es-object-atoms\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1135 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\escape-html
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1440 index.js
+-a---          18/11/2025    19:12           1181 LICENSE
+-a---          18/11/2025    19:12            458 package.json
+-a---          18/11/2025    19:12            749 Readme.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\etag
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1815 HISTORY.md
+-a---          18/11/2025    19:12           2610 index.js
+-a---          18/11/2025    19:12           1116 LICENSE
+-a---          18/11/2025    19:12           1353 package.json
+-a---          18/11/2025    19:12           4357 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\express
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                lib
+-a---          18/11/2025    19:12         126398 History.md
+-a---          18/11/2025    19:12            235 index.js
+-a---          18/11/2025    19:12           1273 LICENSE
+-a---          18/11/2025    19:12           2791 package.json
+-a---          18/11/2025    19:12           9616 Readme.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\express\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          14618 application.js
+-a---          18/11/2025    19:12           1717 express.js
+-a---          18/11/2025    19:12          12236 request.js
+-a---          18/11/2025    19:12          25600 response.js
+-a---          18/11/2025    19:12           5513 utils.js
+-a---          18/11/2025    19:12           4014 view.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\express-session
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                node_modules
+d----          18/11/2025    19:12                session
+-a---          18/11/2025    19:12          12154 HISTORY.md
+-a---          18/11/2025    19:12          16977 index.js
+-a---          18/11/2025    19:12           1229 LICENSE
+-a---          18/11/2025    19:12           1369 package.json
+-a---          18/11/2025    19:12          46531 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\express-session\node_modules
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                cookie-signature
+d----          18/11/2025    19:12                debug
+d----          18/11/2025    19:12                ms
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\express-session\node_modules\cookie-signature
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            860 History.md
+-a---          18/11/2025    19:12           1335 index.js
+-a---          18/11/2025    19:12            508 package.json
+-a---          18/11/2025    19:12           1531 Readme.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\express-session\node_modules\debug
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                src
+-a---          18/11/2025    19:12             47 .coveralls.yml
+-a---          18/11/2025    19:12            191 .eslintrc
+-a---          18/11/2025    19:12             81 .npmignore
+-a---          18/11/2025    19:12            154 .travis.yml
+-a---          18/11/2025    19:12          12069 CHANGELOG.md
+-a---          18/11/2025    19:12            340 component.json
+-a---          18/11/2025    19:12           1806 karma.conf.js
+-a---          18/11/2025    19:12           1126 LICENSE
+-a---          18/11/2025    19:12           1109 Makefile
+-a---          18/11/2025    19:12             41 node.js
+-a---          18/11/2025    19:12           1187 package.json
+-a---          18/11/2025    19:12          18230 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\express-session\node_modules\debug\src
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           4919 browser.js
+-a---          18/11/2025    19:12           4596 debug.js
+-a---          18/11/2025    19:12            273 index.js
+-a---          18/11/2025    19:12            388 inspector-log.js
+-a---          18/11/2025    19:12           6263 node.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\express-session\node_modules\ms
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           2916 index.js
+-a---          18/11/2025    19:12           1098 license.md
+-a---          18/11/2025    19:12            741 package.json
+-a---          18/11/2025    19:12           1772 readme.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\express-session\session
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           2813 cookie.js
+-a---          18/11/2025    19:12           3740 memory.js
+-a---          18/11/2025    19:12           3175 session.js
+-a---          18/11/2025    19:12           1997 store.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\finalhandler
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           5522 HISTORY.md
+-a---          18/11/2025    19:12           6111 index.js
+-a---          18/11/2025    19:12           1141 LICENSE
+-a---          18/11/2025    19:12           1222 package.json
+-a---          18/11/2025    19:12           4267 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\forwarded
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            421 HISTORY.md
+-a---          18/11/2025    19:12           1668 index.js
+-a---          18/11/2025    19:12           1116 LICENSE
+-a---          18/11/2025    19:12           1195 package.json
+-a---          18/11/2025    19:12           1711 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\fresh
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1924 HISTORY.md
+-a---          18/11/2025    19:12           2841 index.js
+-a---          18/11/2025    19:12           1197 LICENSE
+-a---          18/11/2025    19:12           1264 package.json
+-a---          18/11/2025    19:12           3465 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\function-bind
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12            274 .eslintrc
+-a---          18/11/2025    19:12            229 .nycrc
+-a---          18/11/2025    19:12          13948 CHANGELOG.md
+-a---          18/11/2025    19:12           2127 implementation.js
+-a---          18/11/2025    19:12            131 index.js
+-a---          18/11/2025    19:12           1072 LICENSE
+-a---          18/11/2025    19:12           2349 package.json
+-a---          18/11/2025    19:12           1801 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\function-bind\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            596 FUNDING.yml
+-a---          18/11/2025    19:12            160 SECURITY.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\function-bind\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            185 .eslintrc
+-a---          18/11/2025    19:12           9243 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\get-intrinsic
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12            689 .eslintrc
+-a---          18/11/2025    19:12            148 .nycrc
+-a---          18/11/2025    19:12          15723 CHANGELOG.md
+-a---          18/11/2025    19:12          14817 index.js
+-a---          18/11/2025    19:12           1092 LICENSE
+-a---          18/11/2025    19:12           2673 package.json
+-a---          18/11/2025    19:12           2862 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\get-intrinsic\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            596 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\get-intrinsic\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           9032 GetIntrinsic.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\get-proto
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12            114 .eslintrc
+-a---          18/11/2025    19:12            148 .nycrc
+-a---          18/11/2025    19:12           1075 CHANGELOG.md
+-a---          18/11/2025    19:12            131 index.d.ts
+-a---          18/11/2025    19:12            848 index.js
+-a---          18/11/2025    19:12           1092 LICENSE
+-a---          18/11/2025    19:12            129 Object.getPrototypeOf.d.ts
+-a---          18/11/2025    19:12            162 Object.getPrototypeOf.js
+-a---          18/11/2025    19:12           2257 package.json
+-a---          18/11/2025    19:12           1844 README.md
+-a---          18/11/2025    19:12             69 Reflect.getPrototypeOf.d.ts
+-a---          18/11/2025    19:12            154 Reflect.getPrototypeOf.js
+-a---          18/11/2025    19:12            127 tsconfig.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\get-proto\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            592 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\get-proto\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           2427 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\gopd
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12            240 .eslintrc
+-a---          18/11/2025    19:12           3122 CHANGELOG.md
+-a---          18/11/2025    19:12             43 gOPD.d.ts
+-a---          18/11/2025    19:12            101 gOPD.js
+-a---          18/11/2025    19:12            177 index.d.ts
+-a---          18/11/2025    19:12            221 index.js
+-a---          18/11/2025    19:12           1092 LICENSE
+-a---          18/11/2025    19:12           2147 package.json
+-a---          18/11/2025    19:12           1602 README.md
+-a---          18/11/2025    19:12            125 tsconfig.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\gopd\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            587 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\gopd\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            692 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\has-symbols
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12            175 .eslintrc
+-a---          18/11/2025    19:12            148 .nycrc
+-a---          18/11/2025    19:12           9522 CHANGELOG.md
+-a---          18/11/2025    19:12             75 index.d.ts
+-a---          18/11/2025    19:12            461 index.js
+-a---          18/11/2025    19:12           1092 LICENSE
+-a---          18/11/2025    19:12           3085 package.json
+-a---          18/11/2025    19:12           2090 README.md
+-a---          18/11/2025    19:12             71 shams.d.ts
+-a---          18/11/2025    19:12           1967 shams.js
+-a---          18/11/2025    19:12            153 tsconfig.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\has-symbols\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            594 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\has-symbols\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                shams
+-a---          18/11/2025    19:12            676 index.js
+-a---          18/11/2025    19:12           2197 tests.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\has-symbols\test\shams
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            826 core-js.js
+-a---          18/11/2025    19:12            789 get-own-property-symbols.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\hasown
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+-a---          18/11/2025    19:12             48 .eslintrc
+-a---          18/11/2025    19:12            229 .nycrc
+-a---          18/11/2025    19:12           2619 CHANGELOG.md
+-a---          18/11/2025    19:12            120 index.d.ts
+-a---          18/11/2025    19:12            214 index.js
+-a---          18/11/2025    19:12           1104 LICENSE
+-a---          18/11/2025    19:12           2375 package.json
+-a---          18/11/2025    19:12           1653 README.md
+-a---          18/11/2025    19:12             79 tsconfig.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\hasown\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            564 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\http-errors
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                node_modules
+-a---          18/11/2025    19:12           4153 HISTORY.md
+-a---          18/11/2025    19:12           6680 index.js
+-a---          18/11/2025    19:12           1191 LICENSE
+-a---          18/11/2025    19:12           1364 package.json
+-a---          18/11/2025    19:12           6131 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\http-errors\node_modules
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                statuses
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\http-errors\node_modules\statuses
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1854 codes.json
+-a---          18/11/2025    19:12           1628 HISTORY.md
+-a---          18/11/2025    19:12           2756 index.js
+-a---          18/11/2025    19:12           1195 LICENSE
+-a---          18/11/2025    19:12           1489 package.json
+-a---          18/11/2025    19:12           3695 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\iconv-lite
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                .idea
+d----          18/11/2025    19:12                encodings
+d----          18/11/2025    19:12                lib
+-a---          18/11/2025    19:12           6793 Changelog.md
+-a---          18/11/2025    19:12           1085 LICENSE
+-a---          18/11/2025    19:12           1175 package.json
+-a---          18/11/2025    19:12           6482 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\iconv-lite\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            332 dependabot.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\iconv-lite\.idea
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                codeStyles
+d----          18/11/2025    19:12                inspectionProfiles
+-a---          18/11/2025    19:12            469 iconv-lite.iml
+-a---          18/11/2025    19:12            279 modules.xml
+-a---          18/11/2025    19:12            185 vcs.xml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\iconv-lite\.idea\codeStyles
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            146 codeStyleConfig.xml
+-a---          18/11/2025    19:12           2187 Project.xml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\iconv-lite\.idea\inspectionProfiles
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            256 Project_Default.xml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\iconv-lite\encodings
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                tables
+-a---          18/11/2025    19:12          23662 dbcs-codec.js
+-a---          18/11/2025    19:12           9577 dbcs-data.js
+-a---          18/11/2025    19:12            756 index.js
+-a---          18/11/2025    19:12           6507 internal.js
+-a---          18/11/2025    19:12           2263 sbcs-codec.js
+-a---          18/11/2025    19:12          32484 sbcs-data-generated.js
+-a---          18/11/2025    19:12           5295 sbcs-data.js
+-a---          18/11/2025    19:12           5699 utf16.js
+-a---          18/11/2025    19:12          10301 utf32.js
+-a---          18/11/2025    19:12           9573 utf7.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\iconv-lite\encodings\tables
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          17839 big5-added.json
+-a---          18/11/2025    19:12          47584 cp936.json
+-a---          18/11/2025    19:12          38395 cp949.json
+-a---          18/11/2025    19:12          42533 cp950.json
+-a---          18/11/2025    19:12          41246 eucjp.json
+-a---          18/11/2025    19:12           2216 gb18030-ranges.json
+-a---          18/11/2025    19:12           1303 gbk-added.json
+-a---          18/11/2025    19:12          23907 shiftjis.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\iconv-lite\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1161 bom-handling.js
+-a---          18/11/2025    19:12           1428 index.d.ts
+-a---          18/11/2025    19:12           6501 index.js
+-a---          18/11/2025    19:12           3489 streams.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\inherits
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            780 inherits_browser.js
+-a---          18/11/2025    19:12            259 inherits.js
+-a---          18/11/2025    19:12            765 LICENSE
+-a---          18/11/2025    19:12            610 package.json
+-a---          18/11/2025    19:12           1667 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\ipaddr.js
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                lib
+-a---          18/11/2025    19:12           9738 ipaddr.min.js
+-a---          18/11/2025    19:12           1106 LICENSE
+-a---          18/11/2025    19:12            754 package.json
+-a---          18/11/2025    19:12           8542 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\ipaddr.js\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          20006 ipaddr.js
+-a---          18/11/2025    19:12           3027 ipaddr.js.d.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\is-promise
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            110 index.d.ts
+-a---          18/11/2025    19:12            207 index.js
+-a---          18/11/2025    19:12            154 index.mjs
+-a---          18/11/2025    19:12           1076 LICENSE
+-a---          18/11/2025    19:12            606 package.json
+-a---          18/11/2025    19:12            897 readme.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\kareem
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          35794 CHANGELOG.md
+-a---          18/11/2025    19:12           1342 index.d.ts
+-a---          18/11/2025    19:12          19166 index.js
+-a---          18/11/2025    19:12          11515 LICENSE
+-a---          18/11/2025    19:12            679 package.json
+-a---          18/11/2025    19:12           9089 README.md
+-a---          18/11/2025    19:12            198 SECURITY.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\math-intrinsics
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                constants
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12            245 .eslintrc
+-a---          18/11/2025    19:12             18 abs.d.ts
+-a---          18/11/2025    19:12             77 abs.js
+-a---          18/11/2025    19:12           1490 CHANGELOG.md
+-a---          18/11/2025    19:12             20 floor.d.ts
+-a---          18/11/2025    19:12             81 floor.js
+-a---          18/11/2025    19:12             82 isFinite.d.ts
+-a---          18/11/2025    19:12            274 isFinite.js
+-a---          18/11/2025    19:12             89 isInteger.d.ts
+-a---          18/11/2025    19:12            426 isInteger.js
+-a---          18/11/2025    19:12             22 isNaN.d.ts
+-a---          18/11/2025    19:12            127 isNaN.js
+-a---          18/11/2025    19:12             81 isNegativeZero.d.ts
+-a---          18/11/2025    19:12            149 isNegativeZero.js
+-a---          18/11/2025    19:12           1094 LICENSE
+-a---          18/11/2025    19:12             18 max.d.ts
+-a---          18/11/2025    19:12             77 max.js
+-a---          18/11/2025    19:12             18 min.d.ts
+-a---          18/11/2025    19:12             77 min.js
+-a---          18/11/2025    19:12             78 mod.d.ts
+-a---          18/11/2025    19:12            227 mod.js
+-a---          18/11/2025    19:12           2756 package.json
+-a---          18/11/2025    19:12             18 pow.d.ts
+-a---          18/11/2025    19:12             77 pow.js
+-a---          18/11/2025    19:12           1934 README.md
+-a---          18/11/2025    19:12             20 round.d.ts
+-a---          18/11/2025    19:12             81 round.js
+-a---          18/11/2025    19:12             59 sign.d.ts
+-a---          18/11/2025    19:12            225 sign.js
+-a---          18/11/2025    19:12             39 tsconfig.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\math-intrinsics\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            573 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\math-intrinsics\constants
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12             73 maxArrayLength.d.ts
+-a---          18/11/2025    19:12            114 maxArrayLength.js
+-a---          18/11/2025    19:12             79 maxSafeInteger.d.ts
+-a---          18/11/2025    19:12            236 maxSafeInteger.js
+-a---          18/11/2025    19:12             74 maxValue.d.ts
+-a---          18/11/2025    19:12            202 maxValue.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\math-intrinsics\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           6512 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\media-typer
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1205 HISTORY.md
+-a---          18/11/2025    19:12           3233 index.js
+-a---          18/11/2025    19:12           1116 LICENSE
+-a---          18/11/2025    19:12            958 package.json
+-a---          18/11/2025    19:12           3085 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\memory-pager
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12             47 .travis.yml
+-a---          18/11/2025    19:12           3891 index.js
+-a---          18/11/2025    19:12           1100 LICENSE
+-a---          18/11/2025    19:12            619 package.json
+-a---          18/11/2025    19:12           1308 README.md
+-a---          18/11/2025    19:12           1524 test.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\merge-descriptors
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            646 index.d.ts
+-a---          18/11/2025    19:12            642 index.js
+-a---          18/11/2025    19:12           1242 license
+-a---          18/11/2025    19:12           1011 package.json
+-a---          18/11/2025    19:12            985 readme.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mime-db
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12         213182 db.json
+-a---          18/11/2025    19:12          14427 HISTORY.md
+-a---          18/11/2025    19:12            201 index.js
+-a---          18/11/2025    19:12           1195 LICENSE
+-a---          18/11/2025    19:12           1586 package.json
+-a---          18/11/2025    19:12           5058 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mime-types
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          10048 HISTORY.md
+-a---          18/11/2025    19:12           4765 index.js
+-a---          18/11/2025    19:12           1190 LICENSE
+-a---          18/11/2025    19:12           1403 mimeScore.js
+-a---          18/11/2025    19:12           1215 package.json
+-a---          18/11/2025    19:12           4598 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                etc
+d----          18/11/2025    19:12                lib
+d----          18/11/2025    19:12                src
+-a---          18/11/2025    19:12          11523 LICENSE.md
+-a---          18/11/2025    19:12         365301 mongodb.d.ts
+-a---          18/11/2025    19:12           7326 package.json
+-a---          18/11/2025    19:12          16729 README.md
+-a---          18/11/2025    19:12           1417 tsconfig.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\etc
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            389 prepare.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                bulk
+d----          18/11/2025    19:12                client-side-encryption
+d----          18/11/2025    19:12                cmap
+d----          18/11/2025    19:12                cursor
+d----          18/11/2025    19:12                gridfs
+d----          18/11/2025    19:12                operations
+d----          18/11/2025    19:12                sdam
+-a---          18/11/2025    19:12           4974 admin.js
+-a---          18/11/2025    19:12           2158 admin.js.map
+-a---          18/11/2025    19:12         366558 beta.d.ts
+-a---          18/11/2025    19:12            697 beta.js
+-a---          18/11/2025    19:12            385 beta.js.map
+-a---          18/11/2025    19:12           5634 bson.js
+-a---          18/11/2025    19:12           2407 bson.js.map
+-a---          18/11/2025    19:12          18680 change_stream.js
+-a---          18/11/2025    19:12          12118 change_stream.js.map
+-a---          18/11/2025    19:12          34431 collection.js
+-a---          18/11/2025    19:12          13387 collection.js.map
+-a---          18/11/2025    19:12          44389 connection_string.js
+-a---          18/11/2025    19:12          33948 connection_string.js.map
+-a---          18/11/2025    19:12           7370 constants.js
+-a---          18/11/2025    19:12           3432 constants.js.map
+-a---          18/11/2025    19:12          18308 db.js
+-a---          18/11/2025    19:12           6771 db.js.map
+-a---          18/11/2025    19:12           5593 deps.js
+-a---          18/11/2025    19:12           3192 deps.js.map
+-a---          18/11/2025    19:12           4593 encrypter.js
+-a---          18/11/2025    19:12           3346 encrypter.js.map
+-a---          18/11/2025    19:12          45792 error.js
+-a---          18/11/2025    19:12          16418 error.js.map
+-a---          18/11/2025    19:12           2112 explain.js
+-a---          18/11/2025    19:12           1497 explain.js.map
+-a---          18/11/2025    19:12          26077 index.js
+-a---          18/11/2025    19:12           3999 index.js.map
+-a---          18/11/2025    19:12           3987 mongo_client_auth_providers.js
+-a---          18/11/2025    19:12           2147 mongo_client_auth_providers.js.map
+-a---          18/11/2025    19:12          29606 mongo_client.js
+-a---          18/11/2025    19:12          11613 mongo_client.js.map
+-a---          18/11/2025    19:12          29596 mongo_logger.js
+-a---          18/11/2025    19:12          20326 mongo_logger.js.map
+-a---          18/11/2025    19:12           2010 mongo_types.js
+-a---          18/11/2025    19:12           1412 mongo_types.js.map
+-a---          18/11/2025    19:12           2539 read_concern.js
+-a---          18/11/2025    19:12           1367 read_concern.js.map
+-a---          18/11/2025    19:12           8304 read_preference.js
+-a---          18/11/2025    19:12           5208 read_preference.js.map
+-a---          18/11/2025    19:12           2606 resource_management.js
+-a---          18/11/2025    19:12           1009 resource_management.js.map
+-a---          18/11/2025    19:12          39723 sessions.js
+-a---          18/11/2025    19:12          23244 sessions.js.map
+-a---          18/11/2025    19:12           3151 sort.js
+-a---          18/11/2025    19:12           3378 sort.js.map
+-a---          18/11/2025    19:12          11406 timeout.js
+-a---          18/11/2025    19:12           8318 timeout.js.map
+-a---          18/11/2025    19:12           5634 transactions.js
+-a---          18/11/2025    19:12           3476 transactions.js.map
+-a---          18/11/2025    19:12          43363 utils.js
+-a---          18/11/2025    19:12          30679 utils.js.map
+-a---          18/11/2025    19:12           4121 write_concern.js
+-a---          18/11/2025    19:12           2811 write_concern.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\lib\bulk
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          33300 common.js
+-a---          18/11/2025    19:12          24314 common.js.map
+-a---          18/11/2025    19:12           3197 ordered.js
+-a---          18/11/2025    19:12           2212 ordered.js.map
+-a---          18/11/2025    19:12           4235 unordered.js
+-a---          18/11/2025    19:12           3166 unordered.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\lib\client-side-encryption
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                providers
+-a---          18/11/2025    19:12          12694 auto_encrypter.js
+-a---          18/11/2025    19:12           6488 auto_encrypter.js.map
+-a---          18/11/2025    19:12          27477 client_encryption.js
+-a---          18/11/2025    19:12          12973 client_encryption.js.map
+-a---          18/11/2025    19:12           2713 crypto_callbacks.js
+-a---          18/11/2025    19:12           2561 crypto_callbacks.js.map
+-a---          18/11/2025    19:12           4632 errors.js
+-a---          18/11/2025    19:12           1429 errors.js.map
+-a---          18/11/2025    19:12           4044 mongocryptd_manager.js
+-a---          18/11/2025    19:12           2187 mongocryptd_manager.js.map
+-a---          18/11/2025    19:12          20032 state_machine.js
+-a---          18/11/2025    19:12          12209 state_machine.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\lib\client-side-encryption\providers
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1176 aws.js
+-a---          18/11/2025    19:12            643 aws.js.map
+-a---          18/11/2025    19:12           4681 azure.js
+-a---          18/11/2025    19:12           3078 azure.js.map
+-a---          18/11/2025    19:12            593 gcp.js
+-a---          18/11/2025    19:12            498 gcp.js.map
+-a---          18/11/2025    19:12           1672 index.js
+-a---          18/11/2025    19:12            990 index.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\lib\cmap
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                auth
+d----          18/11/2025    19:12                handshake
+d----          18/11/2025    19:12                wire_protocol
+-a---          18/11/2025    19:12           8033 command_monitoring_events.js
+-a---          18/11/2025    19:12           5814 command_monitoring_events.js.map
+-a---          18/11/2025    19:12          23365 commands.js
+-a---          18/11/2025    19:12          19335 commands.js.map
+-a---          18/11/2025    19:12          15631 connect.js
+-a---          18/11/2025    19:12          11478 connect.js.map
+-a---          18/11/2025    19:12           6555 connection_pool_events.js
+-a---          18/11/2025    19:12           3273 connection_pool_events.js.map
+-a---          18/11/2025    19:12          24711 connection_pool.js
+-a---          18/11/2025    19:12          16790 connection_pool.js.map
+-a---          18/11/2025    19:12          26724 connection.js
+-a---          18/11/2025    19:12          18420 connection.js.map
+-a---          18/11/2025    19:12           3613 errors.js
+-a---          18/11/2025    19:12           1319 errors.js.map
+-a---          18/11/2025    19:12           1992 metrics.js
+-a---          18/11/2025    19:12           1291 metrics.js.map
+-a---          18/11/2025    19:12           2660 stream_description.js
+-a---          18/11/2025    19:12           2003 stream_description.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\lib\cmap\auth
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                mongodb_oidc
+-a---          18/11/2025    19:12           1526 auth_provider.js
+-a---          18/11/2025    19:12            846 auth_provider.js.map
+-a---          18/11/2025    19:12           6678 aws_temporary_credentials.js
+-a---          18/11/2025    19:12           3008 aws_temporary_credentials.js.map
+-a---          18/11/2025    19:12           5909 gssapi.js
+-a---          18/11/2025    19:12           4633 gssapi.js.map
+-a---          18/11/2025    19:12           8968 mongo_credentials.js
+-a---          18/11/2025    19:12           5927 mongo_credentials.js.map
+-a---          18/11/2025    19:12           6471 mongodb_aws.js
+-a---          18/11/2025    19:12           4351 mongodb_aws.js.map
+-a---          18/11/2025    19:12           3362 mongodb_oidc.js
+-a---          18/11/2025    19:12           1993 mongodb_oidc.js.map
+-a---          18/11/2025    19:12           1022 plain.js
+-a---          18/11/2025    19:12            744 plain.js.map
+-a---          18/11/2025    19:12            797 providers.js
+-a---          18/11/2025    19:12            541 providers.js.map
+-a---          18/11/2025    19:12          10005 scram.js
+-a---          18/11/2025    19:12           9105 scram.js.map
+-a---          18/11/2025    19:12           1452 x509.js
+-a---          18/11/2025    19:12           1096 x509.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\lib\cmap\auth\mongodb_oidc
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           3357 automated_callback_workflow.js
+-a---          18/11/2025    19:12           2156 automated_callback_workflow.js.map
+-a---          18/11/2025    19:12           2630 azure_machine_workflow.js
+-a---          18/11/2025    19:12           1697 azure_machine_workflow.js.map
+-a---          18/11/2025    19:12           6209 callback_workflow.js
+-a---          18/11/2025    19:12           3429 callback_workflow.js.map
+-a---          18/11/2025    19:12           1653 command_builders.js
+-a---          18/11/2025    19:12           1006 command_builders.js.map
+-a---          18/11/2025    19:12           1632 gcp_machine_workflow.js
+-a---          18/11/2025    19:12           1088 gcp_machine_workflow.js.map
+-a---          18/11/2025    19:12           5968 human_callback_workflow.js
+-a---          18/11/2025    19:12           3297 human_callback_workflow.js.map
+-a---          18/11/2025    19:12           1139 k8s_machine_workflow.js
+-a---          18/11/2025    19:12            808 k8s_machine_workflow.js.map
+-a---          18/11/2025    19:12           1553 token_cache.js
+-a---          18/11/2025    19:12           1249 token_cache.js.map
+-a---          18/11/2025    19:12            850 token_machine_workflow.js
+-a---          18/11/2025    19:12            588 token_machine_workflow.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\lib\cmap\handshake
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           9991 client_metadata.js
+-a---          18/11/2025    19:12           7920 client_metadata.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\lib\cmap\wire_protocol
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                on_demand
+-a---          18/11/2025    19:12           5978 compression.js
+-a---          18/11/2025    19:12           4454 compression.js.map
+-a---          18/11/2025    19:12           1156 constants.js
+-a---          18/11/2025    19:12            616 constants.js.map
+-a---          18/11/2025    19:12           4258 on_data.js
+-a---          18/11/2025    19:12           2755 on_data.js.map
+-a---          18/11/2025    19:12          12279 responses.js
+-a---          18/11/2025    19:12           9038 responses.js.map
+-a---          18/11/2025    19:12           1694 shared.js
+-a---          18/11/2025    19:12           1106 shared.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\lib\cmap\wire_protocol\on_demand
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           9475 document.js
+-a---          18/11/2025    19:12           7090 document.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\lib\cursor
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          37995 abstract_cursor.js
+-a---          18/11/2025    19:12          23030 abstract_cursor.js.map
+-a---          18/11/2025    19:12           7003 aggregation_cursor.js
+-a---          18/11/2025    19:12           3731 aggregation_cursor.js.map
+-a---          18/11/2025    19:12           4188 change_stream_cursor.js
+-a---          18/11/2025    19:12           3376 change_stream_cursor.js.map
+-a---          18/11/2025    19:12           2186 client_bulk_write_cursor.js
+-a---          18/11/2025    19:12           1298 client_bulk_write_cursor.js.map
+-a---          18/11/2025    19:12           1331 explainable_cursor.js
+-a---          18/11/2025    19:12            855 explainable_cursor.js.map
+-a---          18/11/2025    19:12          15866 find_cursor.js
+-a---          18/11/2025    19:12           7773 find_cursor.js.map
+-a---          18/11/2025    19:12           1371 list_collections_cursor.js
+-a---          18/11/2025    19:12           1056 list_collections_cursor.js.map
+-a---          18/11/2025    19:12           1249 list_indexes_cursor.js
+-a---          18/11/2025    19:12            931 list_indexes_cursor.js.map
+-a---          18/11/2025    19:12            652 list_search_indexes_cursor.js
+-a---          18/11/2025    19:12            539 list_search_indexes_cursor.js.map
+-a---          18/11/2025    19:12           4176 run_command_cursor.js
+-a---          18/11/2025    19:12           2221 run_command_cursor.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\lib\gridfs
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          12124 download.js
+-a---          18/11/2025    19:12          10354 download.js.map
+-a---          18/11/2025    19:12           7091 index.js
+-a---          18/11/2025    19:12           4572 index.js.map
+-a---          18/11/2025    19:12          14295 upload.js
+-a---          18/11/2025    19:12          11549 upload.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\lib\operations
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                client_bulk_write
+d----          18/11/2025    19:12                search_indexes
+-a---          18/11/2025    19:12           3862 aggregate.js
+-a---          18/11/2025    19:12           2943 aggregate.js.map
+-a---          18/11/2025    19:12           3771 command.js
+-a---          18/11/2025    19:12           2861 command.js.map
+-a---          18/11/2025    19:12           1634 count.js
+-a---          18/11/2025    19:12           1364 count.js.map
+-a---          18/11/2025    19:12           4804 create_collection.js
+-a---          18/11/2025    19:12           3313 create_collection.js.map
+-a---          18/11/2025    19:12           4584 delete.js
+-a---          18/11/2025    19:12           3704 delete.js.map
+-a---          18/11/2025    19:12           2249 distinct.js
+-a---          18/11/2025    19:12           1368 distinct.js.map
+-a---          18/11/2025    19:12           4121 drop.js
+-a---          18/11/2025    19:12           2794 drop.js.map
+-a---          18/11/2025    19:12           1625 estimated_document_count.js
+-a---          18/11/2025    19:12           1127 estimated_document_count.js.map
+-a---          18/11/2025    19:12          10901 execute_operation.js
+-a---          18/11/2025    19:12           6456 execute_operation.js.map
+-a---          18/11/2025    19:12           6695 find_and_modify.js
+-a---          18/11/2025    19:12           4846 find_and_modify.js.map
+-a---          18/11/2025    19:12           5340 find.js
+-a---          18/11/2025    19:12           4493 find.js.map
+-a---          18/11/2025    19:12           2505 get_more.js
+-a---          18/11/2025    19:12           1723 get_more.js.map
+-a---          18/11/2025    19:12           7528 indexes.js
+-a---          18/11/2025    19:12           5936 indexes.js.map
+-a---          18/11/2025    19:12           2764 insert.js
+-a---          18/11/2025    19:12           2011 insert.js.map
+-a---          18/11/2025    19:12           1688 kill_cursors.js
+-a---          18/11/2025    19:12           1019 kill_cursors.js.map
+-a---          18/11/2025    19:12           2168 list_collections.js
+-a---          18/11/2025    19:12           1626 list_collections.js.map
+-a---          18/11/2025    19:12           1716 list_databases.js
+-a---          18/11/2025    19:12           1285 list_databases.js.map
+-a---          18/11/2025    19:12           3790 operation.js
+-a---          18/11/2025    19:12           2309 operation.js.map
+-a---          18/11/2025    19:12           1490 profiling_level.js
+-a---          18/11/2025    19:12           1047 profiling_level.js.map
+-a---          18/11/2025    19:12            966 remove_user.js
+-a---          18/11/2025    19:12            673 remove_user.js.map
+-a---          18/11/2025    19:12           1562 rename.js
+-a---          18/11/2025    19:12           1197 rename.js.map
+-a---          18/11/2025    19:12           1565 run_command.js
+-a---          18/11/2025    19:12            938 run_command.js.map
+-a---          18/11/2025    19:12           1875 set_profiling_level.js
+-a---          18/11/2025    19:12           1363 set_profiling_level.js.map
+-a---          18/11/2025    19:12            969 stats.js
+-a---          18/11/2025    19:12            705 stats.js.map
+-a---          18/11/2025    19:12           7799 update.js
+-a---          18/11/2025    19:12           6762 update.js.map
+-a---          18/11/2025    19:12           1715 validate_collection.js
+-a---          18/11/2025    19:12           1268 validate_collection.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\lib\operations\client_bulk_write
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           2028 client_bulk_write.js
+-a---          18/11/2025    19:12           1292 client_bulk_write.js.map
+-a---          18/11/2025    19:12          14080 command_builder.js
+-a---          18/11/2025    19:12           8464 command_builder.js.map
+-a---          18/11/2025    19:12            113 common.js
+-a---          18/11/2025    19:12            139 common.js.map
+-a---          18/11/2025    19:12           6467 executor.js
+-a---          18/11/2025    19:12           3222 executor.js.map
+-a---          18/11/2025    19:12           7888 results_merger.js
+-a---          18/11/2025    19:12           5019 results_merger.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\lib\operations\search_indexes
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1233 create.js
+-a---          18/11/2025    19:12            900 create.js.map
+-a---          18/11/2025    19:12           1518 drop.js
+-a---          18/11/2025    19:12           1091 drop.js.map
+-a---          18/11/2025    19:12           1225 update.js
+-a---          18/11/2025    19:12            869 update.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\lib\sdam
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1620 common.js
+-a---          18/11/2025    19:12           1053 common.js.map
+-a---          18/11/2025    19:12           4690 events.js
+-a---          18/11/2025    19:12           2275 events.js.map
+-a---          18/11/2025    19:12          22184 monitor.js
+-a---          18/11/2025    19:12          16778 monitor.js.map
+-a---          18/11/2025    19:12           8689 server_description.js
+-a---          18/11/2025    19:12           6477 server_description.js.map
+-a---          18/11/2025    19:12           3258 server_selection_events.js
+-a---          18/11/2025    19:12           1660 server_selection_events.js.map
+-a---          18/11/2025    19:12          10247 server_selection.js
+-a---          18/11/2025    19:12           6944 server_selection.js.map
+-a---          18/11/2025    19:12          16248 server.js
+-a---          18/11/2025    19:12          12153 server.js.map
+-a---          18/11/2025    19:12           3442 srv_polling.js
+-a---          18/11/2025    19:12           2916 srv_polling.js.map
+-a---          18/11/2025    19:12          19795 topology_description.js
+-a---          18/11/2025    19:12          13434 topology_description.js.map
+-a---          18/11/2025    19:12          33545 topology.js
+-a---          18/11/2025    19:12          23946 topology.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\src
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                bulk
+d----          18/11/2025    19:12                client-side-encryption
+d----          18/11/2025    19:12                cmap
+d----          18/11/2025    19:12                cursor
+d----          18/11/2025    19:12                gridfs
+d----          18/11/2025    19:12                operations
+d----          18/11/2025    19:12                sdam
+-a---          18/11/2025    19:12           5361 admin.ts
+-a---          18/11/2025    19:12            587 beta.ts
+-a---          18/11/2025    19:12           4826 bson.ts
+-a---          18/11/2025    19:12          38188 change_stream.ts
+-a---          18/11/2025    19:12          47241 collection.ts
+-a---          18/11/2025    19:12          41559 connection_string.ts
+-a---          18/11/2025    19:12           5889 constants.ts
+-a---          18/11/2025    19:12          22611 db.ts
+-a---          18/11/2025    19:12           9471 deps.ts
+-a---          18/11/2025    19:12           4487 encrypter.ts
+-a---          18/11/2025    19:12          43984 error.ts
+-a---          18/11/2025    19:12           3717 explain.ts
+-a---          18/11/2025    19:12          19351 index.ts
+-a---          18/11/2025    19:12           3747 mongo_client_auth_providers.ts
+-a---          18/11/2025    19:12          50365 mongo_client.ts
+-a---          18/11/2025    19:12          37317 mongo_logger.ts
+-a---          18/11/2025    19:12          23077 mongo_types.ts
+-a---          18/11/2025    19:12           2590 read_concern.ts
+-a---          18/11/2025    19:12           9226 read_preference.ts
+-a---          18/11/2025    19:12           2610 resource_management.ts
+-a---          18/11/2025    19:12          40878 sessions.ts
+-a---          18/11/2025    19:12           4226 sort.ts
+-a---          18/11/2025    19:12          12953 timeout.ts
+-a---          18/11/2025    19:12           6273 transactions.ts
+-a---          18/11/2025    19:12          44900 utils.ts
+-a---          18/11/2025    19:12           6184 write_concern.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\src\bulk
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          39837 common.ts
+-a---          18/11/2025    19:12           3135 ordered.ts
+-a---          18/11/2025    19:12           4076 unordered.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\src\client-side-encryption
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                providers
+-a---          18/11/2025    19:12          17899 auto_encrypter.ts
+-a---          18/11/2025    19:12          37297 client_encryption.ts
+-a---          18/11/2025    19:12           2599 crypto_callbacks.ts
+-a---          18/11/2025    19:12           4027 errors.ts
+-a---          18/11/2025    19:12           3866 mongocryptd_manager.ts
+-a---          18/11/2025    19:12          22164 state_machine.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\src\client-side-encryption\providers
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1164 aws.ts
+-a---          18/11/2025    19:12           5232 azure.ts
+-a---          18/11/2025    19:12            524 gcp.ts
+-a---          18/11/2025    19:12           6076 index.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\src\cmap
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                auth
+d----          18/11/2025    19:12                handshake
+d----          18/11/2025    19:12                wire_protocol
+-a---          18/11/2025    19:12           9260 command_monitoring_events.ts
+-a---          18/11/2025    19:12          25307 commands.ts
+-a---          18/11/2025    19:12          16060 connect.ts
+-a---          18/11/2025    19:12           8438 connection_pool_events.ts
+-a---          18/11/2025    19:12          27531 connection_pool.ts
+-a---          18/11/2025    19:12          31183 connection.ts
+-a---          18/11/2025    19:12           3434 errors.ts
+-a---          18/11/2025    19:12           1632 metrics.ts
+-a---          18/11/2025    19:12           2998 stream_description.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\src\cmap\auth
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                mongodb_oidc
+-a---          18/11/2025    19:12           2221 auth_provider.ts
+-a---          18/11/2025    19:12           6632 aws_temporary_credentials.ts
+-a---          18/11/2025    19:12           6242 gssapi.ts
+-a---          18/11/2025    19:12          10841 mongo_credentials.ts
+-a---          18/11/2025    19:12           6438 mongodb_aws.ts
+-a---          18/11/2025    19:12           6526 mongodb_oidc.ts
+-a---          18/11/2025    19:12            830 plain.ts
+-a---          18/11/2025    19:12            686 providers.ts
+-a---          18/11/2025    19:12          10058 scram.ts
+-a---          18/11/2025    19:12           1506 x509.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\src\cmap\auth\mongodb_oidc
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           3135 automated_callback_workflow.ts
+-a---          18/11/2025    19:12           2654 azure_machine_workflow.ts
+-a---          18/11/2025    19:12           6667 callback_workflow.ts
+-a---          18/11/2025    19:12           1661 command_builders.ts
+-a---          18/11/2025    19:12           1619 gcp_machine_workflow.ts
+-a---          18/11/2025    19:12           5659 human_callback_workflow.ts
+-a---          18/11/2025    19:12           1045 k8s_machine_workflow.ts
+-a---          18/11/2025    19:12           1536 token_cache.ts
+-a---          18/11/2025    19:12            780 token_machine_workflow.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\src\cmap\handshake
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          11018 client_metadata.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\src\cmap\wire_protocol
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                on_demand
+-a---          18/11/2025    19:12           5881 compression.ts
+-a---          18/11/2025    19:12            639 constants.ts
+-a---          18/11/2025    19:12           4299 on_data.ts
+-a---          18/11/2025    19:12          12549 responses.ts
+-a---          18/11/2025    19:12           1855 shared.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\src\cmap\wire_protocol\on_demand
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          11878 document.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\src\cursor
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          43000 abstract_cursor.ts
+-a---          18/11/2025    19:12           8769 aggregation_cursor.ts
+-a---          18/11/2025    19:12           5172 change_stream_cursor.ts
+-a---          18/11/2025    19:12           2908 client_bulk_write_cursor.ts
+-a---          18/11/2025    19:12           2010 explainable_cursor.ts
+-a---          18/11/2025    19:12          16359 find_cursor.ts
+-a---          18/11/2025    19:12           1638 list_collections_cursor.ts
+-a---          18/11/2025    19:12           1247 list_indexes_cursor.ts
+-a---          18/11/2025    19:12            714 list_search_indexes_cursor.ts
+-a---          18/11/2025    19:12           6588 run_command_cursor.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\src\gridfs
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          14820 download.ts
+-a---          18/11/2025    19:12           8963 index.ts
+-a---          18/11/2025    19:12          17100 upload.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\src\operations
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                client_bulk_write
+d----          18/11/2025    19:12                search_indexes
+-a---          18/11/2025    19:12           5564 aggregate.ts
+-a---          18/11/2025    19:12           6100 command.ts
+-a---          18/11/2025    19:12           2259 count.ts
+-a---          18/11/2025    19:12           8318 create_collection.ts
+-a---          18/11/2025    19:12           5891 delete.ts
+-a---          18/11/2025    19:12           3148 distinct.ts
+-a---          18/11/2025    19:12           4461 drop.ts
+-a---          18/11/2025    19:12           2043 estimated_document_count.ts
+-a---          18/11/2025    19:12          11062 execute_operation.ts
+-a---          18/11/2025    19:12          10976 find_and_modify.ts
+-a---          18/11/2025    19:12           9730 find.ts
+-a---          18/11/2025    19:12           3574 get_more.ts
+-a---          18/11/2025    19:12          13784 indexes.ts
+-a---          18/11/2025    19:12           4042 insert.ts
+-a---          18/11/2025    19:12           2156 kill_cursors.ts
+-a---          18/11/2025    19:12           3736 list_collections.ts
+-a---          18/11/2025    19:12           2470 list_databases.ts
+-a---          18/11/2025    19:12           5959 operation.ts
+-a---          18/11/2025    19:12           1557 profiling_level.ts
+-a---          18/11/2025    19:12           1179 remove_user.ts
+-a---          18/11/2025    19:12           1946 rename.ts
+-a---          18/11/2025    19:12           2530 run_command.ts
+-a---          18/11/2025    19:12           2119 set_profiling_level.ts
+-a---          18/11/2025    19:12           1174 stats.ts
+-a---          18/11/2025    19:12          10684 update.ts
+-a---          18/11/2025    19:12           2114 validate_collection.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\src\operations\client_bulk_write
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           2368 client_bulk_write.ts
+-a---          18/11/2025    19:12          15672 command_builder.ts
+-a---          18/11/2025    19:12           9058 common.ts
+-a---          18/11/2025    19:12           6131 executor.ts
+-a---          18/11/2025    19:12           8625 results_merger.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\src\operations\search_indexes
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1945 create.ts
+-a---          18/11/2025    19:12           1840 drop.ts
+-a---          18/11/2025    19:12           1547 update.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb\src\sdam
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           2126 common.ts
+-a---          18/11/2025    19:12           5695 events.ts
+-a---          18/11/2025    19:12          22904 monitor.ts
+-a---          18/11/2025    19:12           9884 server_description.ts
+-a---          18/11/2025    19:12           4411 server_selection_events.ts
+-a---          18/11/2025    19:12          10734 server_selection.ts
+-a---          18/11/2025    19:12          17552 server.ts
+-a---          18/11/2025    19:12           3552 srv_polling.ts
+-a---          18/11/2025    19:12          19737 topology_description.ts
+-a---          18/11/2025    19:12          37287 topology.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb-connection-string-url
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                lib
+-a---          18/11/2025    19:12            270 .esm-wrapper.mjs
+-a---          18/11/2025    19:12          10951 LICENSE
+-a---          18/11/2025    19:12           1844 package.json
+-a---          18/11/2025    19:12            907 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongodb-connection-string-url\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           2639 index.d.ts
+-a---          18/11/2025    19:12           8371 index.js
+-a---          18/11/2025    19:12           6982 index.js.map
+-a---          18/11/2025    19:12            430 redact.d.ts
+-a---          18/11/2025    19:12           4164 redact.js
+-a---          18/11/2025    19:12           2537 redact.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                dist
+d----          18/11/2025    19:12                lib
+d----          18/11/2025    19:12                types
+-a---          18/11/2025    19:12            101 browser.js
+-a---          18/11/2025    19:12           2661 index.js
+-a---          18/11/2025    19:12           1152 LICENSE.md
+-a---          18/11/2025    19:12           6826 package.json
+-a---          18/11/2025    19:12          14143 README.md
+-a---          18/11/2025    19:12            126 SECURITY.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\dist
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12         592401 browser.umd.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                cast
+d----          18/11/2025    19:12                cursor
+d----          18/11/2025    19:12                drivers
+d----          18/11/2025    19:12                error
+d----          18/11/2025    19:12                helpers
+d----          18/11/2025    19:12                options
+d----          18/11/2025    19:12                plugins
+d----          18/11/2025    19:12                schema
+d----          18/11/2025    19:12                types
+-a---          18/11/2025    19:12          38126 aggregate.js
+-a---          18/11/2025    19:12           3365 browser.js
+-a---          18/11/2025    19:12           2821 browserDocument.js
+-a---          18/11/2025    19:12          15534 cast.js
+-a---          18/11/2025    19:12           7008 collection.js
+-a---          18/11/2025    19:12          63942 connection.js
+-a---          18/11/2025    19:12            573 connectionState.js
+-a---          18/11/2025    19:12           1137 constants.js
+-a---          18/11/2025    19:12         171065 document.js
+-a---          18/11/2025    19:12            522 documentProvider.js
+-a---          18/11/2025    19:12            176 driver.js
+-a---          18/11/2025    19:12            332 index.js
+-a---          18/11/2025    19:12           1665 internal.js
+-a---          18/11/2025    19:12         198164 model.js
+-a---          18/11/2025    19:12            238 modifiedPathsSnapshot.js
+-a---          18/11/2025    19:12          53895 mongoose.js
+-a---          18/11/2025    19:12            296 options.js
+-a---          18/11/2025    19:12         188171 query.js
+-a---          18/11/2025    19:12          11795 queryHelpers.js
+-a---          18/11/2025    19:12         108311 schema.js
+-a---          18/11/2025    19:12          57048 schemaType.js
+-a---          18/11/2025    19:12           5824 stateMachine.js
+-a---          18/11/2025    19:12          24544 utils.js
+-a---          18/11/2025    19:12            817 validOptions.js
+-a---          18/11/2025    19:12           6730 virtualType.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\cast
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1204 bigint.js
+-a---          18/11/2025    19:12            892 boolean.js
+-a---          18/11/2025    19:12           1167 date.js
+-a---          18/11/2025    19:12           1015 decimal128.js
+-a---          18/11/2025    19:12           1514 double.js
+-a---          18/11/2025    19:12            884 int32.js
+-a---          18/11/2025    19:12            953 number.js
+-a---          18/11/2025    19:12            630 objectid.js
+-a---          18/11/2025    19:12           1032 string.js
+-a---          18/11/2025    19:12           2120 uuid.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\cursor
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          13501 aggregationCursor.js
+-a---          18/11/2025    19:12           5416 changeStream.js
+-a---          18/11/2025    19:12          17765 queryCursor.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\drivers
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                browser
+d----          18/11/2025    19:12                node-mongodb-native
+-a---          18/11/2025    19:12             25 SPEC.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\drivers\browser
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            166 binary.js
+-a---          18/11/2025    19:12             86 decimal128.js
+-a---          18/11/2025    19:12            311 index.js
+-a---          18/11/2025    19:12            507 objectid.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\drivers\node-mongodb-native
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            131 bulkWriteResult.js
+-a---          18/11/2025    19:12          15051 collection.js
+-a---          18/11/2025    19:12          16947 connection.js
+-a---          18/11/2025    19:12            265 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\error
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            504 browserMissingSchema.js
+-a---          18/11/2025    19:12           1337 bulkSaveIncompleteError.js
+-a---          18/11/2025    19:12           1014 bulkWriteError.js
+-a---          18/11/2025    19:12           4018 cast.js
+-a---          18/11/2025    19:12            534 createCollectionsError.js
+-a---          18/11/2025    19:12           1096 divergentArray.js
+-a---          18/11/2025    19:12            914 eachAsyncMultiError.js
+-a---          18/11/2025    19:12           7942 index.js
+-a---          18/11/2025    19:12            624 invalidSchemaOption.js
+-a---          18/11/2025    19:12           2026 messages.js
+-a---          18/11/2025    19:12            594 missingSchema.js
+-a---          18/11/2025    19:12            205 mongooseError.js
+-a---          18/11/2025    19:12           1065 notFound.js
+-a---          18/11/2025    19:12            668 objectExpected.js
+-a---          18/11/2025    19:12            732 objectParameter.js
+-a---          18/11/2025    19:12            521 overwriteModel.js
+-a---          18/11/2025    19:12            565 parallelSave.js
+-a---          18/11/2025    19:12            589 parallelValidate.js
+-a---          18/11/2025    19:12           1987 serverSelection.js
+-a---          18/11/2025    19:12           2090 setOptionError.js
+-a---          18/11/2025    19:12            702 strict.js
+-a---          18/11/2025    19:12            676 strictPopulate.js
+-a---          18/11/2025    19:12            542 syncIndexes.js
+-a---          18/11/2025    19:12           2271 validation.js
+-a---          18/11/2025    19:12           2114 validator.js
+-a---          18/11/2025    19:12            813 version.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\helpers
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                aggregate
+d----          18/11/2025    19:12                cursor
+d----          18/11/2025    19:12                discriminator
+d----          18/11/2025    19:12                document
+d----          18/11/2025    19:12                error
+d----          18/11/2025    19:12                indexes
+d----          18/11/2025    19:12                model
+d----          18/11/2025    19:12                path
+d----          18/11/2025    19:12                populate
+d----          18/11/2025    19:12                projection
+d----          18/11/2025    19:12                query
+d----          18/11/2025    19:12                schema
+d----          18/11/2025    19:12                schematype
+d----          18/11/2025    19:12                timestamps
+d----          18/11/2025    19:12                topology
+d----          18/11/2025    19:12                update
+-a---          18/11/2025    19:12            799 arrayDepth.js
+-a---          18/11/2025    19:12           5699 clone.js
+-a---          18/11/2025    19:12           3232 common.js
+-a---          18/11/2025    19:12            595 createJSONSchemaTypeDefinition.js
+-a---          18/11/2025    19:12            444 each.js
+-a---          18/11/2025    19:12            140 firstKey.js
+-a---          18/11/2025    19:12           1344 get.js
+-a---          18/11/2025    19:12            350 getConstructorName.js
+-a---          18/11/2025    19:12            321 getDefaultBulkwriteResult.js
+-a---          18/11/2025    19:12            198 getFunctionName.js
+-a---          18/11/2025    19:12            514 immediate.js
+-a---          18/11/2025    19:12            185 isAsyncFunction.js
+-a---          18/11/2025    19:12            225 isBsonType.js
+-a---          18/11/2025    19:12            572 isMongooseObject.js
+-a---          18/11/2025    19:12            315 isObject.js
+-a---          18/11/2025    19:12            445 isPOJO.js
+-a---          18/11/2025    19:12            185 isPromise.js
+-a---          18/11/2025    19:12            476 isSimpleValidator.js
+-a---          18/11/2025    19:12            677 minimize.js
+-a---          18/11/2025    19:12            425 omitUndefined.js
+-a---          18/11/2025    19:12            211 once.js
+-a---          18/11/2025    19:12           1035 parallelLimit.js
+-a---          18/11/2025    19:12           1883 pluralize.js
+-a---          18/11/2025    19:12            970 printJestWarning.js
+-a---          18/11/2025    19:12           2029 processConnectionOptions.js
+-a---          18/11/2025    19:12           1566 promiseOrCallback.js
+-a---          18/11/2025    19:12           4235 setDefaultsOnInsert.js
+-a---          18/11/2025    19:12             87 specialProperties.js
+-a---          18/11/2025    19:12           1191 symbols.js
+-a---          18/11/2025    19:12             51 timers.js
+-a---          18/11/2025    19:12           7652 updateValidators.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\helpers\aggregate
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1897 prepareDiscriminatorPipeline.js
+-a---          18/11/2025    19:12           1478 stringifyFunctionOperators.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\helpers\cursor
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           6851 eachAsync.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\helpers\discriminator
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1138 applyEmbeddedDiscriminators.js
+-a---          18/11/2025    19:12            428 areDiscriminatorValuesEqual.js
+-a---          18/11/2025    19:12            524 checkEmbeddedDiscriminatorKeyProjection.js
+-a---          18/11/2025    19:12            968 getConstructor.js
+-a---          18/11/2025    19:12            681 getDiscriminatorByValue.js
+-a---          18/11/2025    19:12            762 getSchemaDiscriminatorByValue.js
+-a---          18/11/2025    19:12           2543 mergeDiscriminatorSchema.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\helpers\document
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           3914 applyDefaults.js
+-a---          18/11/2025    19:12           3447 applyTimestamps.js
+-a---          18/11/2025    19:12           3940 applyVirtuals.js
+-a---          18/11/2025    19:12           1191 cleanModifiedSubpaths.js
+-a---          18/11/2025    19:12           6960 compile.js
+-a---          18/11/2025    19:12           1073 getDeepestSubdocumentForPath.js
+-a---          18/11/2025    19:12           1911 getEmbeddedDiscriminatorPath.js
+-a---          18/11/2025    19:12            882 handleSpreadDoc.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\helpers\error
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            408 combinePathErrors.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\helpers\indexes
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            370 applySchemaCollation.js
+-a---          18/11/2025    19:12            682 decorateDiscriminatorIndexOptions.js
+-a---          18/11/2025    19:12           1905 getRelatedIndexes.js
+-a---          18/11/2025    19:12            462 isDefaultIdIndex.js
+-a---          18/11/2025    19:12           3060 isIndexEqual.js
+-a---          18/11/2025    19:12            977 isIndexSpecEqual.js
+-a---          18/11/2025    19:12            330 isTextIndex.js
+-a---          18/11/2025    19:12            523 isTimeseriesIndex.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\helpers\model
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1496 applyDefaultsToPOJO.js
+-a---          18/11/2025    19:12           4658 applyHooks.js
+-a---          18/11/2025    19:12           2278 applyMethods.js
+-a---          18/11/2025    19:12           2708 applyStaticHooks.js
+-a---          18/11/2025    19:12            270 applyStatics.js
+-a---          18/11/2025    19:12          10618 castBulkWrite.js
+-a---          18/11/2025    19:12            307 decorateBulkWriteResult.js
+-a---          18/11/2025    19:12           9241 discriminator.js
+-a---          18/11/2025    19:12            368 pushNestedArrayPaths.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\helpers\path
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            403 parentPaths.js
+-a---          18/11/2025    19:12            618 setDottedPath.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\helpers\populate
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           4281 assignRawDocsToIdStructure.js
+-a---          18/11/2025    19:12          11957 assignVals.js
+-a---          18/11/2025    19:12           3240 createPopulateQueryFilter.js
+-a---          18/11/2025    19:12          26908 getModelsMapForPopulate.js
+-a---          18/11/2025    19:12           8257 getSchemaTypes.js
+-a---          18/11/2025    19:12           3080 getVirtual.js
+-a---          18/11/2025    19:12             73 leanPopulateMap.js
+-a---          18/11/2025    19:12            760 lookupLocalFields.js
+-a---          18/11/2025    19:12           1329 markArraySubdocsPopulated.js
+-a---          18/11/2025    19:12           2443 modelNamesFromRefPath.js
+-a---          18/11/2025    19:12            775 removeDeselectedForeignField.js
+-a---          18/11/2025    19:12           1081 setPopulatedVirtualValue.js
+-a---          18/11/2025    19:12            202 skipPopulateValue.js
+-a---          18/11/2025    19:12            403 validateRef.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\helpers\projection
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           3060 applyProjection.js
+-a---          18/11/2025    19:12            895 hasIncludedChildren.js
+-a---          18/11/2025    19:12            453 isDefiningProjection.js
+-a---          18/11/2025    19:12            911 isExclusive.js
+-a---          18/11/2025    19:12            973 isInclusive.js
+-a---          18/11/2025    19:12            241 isNestedProjection.js
+-a---          18/11/2025    19:12            838 isPathExcluded.js
+-a---          18/11/2025    19:12            594 isPathSelectedInclusive.js
+-a---          18/11/2025    19:12            303 isSubpath.js
+-a---          18/11/2025    19:12            719 parseProjection.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\helpers\query
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            866 applyGlobalOption.js
+-a---          18/11/2025    19:12           8025 cast$expr.js
+-a---          18/11/2025    19:12           1155 castFilterPath.js
+-a---          18/11/2025    19:12          19687 castUpdate.js
+-a---          18/11/2025    19:12           3764 getEmbeddedDiscriminatorPath.js
+-a---          18/11/2025    19:12           1478 handleImmutable.js
+-a---          18/11/2025    19:12            420 handleReadPreferenceAliases.js
+-a---          18/11/2025    19:12            351 hasDollarKeys.js
+-a---          18/11/2025    19:12            205 isOperator.js
+-a---          18/11/2025    19:12            907 sanitizeFilter.js
+-a---          18/11/2025    19:12            310 sanitizeProjection.js
+-a---          18/11/2025    19:12           1742 selectPopulatedFields.js
+-a---          18/11/2025    19:12            281 trusted.js
+-a---          18/11/2025    19:12             88 validOps.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\helpers\schema
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            180 addAutoId.js
+-a---          18/11/2025    19:12            371 applyBuiltinPlugins.js
+-a---          18/11/2025    19:12           1612 applyPlugins.js
+-a---          18/11/2025    19:12            595 applyReadConcern.js
+-a---          18/11/2025    19:12           1294 applyWriteConcern.js
+-a---          18/11/2025    19:12            343 cleanPositionalOperators.js
+-a---          18/11/2025    19:12           5906 getIndexes.js
+-a---          18/11/2025    19:12            649 getKeysInSchemaOrder.js
+-a---          18/11/2025    19:12           1204 getPath.js
+-a---          18/11/2025    19:12           1044 getSubdocumentStrictValue.js
+-a---          18/11/2025    19:12            433 handleIdOption.js
+-a---          18/11/2025    19:12            388 handleTimestampOption.js
+-a---          18/11/2025    19:12            624 idGetter.js
+-a---          18/11/2025    19:12           1002 merge.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\helpers\schematype
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1355 handleImmutable.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\helpers\timestamps
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            920 setDocumentTimestamps.js
+-a---          18/11/2025    19:12           3566 setupTimestamps.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\helpers\topology
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            408 allServersUnknown.js
+-a---          18/11/2025    19:12            779 isAtlas.js
+-a---          18/11/2025    19:12            575 isSSLError.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\helpers\update
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           6092 applyTimestampsToChildren.js
+-a---          18/11/2025    19:12           3382 applyTimestampsToUpdate.js
+-a---          18/11/2025    19:12           4648 castArrayFilters.js
+-a---          18/11/2025    19:12            857 decorateUpdateWithVersionKey.js
+-a---          18/11/2025    19:12            878 modifiedPaths.js
+-a---          18/11/2025    19:12           1312 moveImmutableProperties.js
+-a---          18/11/2025    19:12           1130 removeUnusedArrayFilters.js
+-a---          18/11/2025    19:12            802 updatedPathsByArrayFilter.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\options
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            865 populateOptions.js
+-a---          18/11/2025    19:12            136 propertyOptions.js
+-a---          18/11/2025    19:12            274 saveOptions.js
+-a---          18/11/2025    19:12           2075 schemaArrayOptions.js
+-a---          18/11/2025    19:12            785 schemaBufferOptions.js
+-a---          18/11/2025    19:12           1622 schemaDateOptions.js
+-a---          18/11/2025    19:12           1851 schemaDocumentArrayOptions.js
+-a---          18/11/2025    19:12           1157 schemaMapOptions.js
+-a---          18/11/2025    19:12           2293 schemaNumberOptions.js
+-a---          18/11/2025    19:12           1477 schemaObjectIdOptions.js
+-a---          18/11/2025    19:12           3881 schemaStringOptions.js
+-a---          18/11/2025    19:12           1875 schemaSubdocumentOptions.js
+-a---          18/11/2025    19:12           6266 schemaTypeOptions.js
+-a---          18/11/2025    19:12            771 schemaUnionOptions.js
+-a---          18/11/2025    19:12           3841 virtualOptions.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\plugins
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            231 index.js
+-a---          18/11/2025    19:12           2632 saveSubdocs.js
+-a---          18/11/2025    19:12           1878 sharding.js
+-a---          18/11/2025    19:12           2813 trackTransaction.js
+-a---          18/11/2025    19:12           1421 validateBeforeSave.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\schema
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                operators
+-a---          18/11/2025    19:12          21390 array.js
+-a---          18/11/2025    19:12           6142 bigint.js
+-a---          18/11/2025    19:12           7826 boolean.js
+-a---          18/11/2025    19:12           9096 buffer.js
+-a---          18/11/2025    19:12          12745 date.js
+-a---          18/11/2025    19:12           6350 decimal128.js
+-a---          18/11/2025    19:12          20886 documentArray.js
+-a---          18/11/2025    19:12           2567 documentArrayElement.js
+-a---          18/11/2025    19:12           5395 double.js
+-a---          18/11/2025    19:12            899 index.js
+-a---          18/11/2025    19:12           6417 int32.js
+-a---          18/11/2025    19:12           3311 map.js
+-a---          18/11/2025    19:12           3328 mixed.js
+-a---          18/11/2025    19:12          12676 number.js
+-a---          18/11/2025    19:12           8483 objectId.js
+-a---          18/11/2025    19:12          20843 string.js
+-a---          18/11/2025    19:12          13164 subdocument.js
+-a---          18/11/2025    19:12            158 symbols.js
+-a---          18/11/2025    19:12           3787 union.js
+-a---          18/11/2025    19:12           8126 uuid.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\schema\operators
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            660 bitwise.js
+-a---          18/11/2025    19:12            215 exists.js
+-a---          18/11/2025    19:12           2467 geospatial.js
+-a---          18/11/2025    19:12            525 helpers.js
+-a---          18/11/2025    19:12           1192 text.js
+-a---          18/11/2025    19:12            467 type.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\types
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                array
+d----          18/11/2025    19:12                documentArray
+-a---          18/11/2025    19:12           4973 arraySubdocument.js
+-a---          18/11/2025    19:12           6751 buffer.js
+-a---          18/11/2025    19:12            225 decimal128.js
+-a---          18/11/2025    19:12            207 double.js
+-a---          18/11/2025    19:12            521 index.js
+-a---          18/11/2025    19:12          12902 map.js
+-a---          18/11/2025    19:12            840 objectid.js
+-a---          18/11/2025    19:12          12204 subdocument.js
+-a---          18/11/2025    19:12            193 uuid.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\types\array
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                methods
+-a---          18/11/2025    19:12           3776 index.js
+-a---          18/11/2025    19:12            147 isMongooseArray.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\types\array\methods
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          30091 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\types\documentArray
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                methods
+-a---          18/11/2025    19:12           3647 index.js
+-a---          18/11/2025    19:12            187 isMongooseDocumentArray.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\lib\types\documentArray\methods
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          10931 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mongoose\types
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           6887 aggregate.d.ts
+-a---          18/11/2025    19:12            272 augmentations.d.ts
+-a---          18/11/2025    19:12            296 callback.d.ts
+-a---          18/11/2025    19:12           1677 collection.d.ts
+-a---          18/11/2025    19:12          12478 connection.d.ts
+-a---          18/11/2025    19:12           2466 cursor.d.ts
+-a---          18/11/2025    19:12          15994 document.d.ts
+-a---          18/11/2025    19:12           3774 error.d.ts
+-a---          18/11/2025    19:12         119985 expressions.d.ts
+-a---          18/11/2025    19:12           1254 helpers.d.ts
+-a---          18/11/2025    19:12          46483 index.d.ts
+-a---          18/11/2025    19:12           3773 indexes.d.ts
+-a---          18/11/2025    19:12           5099 inferrawdoctype.d.ts
+-a---          18/11/2025    19:12          12698 inferschematype.d.ts
+-a---          18/11/2025    19:12           2590 middlewares.d.ts
+-a---          18/11/2025    19:12          44217 models.d.ts
+-a---          18/11/2025    19:12           7751 mongooseoptions.d.ts
+-a---          18/11/2025    19:12          12822 pipelinestage.d.ts
+-a---          18/11/2025    19:12           2248 populate.d.ts
+-a---          18/11/2025    19:12          36630 query.d.ts
+-a---          18/11/2025    19:12          11866 schemaoptions.d.ts
+-a---          18/11/2025    19:12          26161 schematypes.d.ts
+-a---          18/11/2025    19:12           1374 session.d.ts
+-a---          18/11/2025    19:12           4059 types.d.ts
+-a---          18/11/2025    19:12           5568 utility.d.ts
+-a---          18/11/2025    19:12           1025 validation.d.ts
+-a---          18/11/2025    19:12            974 virtuals.d.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mpath
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                lib
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12             93 .travis.yml
+-a---          18/11/2025    19:12           2430 History.md
+-a---          18/11/2025    19:12             63 index.js
+-a---          18/11/2025    19:12           1134 LICENSE
+-a---          18/11/2025    19:12           3188 package.json
+-a---          18/11/2025    19:12           7219 README.md
+-a---          18/11/2025    19:12            261 SECURITY.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mpath\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           9147 index.js
+-a---          18/11/2025    19:12           1441 stringToParts.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mpath\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12             50 .eslintrc.yml
+-a---          18/11/2025    19:12          65763 index.js
+-a---          18/11/2025    19:12           1101 stringToParts.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mquery
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                lib
+-a---          18/11/2025    19:12          11696 History.md
+-a---          18/11/2025    19:12           1134 LICENSE
+-a---          18/11/2025    19:12            894 package.json
+-a---          18/11/2025    19:12          35019 README.md
+-a---          18/11/2025    19:12            126 SECURITY.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mquery\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            419 ISSUE_TEMPLATE.md
+-a---          18/11/2025    19:12            428 PULL_REQUEST_TEMPLATE.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mquery\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                collection
+-a---          18/11/2025    19:12            684 env.js
+-a---          18/11/2025    19:12          70696 mquery.js
+-a---          18/11/2025    19:12           1550 permissions.js
+-a---          18/11/2025    19:12           6412 utils.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\mquery\lib\collection
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            835 collection.js
+-a---          18/11/2025    19:12            262 index.js
+-a---          18/11/2025    19:12           2331 node.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\ms
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           3186 index.js
+-a---          18/11/2025    19:12           1100 license.md
+-a---          18/11/2025    19:12            770 package.json
+-a---          18/11/2025    19:12           1945 readme.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\negotiator
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                lib
+-a---          18/11/2025    19:12           2733 HISTORY.md
+-a---          18/11/2025    19:12           2599 index.js
+-a---          18/11/2025    19:12           1201 LICENSE
+-a---          18/11/2025    19:12           1123 package.json
+-a---          18/11/2025    19:12           5542 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\negotiator\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           3250 charset.js
+-a---          18/11/2025    19:12           4360 encoding.js
+-a---          18/11/2025    19:12           3588 language.js
+-a---          18/11/2025    19:12           5637 mediaType.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\object-inspect
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                example
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12           1351 .eslintrc
+-a---          18/11/2025    19:12            249 .nycrc
+-a---          18/11/2025    19:12          36986 CHANGELOG.md
+-a---          18/11/2025    19:12          19603 index.js
+-a---          18/11/2025    19:12           1092 LICENSE
+-a---          18/11/2025    19:12            385 package-support.json
+-a---          18/11/2025    19:12           2946 package.json
+-a---          18/11/2025    19:12           3072 readme.markdown
+-a---          18/11/2025    19:12            560 test-core-js.js
+-a---          18/11/2025    19:12             43 util.inspect.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\object-inspect\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            597 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\object-inspect\example
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            414 all.js
+-a---          18/11/2025    19:12            122 circular.js
+-a---          18/11/2025    19:12            131 fn.js
+-a---          18/11/2025    19:12            261 inspect.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\object-inspect\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                browser
+-a---          18/11/2025    19:12           2140 bigint.js
+-a---          18/11/2025    19:12            467 circular.js
+-a---          18/11/2025    19:12            412 deep.js
+-a---          18/11/2025    19:12           1628 element.js
+-a---          18/11/2025    19:12           1584 err.js
+-a---          18/11/2025    19:12            712 fakes.js
+-a---          18/11/2025    19:12           2303 fn.js
+-a---          18/11/2025    19:12            389 global.js
+-a---          18/11/2025    19:12            529 has.js
+-a---          18/11/2025    19:12            270 holes.js
+-a---          18/11/2025    19:12           6904 indent-option.js
+-a---          18/11/2025    19:12           5085 inspect.js
+-a---          18/11/2025    19:12            280 lowbyte.js
+-a---          18/11/2025    19:12           2370 number.js
+-a---          18/11/2025    19:12           1556 quoteStyle.js
+-a---          18/11/2025    19:12           1586 toStringTag.js
+-a---          18/11/2025    19:12            314 undef.js
+-a---          18/11/2025    19:12           8668 values.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\object-inspect\test\browser
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            431 dom.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\on-finished
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1963 HISTORY.md
+-a---          18/11/2025    19:12           4664 index.js
+-a---          18/11/2025    19:12           1190 LICENSE
+-a---          18/11/2025    19:12           1096 package.json
+-a---          18/11/2025    19:12           5322 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\on-headers
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            628 HISTORY.md
+-a---          18/11/2025    19:12           3907 index.js
+-a---          18/11/2025    19:12           1111 LICENSE
+-a---          18/11/2025    19:12           1329 package.json
+-a---          18/11/2025    19:12           2228 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\once
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            780 LICENSE
+-a---          18/11/2025    19:12            977 once.js
+-a---          18/11/2025    19:12            607 package.json
+-a---          18/11/2025    19:12           1851 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\parseurl
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1101 HISTORY.md
+-a---          18/11/2025    19:12           2967 index.js
+-a---          18/11/2025    19:12           1197 LICENSE
+-a---          18/11/2025    19:12           1220 package.json
+-a---          18/11/2025    19:12           4227 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\path-to-regexp
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                dist
+-a---          18/11/2025    19:12           1124 LICENSE
+-a---          18/11/2025    19:12           1463 package.json
+-a---          18/11/2025    19:12           8074 Readme.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\path-to-regexp\dist
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           4150 index.d.ts
+-a---          18/11/2025    19:12          13241 index.js
+-a---          18/11/2025    19:12          29156 index.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\proxy-addr
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           3152 HISTORY.md
+-a---          18/11/2025    19:12           6327 index.js
+-a---          18/11/2025    19:12           1116 LICENSE
+-a---          18/11/2025    19:12           1230 package.json
+-a---          18/11/2025    19:12           4270 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\punycode
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1097 LICENSE-MIT.txt
+-a---          18/11/2025    19:12           1285 package.json
+-a---          18/11/2025    19:12          13224 punycode.es6.js
+-a---          18/11/2025    19:12          13154 punycode.js
+-a---          18/11/2025    19:12           5867 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\qs
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                dist
+d----          18/11/2025    19:12                lib
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12            643 .editorconfig
+-a---          18/11/2025    19:12           1089 .eslintrc
+-a---          18/11/2025    19:12            229 .nycrc
+-a---          18/11/2025    19:12          33739 CHANGELOG.md
+-a---          18/11/2025    19:12           1629 LICENSE.md
+-a---          18/11/2025    19:12           3230 package.json
+-a---          18/11/2025    19:12          26620 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\qs\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            560 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\qs\dist
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          49653 qs.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\qs\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            499 formats.js
+-a---          18/11/2025    19:12            222 index.js
+-a---          18/11/2025    19:12          12948 parse.js
+-a---          18/11/2025    19:12          11831 stringify.js
+-a---          18/11/2025    19:12           7620 utils.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\qs\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           7965 empty-keys-cases.js
+-a---          18/11/2025    19:12          52602 parse.js
+-a---          18/11/2025    19:12          54525 stringify.js
+-a---          18/11/2025    19:12           8459 utils.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\random-bytes
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12             63 HISTORY.md
+-a---          18/11/2025    19:12           2095 index.js
+-a---          18/11/2025    19:12           1139 LICENSE
+-a---          18/11/2025    19:12            975 package.json
+-a---          18/11/2025    19:12           2202 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\range-parser
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            973 HISTORY.md
+-a---          18/11/2025    19:12           3062 index.js
+-a---          18/11/2025    19:12           1201 LICENSE
+-a---          18/11/2025    19:12           1228 package.json
+-a---          18/11/2025    19:12           2362 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\raw-body
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                node_modules
+-a---          18/11/2025    19:12           7118 HISTORY.md
+-a---          18/11/2025    19:12           2400 index.d.ts
+-a---          18/11/2025    19:12           7507 index.js
+-a---          18/11/2025    19:12           1203 LICENSE
+-a---          18/11/2025    19:12           1447 package.json
+-a---          18/11/2025    19:12           6776 README.md
+-a---          18/11/2025    19:12           1212 SECURITY.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\raw-body\node_modules
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                iconv-lite
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\raw-body\node_modules\iconv-lite
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                encodings
+d----          18/11/2025    19:12                lib
+-a---          18/11/2025    19:12           8324 Changelog.md
+-a---          18/11/2025    19:12           1085 LICENSE
+-a---          18/11/2025    19:12           1996 package.json
+-a---          18/11/2025    19:12           6724 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\raw-body\node_modules\iconv-lite\encodings
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                tables
+-a---          18/11/2025    19:12          20996 dbcs-codec.js
+-a---          18/11/2025    19:12           9066 dbcs-data.js
+-a---          18/11/2025    19:12            693 index.js
+-a---          18/11/2025    19:12           6778 internal.js
+-a---          18/11/2025    19:12           2189 sbcs-codec.js
+-a---          18/11/2025    19:12          32484 sbcs-data-generated.js
+-a---          18/11/2025    19:12           4705 sbcs-data.js
+-a---          18/11/2025    19:12           5284 utf16.js
+-a---          18/11/2025    19:12           9370 utf32.js
+-a---          18/11/2025    19:12           8863 utf7.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\raw-body\node_modules\iconv-lite\encodings\tables
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          17839 big5-added.json
+-a---          18/11/2025    19:12          47584 cp936.json
+-a---          18/11/2025    19:12          38395 cp949.json
+-a---          18/11/2025    19:12          42533 cp950.json
+-a---          18/11/2025    19:12          41246 eucjp.json
+-a---          18/11/2025    19:12           2216 gb18030-ranges.json
+-a---          18/11/2025    19:12           1303 gbk-added.json
+-a---          18/11/2025    19:12          23907 shiftjis.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\raw-body\node_modules\iconv-lite\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                helpers
+-a---          18/11/2025    19:12           1083 bom-handling.js
+-a---          18/11/2025    19:12           1441 index.d.ts
+-a---          18/11/2025    19:12           6525 index.js
+-a---          18/11/2025    19:12           3084 streams.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\raw-body\node_modules\iconv-lite\lib\helpers
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            323 merge-exports.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\router
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                lib
+-a---          18/11/2025    19:12           6799 HISTORY.md
+-a---          18/11/2025    19:12          16614 index.js
+-a---          18/11/2025    19:12           1151 LICENSE
+-a---          18/11/2025    19:12           1186 package.json
+-a---          18/11/2025    19:12          13072 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\router\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           5183 layer.js
+-a---          18/11/2025    19:12           4794 route.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\safe-buffer
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           8924 index.d.ts
+-a---          18/11/2025    19:12           1735 index.js
+-a---          18/11/2025    19:12           1102 LICENSE
+-a---          18/11/2025    19:12           1108 package.json
+-a---          18/11/2025    19:12          20139 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\safer-buffer
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1541 dangerous.js
+-a---          18/11/2025    19:12           1115 LICENSE
+-a---          18/11/2025    19:12            856 package.json
+-a---          18/11/2025    19:12          13062 Porting-Buffer.md
+-a---          18/11/2025    19:12           8417 Readme.md
+-a---          18/11/2025    19:12           2187 safer.js
+-a---          18/11/2025    19:12          16141 tests.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\send
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          15381 HISTORY.md
+-a---          18/11/2025    19:12          21338 index.js
+-a---          18/11/2025    19:12           1151 LICENSE
+-a---          18/11/2025    19:12           1649 package.json
+-a---          18/11/2025    19:12           9379 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\serve-static
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          11947 HISTORY.md
+-a---          18/11/2025    19:12           4697 index.js
+-a---          18/11/2025    19:12           1214 LICENSE
+-a---          18/11/2025    19:12           1154 package.json
+-a---          18/11/2025    19:12           7703 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\setprototypeof
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12             95 index.d.ts
+-a---          18/11/2025    19:12            424 index.js
+-a---          18/11/2025    19:12            740 LICENSE
+-a---          18/11/2025    19:12           1302 package.json
+-a---          18/11/2025    19:12            875 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\setprototypeof\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            714 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\side-channel
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12            154 .editorconfig
+-a---          18/11/2025    19:12            215 .eslintrc
+-a---          18/11/2025    19:12            229 .nycrc
+-a---          18/11/2025    19:12          10560 CHANGELOG.md
+-a---          18/11/2025    19:12            500 index.d.ts
+-a---          18/11/2025    19:12           1232 index.js
+-a---          18/11/2025    19:12           1092 LICENSE
+-a---          18/11/2025    19:12           2446 package.json
+-a---          18/11/2025    19:12           2213 README.md
+-a---          18/11/2025    19:12            125 tsconfig.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\side-channel\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            595 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\side-channel\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           2677 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\side-channel-list
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12            154 .editorconfig
+-a---          18/11/2025    19:12            196 .eslintrc
+-a---          18/11/2025    19:12            229 .nycrc
+-a---          18/11/2025    19:12            833 CHANGELOG.md
+-a---          18/11/2025    19:12            348 index.d.ts
+-a---          18/11/2025    19:12           3504 index.js
+-a---          18/11/2025    19:12           1092 LICENSE
+-a---          18/11/2025    19:12            735 list.d.ts
+-a---          18/11/2025    19:12           2334 package.json
+-a---          18/11/2025    19:12           2347 README.md
+-a---          18/11/2025    19:12            125 tsconfig.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\side-channel-list\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            600 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\side-channel-list\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           2717 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\side-channel-map
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12            154 .editorconfig
+-a---          18/11/2025    19:12            196 .eslintrc
+-a---          18/11/2025    19:12            229 .nycrc
+-a---          18/11/2025    19:12           1213 CHANGELOG.md
+-a---          18/11/2025    19:12            382 index.d.ts
+-a---          18/11/2025    19:12           2049 index.js
+-a---          18/11/2025    19:12           1092 LICENSE
+-a---          18/11/2025    19:12           2416 package.json
+-a---          18/11/2025    19:12           2340 README.md
+-a---          18/11/2025    19:12            125 tsconfig.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\side-channel-map\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            599 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\side-channel-map\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           2989 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\side-channel-weakmap
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                .github
+d----          18/11/2025    19:12                test
+-a---          18/11/2025    19:12            154 .editorconfig
+-a---          18/11/2025    19:12            215 .eslintrc
+-a---          18/11/2025    19:12            229 .nycrc
+-a---          18/11/2025    19:12           1505 CHANGELOG.md
+-a---          18/11/2025    19:12            397 index.d.ts
+-a---          18/11/2025    19:12           2792 index.js
+-a---          18/11/2025    19:12           1092 LICENSE
+-a---          18/11/2025    19:12           2534 package.json
+-a---          18/11/2025    19:12           2404 README.md
+-a---          18/11/2025    19:12            125 tsconfig.json
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\side-channel-weakmap\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            603 FUNDING.yml
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\side-channel-weakmap\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           3083 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\sift
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                es
+d----          18/11/2025    19:12                es5m
+d----          18/11/2025    19:12                lib
+d----          18/11/2025    19:12                src
+-a---          18/11/2025    19:12             75 index.d.ts
+-a---          18/11/2025    19:12            101 index.js
+-a---          18/11/2025    19:12           1076 MIT-LICENSE.txt
+-a---          18/11/2025    19:12           1577 package.json
+-a---          18/11/2025    19:12          10537 README.md
+-a---          18/11/2025    19:12          32296 sift.csp.min.js
+-a---          18/11/2025    19:12          47091 sift.csp.min.js.map
+-a---          18/11/2025    19:12          11387 sift.min.js
+-a---          18/11/2025    19:12          35270 sift.min.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\sift\es
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          21659 index.js
+-a---          18/11/2025    19:12          22933 index.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\sift\es5m
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          28383 index.js
+-a---          18/11/2025    19:12          47141 index.js.map
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\sift\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           5184 core.d.ts
+-a---          18/11/2025    19:12            962 index.d.ts
+-a---          18/11/2025    19:12          32407 index.js
+-a---          18/11/2025    19:12          47216 index.js.map
+-a---          18/11/2025    19:12           4623 operations.d.ts
+-a---          18/11/2025    19:12            689 utils.d.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\sift\src
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          11880 core.ts
+-a---          18/11/2025    19:12           1268 index.ts
+-a---          18/11/2025    19:12          10712 operations.ts
+-a---          18/11/2025    19:12           2066 utils.ts
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\sparse-bitfield
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12             14 .npmignore
+-a---          18/11/2025    19:12             75 .travis.yml
+-a---          18/11/2025    19:12           2398 index.js
+-a---          18/11/2025    19:12           1100 LICENSE
+-a---          18/11/2025    19:12            759 package.json
+-a---          18/11/2025    19:12           1835 README.md
+-a---          18/11/2025    19:12           2055 test.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\statuses
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1854 codes.json
+-a---          18/11/2025    19:12           1715 HISTORY.md
+-a---          18/11/2025    19:12           2756 index.js
+-a---          18/11/2025    19:12           1195 LICENSE
+-a---          18/11/2025    19:12           1489 package.json
+-a---          18/11/2025    19:12           4005 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\toidentifier
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            137 HISTORY.md
+-a---          18/11/2025    19:12            536 index.js
+-a---          18/11/2025    19:12           1129 LICENSE
+-a---          18/11/2025    19:12           1180 package.json
+-a---          18/11/2025    19:12           1864 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\tr46
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                lib
+-a---          18/11/2025    19:12           8934 index.js
+-a---          18/11/2025    19:12           1097 LICENSE.md
+-a---          18/11/2025    19:12           1053 package.json
+-a---          18/11/2025    19:12           2264 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\tr46\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12         141626 mappingTable.json
+-a---          18/11/2025    19:12          71319 regexes.js
+-a---          18/11/2025    19:12            132 statusMapping.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\type-is
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           7156 HISTORY.md
+-a---          18/11/2025    19:12           5743 index.js
+-a---          18/11/2025    19:12           1195 LICENSE
+-a---          18/11/2025    19:12           1283 package.json
+-a---          18/11/2025    19:12           6702 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\uid-safe
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12           1005 HISTORY.md
+-a---          18/11/2025    19:12           2038 index.js
+-a---          18/11/2025    19:12           1198 LICENSE
+-a---          18/11/2025    19:12           1305 package.json
+-a---          18/11/2025    19:12           2234 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\unpipe
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12             63 HISTORY.md
+-a---          18/11/2025    19:12           1187 index.js
+-a---          18/11/2025    19:12           1136 LICENSE
+-a---          18/11/2025    19:12            797 package.json
+-a---          18/11/2025    19:12           1293 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\vary
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            831 HISTORY.md
+-a---          18/11/2025    19:12           3079 index.js
+-a---          18/11/2025    19:12           1116 LICENSE
+-a---          18/11/2025    19:12           1258 package.json
+-a---          18/11/2025    19:12           2817 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\webidl-conversions
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                lib
+-a---          18/11/2025    19:12           1335 LICENSE.md
+-a---          18/11/2025    19:12           1017 package.json
+-a---          18/11/2025    19:12           9311 README.md
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\webidl-conversions\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12          13175 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\whatwg-url
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                lib
+-a---          18/11/2025    19:12           1291 index.js
+-a---          18/11/2025    19:12           1097 LICENSE.txt
+-a---          18/11/2025    19:12           1409 package.json
+-a---          18/11/2025    19:12           7180 README.md
+-a---          18/11/2025    19:12            177 webidl2js-wrapper.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\whatwg-url\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            344 encoding.js
+-a---          18/11/2025    19:12           1228 Function.js
+-a---          18/11/2025    19:12            544 infra.js
+-a---          18/11/2025    19:12           5029 percent-encoding.js
+-a---          18/11/2025    19:12           5316 URL-impl.js
+-a---          18/11/2025    19:12          33021 url-state-machine.js
+-a---          18/11/2025    19:12          15881 URL.js
+-a---          18/11/2025    19:12           2369 urlencoded.js
+-a---          18/11/2025    19:12           3105 URLSearchParams-impl.js
+-a---          18/11/2025    19:12          17624 URLSearchParams.js
+-a---          18/11/2025    19:12           5580 utils.js
+-a---          18/11/2025    19:12            754 VoidFunction.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\node_modules\wrappy
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            780 LICENSE
+-a---          18/11/2025    19:12            635 package.json
+-a---          18/11/2025    19:12            721 README.md
+-a---          18/11/2025    19:12            938 wrappy.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\src
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/11/2025    19:12                database
+d----          18/11/2025    19:12                models
+-a---          18/11/2025    19:12            377 index.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\src\database
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            344 connection.js
+
+    Directory: C:\Users\User\Documents\projeto-rokuzen\src\models
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          18/11/2025    19:12            802 atendimento.js
+-a---          18/11/2025    19:12            361 cliente.js
+-a---          18/11/2025    19:12            330 colaborador.js
+-a---          18/11/2025    19:12            342 escala.js
+-a---          18/11/2025    19:12            547 pontoEletronico.js
+-a---          18/11/2025    19:12            330 servico.js
+-a---          18/11/2025    19:12            197 unidade.js
+
