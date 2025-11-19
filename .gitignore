@@ -1,0 +1,19 @@
+# ARQUIVOS DE DEPENDÊNCIAS
+# Nunca enviar esta pasta para o GitHub, é muito pesada e não precisa
+node_modules/
+
+# ARQUIVOS DE AMBIENTE E SECREDO
+# É o arquivo mais importante a ser ignorado, pois contém senhas, URLs do BD e chaves secretas.
+.env
+
+# ARQUIVOS GERADOS PELO VS CODE E SISTEMA OPERACIONAL
+.DS_Store
+*.log
+npm-debug.log*
+
+# ARQUIVOS DE COBERTURA DE TESTES (Resolve o problema do debug/coveralls.yml)
+# Ignora arquivos de configuração de cobertura de testes que podem conter tokens
+/coverage
+/test/coverage
+.nyc_output
+.coveralls.yml
