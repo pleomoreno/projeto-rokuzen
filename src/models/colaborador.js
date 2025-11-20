@@ -1,9 +1,8 @@
 import mongoose from "mongoose";
 
-const servicoSchema = new mongoose.Schema({
-  unidade_id: { type: mongoose.Schema.Types.ObjectId, ref: "Unidade" },
-  nome_servico: { type: String, required: true },
-  ativo: { type: String, enum: ["S", "N"], default: "S" },
+const colaboradorSchema = new mongoose.Schema({
+  nome: { type: String, required: true },
+  cargo: { type: String, required: true }
 });
 
-export default mongoose.model("Servico", servicoSchema);
+export default mongoose.model("Colaborador", colaboradorSchema);

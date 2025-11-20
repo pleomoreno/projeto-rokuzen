@@ -21,7 +21,7 @@
 .opcao__unidade-texto {
   font-weight: bold;
   font-size: 28px;
-  color: white;
+  color: #285129;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -78,7 +78,7 @@
 .day {
   text-align: center;
   padding: 5px;
-  color: #fff;
+  color: #285129;
   font-weight: 500;
 }
 
@@ -103,11 +103,12 @@
   width: 40px;
   height: 40px;
   transition: 0.2s;
+  color: #285129;
 }
 
 .date:hover,
 .date.active {
-  background: #ff5869;
+  background: #6b8e54;
   color: #fff;
 }
 
@@ -120,7 +121,7 @@
 }
 
 .date.selected {
-  background: #6b8e54;
+  background: #285129;
   color: #fff;
   transform: scale(1.1);
   transition: 0.2s ease;
@@ -134,7 +135,7 @@
   height: 40px;
   border-radius: 8px;
   padding: 10px 12px;
-  border: 1px solid #6b8e54;
+  border: 1px solid #285129;
   transition: all 0.3s ease;
   font-size: 20px;
 }
@@ -168,4 +169,19 @@
 
 .botao-confirmar:active {
   transform: scale(0.98);
+}
+
+.card-opcao {
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #e0eecd; /* Cor do seu fundo */
+  border: 2px solid transparent;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.card-opcao.selecionado {
+  border-color: #285129; /* Verde mais escuro da sua marca */
+  background-color: #d1e2b5;
+  font-weight: bold;
 }

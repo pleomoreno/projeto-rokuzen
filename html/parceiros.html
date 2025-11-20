@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/parceiros.css" />
     <link rel="stylesheet" href="../css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
     <header>
@@ -20,13 +24,14 @@
         <ul>
           <li><a href="index.html">Início</a></li>
           <li><a href="quem-somos.html">Quem somos</a></li>
-          <li><a href="parceiros.html" class="ativo">Parceiros</a></li>
+          <li><a href="parceiros.html" class="active">Parceiros</a></li>
+          <li><a href="gift-card.html">Gift Card</a></li>
         </ul>
       </nav>
 
-      <div class="header-buttons">
+      <div class="header-buttons" id="header-auth-area">
         <a href="agendar.html" class="btn agendar">Agendar</a>
-        <a href="login.html" class="btn">Entrar</a>
+        <a href="login.html" class="btn btn-login">Entrar</a>
       </div>
     </header>
 
@@ -60,16 +65,33 @@
 
         <form class="form-contato">
           <label for="nome">Seu nome (obrigatório)</label>
-          <input type="text" id="nome" name="nome" required />
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            required
+            class="input-padrao"
+          />
 
           <label for="email">Seu e-mail (obrigatório)</label>
-          <input type="email" id="email" name="email" required />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            class="input-padrao"
+          />
 
           <label for="assunto">Assunto</label>
-          <input type="text" id="assunto" name="assunto" />
+          <input type="text" id="assunto" name="assunto" class="input-padrao" />
 
           <label for="mensagem">Sua mensagem</label>
-          <textarea id="mensagem" name="mensagem" rows="6"></textarea>
+          <textarea
+            id="mensagem"
+            name="mensagem"
+            rows="6"
+            class="input-padrao"
+          ></textarea>
 
           <button type="submit" class="btn-enviar">Enviar</button>
         </form>
@@ -78,15 +100,56 @@
 
     <footer>
       <p>
-        © 2026 ROKUZEN é uma marca própria, CNPJ XX.XXX.XXX/XXXX-XX. Todos os
+        © 2025 ROKUZEN é uma marca própria, CNPJ XX.XXX.XXX/XXXX-XX. Todos os
         direitos reservados.
       </p>
       <div class="footer-icons">
-        <a href="#"><img src="../img/Instagram.png" alt="Instagram" /></a>
-        <a href="#"><img src="../img/Mail.png" alt="E-mail" /></a>
-        <a href="#"><img src="../img/Facebook.png" alt="Facebook" /></a>
-        <a href="#"><img src="../img/Linkedin.png" alt="LinkedIn" /></a>
+        <a
+          href="https://www.instagram.com/rokuzen.massagem"
+          target="_blank"
+          title="Siga nosso Instagram"
+        >
+          <img src="../img/Instagram.png" alt="Instagram" />
+        </a>
+
+        <a href="mailto:contato@rokuzen.com.br" title="Envie um E-mail">
+          <img src="../img/Mail.png" alt="E-mail" />
+        </a>
+
+        <a
+          href="https://www.facebook.com/rokuzen.massagem"
+          target="_blank"
+          title="Curta nosso Facebook"
+        >
+          <img src="../img/Facebook.png" alt="Facebook" />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/company/rokuzen/?trk=top_nav_home"
+          target="_blank"
+          title="Siga no LinkedIn"
+        >
+          <img src="../img/Linkedin.png" alt="LinkedIn" />
+        </a>
       </div>
     </footer>
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+    <script src="../js/auth-header.js"></script>
+    <script>
+      const caminho = window.location.pathname.split("/").pop();
+      const links = document.querySelectorAll("nav ul a");
+      links.forEach((link) => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === caminho) link.classList.add("active");
+      });
+    </script>
   </body>
 </html>

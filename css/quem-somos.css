@@ -1,120 +1,66 @@
-body {
-  background-color: #ebf4e3;
-  font-family: "SF Pro Display", sans-serif;
-  color: #1f3b1a;
-}
+/* css/quem-somos.css */
 
 .sobre-container {
-  width: 95%;
-  max-width: 1600px;
-  margin: 80px auto;
-  line-height: 1.7;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 5%;
+  color: #285129; /* COR PADRONIZADA */
 }
 
-.sobre-nos h1 {
-  font-size: 4.5rem;
-  color: #6b8e54;
-  font-weight: 700;
-  margin-bottom: 25px;
+section {
+  margin-bottom: 60px;
 }
 
-.sobre-nos p,
-.estrutura p,
-.missao p {
-  font-size: 1.5rem;
+h1, h2 {
+  font-size: 3rem; /* Títulos grandes como na Home */
+  font-weight: 800;
+  margin-bottom: 30px;
   color: #285129;
-  margin-bottom: 18px;
 }
 
-.sobre-nos ul {
-  margin: 20px 0 30px 30px;
-  list-style-type: disc;
+h2 {
+  font-size: 2.5rem;
 }
 
-.sobre-nos ul li {
-  margin-bottom: 8px;
-  font-size: 1.5rem;
-}
-
-.estrutura {
-  margin-top: 60px;
-}
-
-.estrutura h2 {
-  color: #6b8e54;
-  font-size: 4.5rem;
-  font-weight: 700;
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
   margin-bottom: 20px;
+  color: #285129; /* Garante o verde escuro no texto corrido */
 }
 
+ul {
+  list-style: disc;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+li {
+  margin-bottom: 10px;
+  color: #285129;
+}
+
+/* Imagens da Estrutura */
 .estrutura-imgs {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 140px;
+  gap: 40px;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 .estrutura-imgs img {
-  width: 340px;
-  height: auto;
-  border-radius: 12px;
-}
-
-.missao {
-  margin-top: 70px;
-}
-
-.missao h2 {
-  color: #6b8e54;
-  font-size: 4.5rem;
-  font-weight: 700;
-  margin-bottom: 20px;
+  max-width: 400px; /* Largura máxima */
+  width: 100%;      /* Responsivo */
+  height: auto;     /* ISSO CORRIGE A DEFORMAÇÃO (Mantém a proporção) */
+  object-fit: contain; /* Garante que a imagem caiba sem cortar */
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
 @media (max-width: 768px) {
-  .sobre-container {
-    width: 92%;
-    margin: 50px auto;
-  }
-
-  .sobre-nos h1,
-  .estrutura h2,
-  .missao h2 {
-    font-size: 2.2rem;
-    text-align: center;
-  }
-
-  .estrutura-imgs {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .estrutura-imgs img {
-    width: 60%;
+      width: 100%;
   }
-}
-
-/* ===== LINK ATIVO ===== */
-header a.ativo {
-  color: #6b8e54;
-  font-weight: 700;
-}
-
-/* ===== FOOTER ===== */
-footer {
-  background-color: #285129;
-  color: #f0f4ef;
-  text-align: center;
-  padding: 20px 0;
-}
-
-footer p {
-  font-size: 0.9rem;
-}
-
-.footer-icons img {
-  width: 22px;
-  margin: 0 8px;
-  filter: brightness(0) invert(1);
 }

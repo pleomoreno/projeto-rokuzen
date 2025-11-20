@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comprar Gift Card | Rokuzen</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/agendar.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <style>
+      /* Padronizando fontes e tamanhos de input */
+      .input-padrao {
+        height: 50px;
+        border-radius: 8px;
+        padding: 10px 15px;
+        border: 1px solid #6b8e54;
+        font-size: 1.2rem;
+        color: #285129;
+        width: 100%;
+      }
+      .form-label {
+        font-weight: bold;
+        font-size: 20px;
+        color: #285129;
+        margin-bottom: 5px;
+      }
+      #btn-comprar {
+        background-color: #285129 !important;
+        color: white; /* Garante que o texto seja branco */
+        font-weight: bold;
+      }
+
+      /* Padronização do container de opções para parecer um card da home */
+      .container__opcoes-unidades {
+        background-color: #bdcfa8; /* Cor do Card da Home */
+        border-radius: 20px;
+        padding: 40px;
+        margin-top: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      }
+
+      /* Padronização do Título Grande da Página */
+      .titulo-pagina-gigante {
+        font-size: 4rem;
+        color: #285129;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="../img/logo.svg" alt="Logo Rokuzen" /></div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="quem-somos.html">Quem somos</a></li>
+          <li><a href="parceiros.html">Parceiros</a></li>
+          <li><a href="gift-card.html" class="active">Gift Card</a></li>
+        </ul>
+      </nav>
+      <div class="header-buttons" id="header-auth-area">
+        <a href="agendar.html" class="btn agendar">Agendar</a>
+        <a href="login.html" class="btn btn-login">Entrar</a>
+      </div>
+    </header>
+
+    <section class="container mt-5">
+      <h1 class="titulo-pagina-gigante">Presenteie com Bem-estar 🎁</h1>
+
+      <div class="row">
+        <h2
+          class="container__titulo mb-3"
+          style="font-size: 32px; color: #285129; font-weight: bold"
+        >
+          1. Escolha o serviço do presente
+        </h2>
+      </div>
+      <div
+        id="container-servicos"
+        class="row col-12 col-lg-9 container__opcoes-unidades mx-auto"
+      >
+        <p style="padding: 20px; font-size: 1.2rem; color: #285129">
+          Carregando opções...
+        </p>
+      </div>
+
+      <div class="row mt-5">
+        <h2
+          class="container__titulo mb-3"
+          style="font-size: 32px; color: #285129; font-weight: bold"
+        >
+          2. Escolha a duração / valor do presente
+        </h2>
+      </div>
+      <div
+        id="duracao-container"
+        class="row col-12 col-lg-9 container__opcoes-unidades mx-auto"
+      >
+        <p style="padding: 20px; font-size: 1.2rem; color: #285129">
+          Selecione o serviço acima para ver as opções.
+        </p>
+      </div>
+
+      <div class="row mt-5">
+        <h2
+          class="container__titulo mb-3"
+          style="font-size: 32px; color: #285129; font-weight: bold"
+        >
+          3. DADOS:
+        </h2>
+      </div>
+
+      <form
+        id="form-gift"
+        class="row col-12 col-lg-9 container__opcoes-unidades mx-auto"
+      >
+        <div class="col-md-6 mb-4">
+          <label for="nomePresenteado" class="form-label"
+            >Nome do presenteado</label
+          >
+          <input
+            type="text"
+            id="nomePresenteado"
+            class="input-padrao"
+            required
+          />
+        </div>
+        <div class="col-md-6 mb-4">
+          <label for="emailPresenteado" class="form-label"
+            >E-mail do presenteado</label
+          >
+          <input
+            type="email"
+            id="emailPresenteado"
+            class="input-padrao"
+            placeholder="Digite um e-mail válido"
+            required
+          />
+          <small class="text-muted" style="font-size: 14px"
+            >*O Gift Card será enviado para esse e-mail</small
+          >
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <label for="seuNome" class="form-label">Seu Nome</label>
+          <input type="text" id="seuNome" class="input-padrao" required />
+        </div>
+        <div class="col-md-6 mb-4">
+          <label for="seuEmail" class="form-label">Seu E-mail</label>
+          <input
+            type="email"
+            id="seuEmail"
+            class="input-padrao"
+            placeholder="Digite um e-mail válido"
+            required
+          />
+          <small class="text-muted" style="font-size: 14px"
+            >*O comprovante será enviado para esse e-mail</small
+          >
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <label for="seuCelular" class="form-label">Seu DDD + Celular</label>
+          <input type="text" id="seuCelular" class="input-padrao" required />
+        </div>
+
+        <div class="col-12 text-center mt-4">
+          <button
+            type="button"
+            id="btn-comprar"
+            class="btn botao-confirmar px-5 py-3 fw-bold"
+            style="font-size: 1.3rem"
+          >
+            Comprar
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <p>
+        © 2025 ROKUZEN é uma marca própria, CNPJ XX.XXX.XXX/XXXX-XX. Todos os
+        direitos reservados.
+      </p>
+      <div class="footer-icons">
+        <a
+          href="https://www.instagram.com/rokuzen.massagem"
+          target="_blank"
+          title="Siga nosso Instagram"
+        >
+          <img src="../img/Instagram.png" alt="Instagram" />
+        </a>
+
+        <a href="mailto:contato@rokuzen.com.br" title="Envie um E-mail">
+          <img src="../img/Mail.png" alt="E-mail" />
+        </a>
+
+        <a
+          href="https://www.facebook.com/rokuzen.massagem"
+          target="_blank"
+          title="Curta nosso Facebook"
+        >
+          <img src="../img/Facebook.png" alt="Facebook" />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/company/rokuzen/?trk=top_nav_home"
+          target="_blank"
+          title="Siga no LinkedIn"
+        >
+          <img src="../img/Linkedin.png" alt="LinkedIn" />
+        </a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/auth-header.js"></script>
+    <script src="../js/gift-card.js"></script>
+
+    <script>
+      const caminho = window.location.pathname.split("/").pop();
+      const links = document.querySelectorAll("nav ul a");
+      links.forEach((link) => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === caminho) link.classList.add("active");
+        if (caminho === "" && link.getAttribute("href") === "index.html")
+          link.classList.add("active");
+      });
+    </script>
+  </body>
+</html>

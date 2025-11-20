@@ -14,6 +14,7 @@ import Cliente from "./src/models/cliente.js";
 import Atendimento from "./src/models/atendimento.js";
 import Servico from "./src/models/servico.js";
 import Unidade from "./src/models/unidade.js";
+import Colaborador from "./src/models/colaborador.js";
 
 dotenv.config();
 
@@ -94,7 +95,12 @@ app.post("/login", async (req, res) => {
     res.status(200).json({
       message: "Login realizado!",
       token,
-      usuario: { id: cliente._id, nome: cliente.nome_cliente, isAdmin: cliente.isAdmin }
+      usuario: {
+        id: cliente._id,
+        nome: cliente.nome_cliente,
+        email: cliente.email_cliente,     // Adicionado
+        telefone: cliente.telefone_cliente, // Adicionado
+        isAdmin: cliente.isAdmin }
     });
 
   } catch (error) {
@@ -118,22 +124,24 @@ app.get("/servicos", async (req, res) => {
 
 // 5. Criar Agendamento
 app.post("/agendar", async (req, res) => {
-  // Aqui você deve validar o token JWT vindo do header para saber quem é o cliente
-  // Mas para simplificar, vamos supor que o ID do cliente vem no corpo por enquanto
   try {
-    const { unidade_id, servico_id, cliente_id, data_hora } = req.body;
+    // ADICIONADO: valor_servico e observacao_cliente
+    const { unidade_id, servico_id, cliente_id, data_hora, valor_servico, observacao_cliente } = req.body;
 
     const novoAgendamento = new Atendimento({
       unidade_id,
       servico_id,
       cliente_id,
       inicio_atendimento: new Date(data_hora),
+      valor_servico: valor_servico,         // Agora salva o preço!
+      observacao_cliente: observacao_cliente, // Agora salva o combo/obs!
       foi_marcado_online: "S"
     });
 
     await novoAgendamento.save();
     res.status(201).json({ message: "Agendamento realizado!" });
   } catch (error) {
+    console.error("Erro ao agendar:", error);
     res.status(500).json({ error: error.message });
   }
 });
@@ -143,15 +151,51 @@ app.post("/agendar", async (req, res) => {
 // 6. Listar Agendamentos (Com populate para trazer os nomes em vez dos IDs)
 app.get("/admin/agendamentos", async (req, res) => {
   try {
-    // Populate troca o ID pelo objeto real (traz o nome do cliente e do serviço)
     const agendamentos = await Atendimento.find()
-      .populate("cliente_id", "nome_cliente email_cliente")
+      // ADICIONADO: 'telefone_cliente' na lista de campos para buscar
+      .populate("cliente_id", "nome_cliente email_cliente telefone_cliente")
       .populate("servico_id", "nome_servico")
-      .populate("unidade_id", "nome_unidade");
+      .populate("unidade_id", "nome_unidade")
+      .sort({ inicio_atendimento: -1 });
 
     res.json(agendamentos);
   } catch (error) {
+    console.error("Erro ao buscar agendamentos:", error);
     res.status(500).json({ error: error.message });
+  }
+});
+
+// --- ROTAS DE COLABORADORES ---
+
+// Listar Colaboradores
+app.get("/colaboradores", async (req, res) => {
+  try {
+      const lista = await Colaborador.find();
+      res.json(lista);
+  } catch (error) {
+      res.status(500).json({ error: error.message });
+  }
+});
+
+// Adicionar Colaborador
+app.post("/colaboradores", async (req, res) => {
+  try {
+      const { nome, cargo } = req.body;
+      const novo = new Colaborador({ nome, cargo });
+      await novo.save();
+      res.status(201).json(novo);
+  } catch (error) {
+      res.status(500).json({ error: error.message });
+  }
+});
+
+// Deletar Colaborador
+app.delete("/colaboradores/:id", async (req, res) => {
+  try {
+      await Colaborador.findByIdAndDelete(req.params.id);
+      res.status(200).json({ message: "Deletado" });
+  } catch (error) {
+      res.status(500).json({ error: error.message });
   }
 });
 
