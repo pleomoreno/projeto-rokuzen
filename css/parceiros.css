@@ -1,89 +1,87 @@
-body {
-  font-family: "SF Pro Display", sans-serif;
-  color: #1f3b1a;
-}
+/* css/parceiros.css */
 
 .parceiros-container {
-  padding: 60px 10%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 60px 5%;
+  color: #285129;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+h1,
+h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: #285129;
+}
+
+p {
+  font-size: 1.2rem;
   line-height: 1.6;
-}
-
-.parceiros-section h1,
-.contato-section h2 {
-  font-size: 50px;
-  color: #6b8e54;
   margin-bottom: 20px;
-  font-weight: 700;
+  color: #285129;
 }
 
-.parceiros-section p,
-.contato-section p {
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-
+/* Logo do Parceiro */
 .parceiro-logo {
-  margin: 30px 0;
+  text-align: center;
+  margin: 40px 0;
 }
 
 .parceiro-logo img {
-  max-width: 400px;
-  height: auto;
+  max-width: 250px;
+  filter: grayscale(100%); /* Estilo opcional: logo cinza */
+  transition: filter 0.3s;
 }
 
+.parceiro-logo img:hover {
+  filter: grayscale(0%); /* Cor ao passar o mouse */
+}
+
+/* Formulário de Contato */
 .form-contato {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin-top: 20px;
+  gap: 20px;
+  max-width: 600px;
+  margin-top: 30px;
 }
 
-.form-contato label {
-  font-weight: 600;
-  font-size: 16px;
+label {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #285129;
 }
 
-.form-contato input,
-.form-contato textarea {
+/* Reutilizando estilo de input padronizado */
+.input-padrao,
+textarea {
+  padding: 15px;
+  border: 1px solid #6b8e54;
+  border-radius: 8px;
+  font-size: 1rem;
   width: 100%;
-  padding: 10px;
-  border: 1px solid #a7b79f;
-  border-radius: 6px;
-  font-size: 16px;
-  background-color: #fff;
+  font-family: inherit;
+  color: #285129;
 }
 
 .btn-enviar {
-  background-color: #567f46;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 10px 0;
+  background-color: #285129;
+  color: white;
   border: none;
-  border-radius: 10px;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
   cursor: pointer;
-  margin-top: 10px;
-  transition: background 0.3s ease;
+  transition: background 0.3s;
+  align-self: flex-start; /* Botão alinhado à esquerda */
 }
 
 .btn-enviar:hover {
-  background-color: #456a3a;
-}
-
-@media (max-width: 768px) {
-  .parceiros-container {
-    padding: 40px 20px;
-  }
-
-  .parceiros-section h1,
-  .contato-section h2 {
-    font-size: 26px;
-  }
-
-  .form-contato input,
-  .form-contato textarea {
-    font-size: 15px;
-  }
+  background-color: #1d1b20;
 }

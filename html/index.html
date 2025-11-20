@@ -3,16 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rokuzen</title>
+    <title>Rokuzen - Massagem e Bem-estar</title>
     <link rel="icon" type="image/png" href="../img/LogoQS.png" />
+
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/global.css" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/hero.css" />
-    <link rel="stylesheet" href="../css/services.css" />
-    <link rel="stylesheet" href="../css/units.css" />
     <link rel="stylesheet" href="../css/blog.css" />
     <link rel="stylesheet" href="../css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <style>
+      .secao-destaques {
+        background-color: #ffffff;
+        padding: 80px 5%; /* Mais espaçamento vertical */
+        display: flex;
+        justify-content: center;
+        gap: 40px; /* Mais espaço entre as caixas */
+        flex-wrap: wrap;
+      }
+
+      .card-destaque {
+        background-color: #bdcfa8;
+        border-radius: 25px;
+        padding: 50px 30px; /* Caixas mais altas internamente */
+        flex: 1;
+        min-width: 320px;
+        max-width: 450px; /* Caixas mais largas */
+        text-align: center;
+        color: #285129;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s;
+      }
+
+      .card-destaque:hover {
+        transform: translateY(-10px);
+      }
+
+      /* Pílulas de Título */
+      .badge-titulo {
+        background-color: #285129;
+        color: #ffffff;
+        padding: 12px 35px;
+        border-radius: 50px;
+        display: inline-block;
+        font-size: 26px; /* Fonte maior */
+        font-weight: 800;
+        margin-bottom: 40px;
+        letter-spacing: 1px;
+      }
+
+      /* Texto dos Serviços */
+      .card-destaque h3 {
+        font-size: 22px; /* Aumentado de 18px */
+        font-weight: 700;
+        margin-top: 15px;
+      }
+
+      /* Lista de Unidades */
+      .card-destaque ul li {
+        font-size: 20px; /* Aumentado de 16px */
+        font-weight: 600;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #6b8e54; /* Linha mais grossa */
+        padding-bottom: 8px;
+        line-height: 1.4;
+      }
+
+      /* Botão do Gift Card */
+      .botao-caixa {
+        background-color: #285129;
+        color: white;
+        text-decoration: none;
+        padding: 18px 40px; /* Botão maior */
+        border-radius: 40px;
+        font-size: 20px; /* Fonte maior */
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 30px;
+        transition: background 0.3s, transform 0.2s;
+      }
+
+      .botao-caixa:hover {
+        background-color: #1d1b20;
+        transform: scale(1.05);
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -22,15 +105,16 @@
 
       <nav>
         <ul>
-          <li><a href="index.html" class="menu-inicio">Início</a></li>
+          <li><a href="index.html" class="active">Início</a></li>
           <li><a href="quem-somos.html">Quem somos</a></li>
           <li><a href="parceiros.html">Parceiros</a></li>
+          <li><a href="gift-card.html">Gift Card</a></li>
         </ul>
       </nav>
 
       <div class="header-buttons">
         <a href="agendar.html" class="btn agendar">Agendar</a>
-        <a href="login.html" class="btn">Entrar</a>
+        <a href="login.html" class="btn btn-login">Entrar</a>
       </div>
     </header>
 
@@ -38,8 +122,8 @@
       <div class="hero-text">
         <h1>Relaxe, cuide do seu corpo e mente</h1>
         <p>
-          Massagens relaxantes em um ambiente acolhedor. Um momento dedicado a
-          você.
+          Massagens relaxantes em um ambiente acolhedor. Um momento dedicado
+          inteiramente a você.
         </p>
         <div class="hero-buttons">
           <a href="agendar.html" class="btn-primary">Agende agora</a>
@@ -51,49 +135,54 @@
       </div>
     </section>
 
-    <div class="services-units-container">
-      <section class="services-section">
-        <div class="services-header">
-          <h2>Serviços</h2>
-        </div>
-
-        <div class="services-grid">
-          <div class="service-item">
-            <img
-              src="../img/Auriculoterapia.svg"
-              alt="Ícone de Auriculoterapia"
-            />
-            <h3>Auriculoterapia</h3>
-          </div>
-
-          <div class="service-item">
-            <img src="../img/Reflexologia.png" alt="Ícone de Reflexologia" />
-            <h3>Reflexologia</h3>
-          </div>
-
-          <div class="service-item">
-            <img src="../img/QuickMassage.png" alt="Ícone de Quick Massage" />
-            <h3>Quick Massage</h3>
-          </div>
-
-          <div class="service-item">
-            <img src="../img/Maca.png" alt="Ícone de Maca" />
-            <h3>Maca</h3>
+    <div class="secao-destaques">
+      <section class="card-destaque">
+        <div>
+          <div class="badge-titulo">Serviços</div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px">
+            <div>
+              <img src="../img/Auriculoterapia.svg" style="height: 150px" />
+              <h3>Auriculoterapia</h3>
+            </div>
+            <div>
+              <img src="../img/Reflexologia.png" style="height: 150px" />
+              <h3>Reflexologia</h3>
+            </div>
+            <div>
+              <img src="../img/QuickMassage.png" style="height: 150px" />
+              <h3>Quick Massage</h3>
+            </div>
+            <div>
+              <img src="../img/Maca.png" style="height: 150px" />
+              <h3>Maca</h3>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="units-section">
-        <div class="services-header">
-          <h2>Unidades</h2>
+      <section class="card-destaque">
+        <div>
+          <div class="badge-titulo">Unidades</div>
+          <ul style="list-style: none; padding: 0; text-align: left">
+            <li>📍 Golden Square Shopping</li>
+            <li>📍 Grand Plaza Shopping</li>
+            <li>📍 Mooca Plaza Shopping</li>
+            <li>📍 Shopping West Plaza</li>
+          </ul>
         </div>
+      </section>
 
-        <ul class="units-list">
-          <li>Golden Square Shopping - São Bernardo</li>
-          <li>Grand Plaza Shopping - Santo André</li>
-          <li>Mooca Plaza Shopping - São Paulo</li>
-          <li>Shopping West Plaza - São Paulo</li>
-        </ul>
+      <section class="card-destaque">
+        <div>
+          <div class="badge-titulo">Gift Card</div>
+          <div style="font-size: 90px; margin: 30px 0; color: #285129">
+            <i class="fa-solid fa-gift"></i>
+          </div>
+          <p style="font-size: 24px; font-weight: 700; line-height: 1.4">
+            Presenteie quem você ama com bem-estar.
+          </p>
+        </div>
+        <a href="gift-card.html" class="botao-caixa"> Comprar Agora </a>
       </section>
     </div>
 
@@ -101,24 +190,22 @@
       <h2 class="blog-title">Blog</h2>
       <div class="blog-cards-container">
         <a href="artigo1.html" class="blog-card">
-          <img
-            src="../img/homem.png"
-            alt="Homem após massagem com dor no pescoço"
-          />
-          <h3>Ficar Dolorido após Massagem Terapêutica?</h3>
+          <img src="../img/homem.png" alt="Homem após massagem" />
+          <div class="blog-content">
+            <h3>Ficar Dolorido após Massagem Terapêutica?</h3>
+          </div>
         </a>
-
         <a href="artigo2.html" class="blog-card">
-          <img src="../img/loja.png" alt="Interior da Loja Rokuzen" />
-          <h3>Descubra o novo conceito terapêutico da Rokuzen</h3>
+          <img src="../img/loja.png" alt="Interior da Loja" />
+          <div class="blog-content">
+            <h3>Descubra o novo conceito terapêutico da Rokuzen</h3>
+          </div>
         </a>
-
         <a href="artigo3.html" class="blog-card">
-          <img
-            src="../img/temperatura.png"
-            alt="Ilustração de pessoa com calor e pessoa com frio"
-          />
-          <h3>Mudança Climática e sua Influência na Imunidade</h3>
+          <img src="../img/temperatura.png" alt="Ilustração temperatura" />
+          <div class="blog-content">
+            <h3>Mudança Climática e sua Influência na Imunidade</h3>
+          </div>
         </a>
       </div>
     </section>
@@ -129,10 +216,33 @@
         direitos reservados.
       </p>
       <div class="footer-icons">
-        <a href="#"><img src="../img/Instagram.png" alt="" /></a>
-        <a href="#"><img src="../img/Mail.png" alt="" /></a>
-        <a href="#"><img src="../img/Facebook.png" alt="" /></a>
-        <a href="#"><img src="../img/Linkedin.png" alt="" /></a>
+        <a
+          href="https://www.instagram.com/rokuzen.massagem"
+          target="_blank"
+          title="Siga nosso Instagram"
+        >
+          <img src="../img/Instagram.png" alt="Instagram" />
+        </a>
+
+        <a href="mailto:contato@rokuzen.com.br" title="Envie um E-mail">
+          <img src="../img/Mail.png" alt="E-mail" />
+        </a>
+
+        <a
+          href="https://www.facebook.com/rokuzen.massagem"
+          target="_blank"
+          title="Curta nosso Facebook"
+        >
+          <img src="../img/Facebook.png" alt="Facebook" />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/company/rokuzen/?trk=top_nav_home"
+          target="_blank"
+          title="Siga no LinkedIn"
+        >
+          <img src="../img/Linkedin.png" alt="LinkedIn" />
+        </a>
       </div>
     </footer>
 
@@ -145,6 +255,18 @@
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
     <script>
       new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+    <script src="../js/auth-header.js"></script>
+
+    <script>
+      const caminho = window.location.pathname.split("/").pop();
+      const links = document.querySelectorAll("nav ul a");
+      links.forEach((link) => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === caminho) link.classList.add("active");
+        if (caminho === "" && link.getAttribute("href") === "index.html")
+          link.classList.add("active");
+      });
     </script>
   </body>
 </html>

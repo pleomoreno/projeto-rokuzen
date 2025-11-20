@@ -1,75 +1,151 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guia de Navegação - Rokuzen Admin</title>
+    <title>Painel Admin | Rokuzen</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/global.css" />
     <link rel="stylesheet" href="../css/header.css" />
-    <link rel="stylesheet" href="../css/footer.css" />
-    <link rel="stylesheet" href="../css/guia-navegacao.css" />
-    <link rel="stylesheet" href="../css/gerenciamento.css" />
-  </head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 
+    <style>
+      body {
+        background-color: #f4f4f4;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      /* Header Específico do Admin */
+      .admin-header-nav {
+        background-color: #285129;
+        padding: 15px 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+      }
+
+      .admin-logo img {
+        height: 50px;
+        filter: brightness(0) invert(1); /* Deixa o logo branco */
+      }
+
+      .admin-nav ul {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .admin-nav a {
+        color: #bdcfa8; /* Verde claro */
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+        transition: color 0.3s;
+      }
+
+      .admin-nav a:hover,
+      .admin-nav a.active {
+        color: white;
+        font-weight: bold;
+      }
+
+      .admin-container {
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 30px;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .page-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        border-bottom: 2px solid #bdcfa8;
+        padding-bottom: 15px;
+      }
+
+      .page-header h1 {
+        color: #285129;
+        font-weight: 800;
+        font-size: 2rem;
+      }
+
+      /* Tabela */
+      .table-custom thead {
+        background-color: #285129;
+        color: white;
+      }
+      .table-custom th,
+      .table-custom td {
+        vertical-align: middle;
+      }
+    </style>
+  </head>
   <body>
-    <header>
-      <div class="logo">
-        <img src="../img/logo.svg" alt="Logo Rokuzen" />
+    <header class="admin-header-nav">
+      <div class="admin-logo">
+        <img src="../img/logo.svg" alt="Logo Rokuzen Admin" />
       </div>
 
       <nav class="admin-nav">
         <ul>
-          <li><a href="admin.html" class="menu-inicio">Início</a></li>
-          <li><a href="estatistica.html">Estatística</a></li>
-          <li><a href="gerenciamento.html">Gerenciamento</a></li>
+          <li><a href="admin.html" class="active">Agendamentos</a></li>
+          <li><a href="gerenciamento.html">Funcionários</a></li>
+          <li><a href="estatistica.html">Estatísticas</a></li>
         </ul>
       </nav>
 
-      <div class="header-buttons">
-        <a href="index.html" class="btn">Sair</a>
+      <div style="display: flex; align-items: center; gap: 15px">
+        <span style="font-weight: bold">Admin</span>
+        <button id="btn-sair-admin" class="btn btn-outline-light btn-sm">
+          Sair
+        </button>
       </div>
     </header>
 
-    <main class="guia-container">
-      <section class="guia-secao">
-        <h1 class="titulo-numero cor-verde">1. Guia de Navegação</h1>
-        <p>
-          Como administrador, você tem acesso total ao painel de controle do
-          sistema. Nele, é possível cadastrar, adicionar e remover parceiros por
-          meio da opção Gerenciamento. Na seção Estatísticas, você pode
-          visualizar gráficos sobre o tempo médio de execução e as médias dos
-          tempos mais escolhidos pelos usuários.
-        </p>
+    <main class="admin-container">
+      <div class="page-header">
+        <h1>Gerenciamento de Agendamentos</h1>
+        <button class="btn btn-success" onclick="carregarAgendamentos()">
+          <i class="fa-solid fa-rotate-right"></i> Atualizar Lista
+        </button>
+      </div>
 
-        <h1 class="titulo-numero cor-verde">2. Estatística</h1>
-        <p>
-          Na seção de estatísticas, serão apresentadas informações como o tempo
-          médio para realizar o cadastro de um usuário, o tempo médio para
-          efetuar um agendamento e as durações mais escolhidas para cada tipo de
-          tratamento e para cada unidade.
-        </p>
-
-        <h1 class="titulo-numero cor-verde">3. Gerenciamento</h1>
-
-        <p>
-          Como administrador, você tem o poder de adicionar e remover
-          funcionários de cada unidade da Rokuzen.
-        </p>
-      </section>
+      <div class="table-responsive">
+        <table class="table table-hover table-custom">
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Cliente</th>
+              <th>Contato</th>
+              <th>Unidade</th>
+              <th>Serviço</th>
+              <th>Valor</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="tabela-agendamentos">
+            <tr>
+              <td colspan="7" class="text-center p-4">Carregando dados...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </main>
 
-    <footer>
-      <p>
-        © 2025 ROKUZEN é uma marca própria, CNPJ XX.XXX.XXX/XXXX-XX. Todos os
-        direitos reservados.
-      </p>
-      <div class="footer-icons">
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fas fa-envelope"></i></a>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-      </div>
-    </footer>
+    <script src="../js/admin.js"></script>
   </body>
 </html>

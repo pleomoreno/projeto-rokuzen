@@ -28,126 +28,65 @@
 
       <nav>
         <ul>
-          <li><a href="index.html" class="menu-inicio">Início</a></li>
+          <li><a href="index.html">Início</a></li>
           <li><a href="quem-somos.html">Quem somos</a></li>
           <li><a href="parceiros.html">Parceiros</a></li>
+          <li><a href="gift-card.html">Gift Card</a></li>
         </ul>
       </nav>
 
-      <div class="header-buttons">
+      <div class="header-buttons" id="header-auth-area">
         <a href="agendar.html" class="btn agendar">Agendar</a>
-        <a href="login.html" class="btn">Entrar</a>
+        <a href="login.html" class="btn btn-login">Entrar</a>
       </div>
     </header>
 
     <section class="container">
       <div class="row">
-        <h2 class="container__titulo">1. Escolha a unidade</h2>
-      </div>
-      <div class="row">
-        <form class="container__opcoes-unidades col-12 col-lg-9">
-          <div class="opcoes-unidades__opcao">
-            <label class="opcao__unidade-texto">
-              <input
-                class="opcao__radio-personalizado"
-                type="radio"
-                name="unidade"
-                value="golden-square"
-              />
-              Golden Square Shopping - São Bernardo
-            </label>
-          </div>
-          <div class="opcoes-unidades__opcao">
-            <label class="opcao__unidade-texto">
-              <input
-                class="opcao__radio-personalizado"
-                type="radio"
-                name="unidade"
-                value="grand-plaza"
-              />
-              Grand Plaza Shopping - Santo André
-            </label>
-          </div>
-          <div class="opcoes-unidades__opcao">
-            <label class="opcao__unidade-texto">
-              <input
-                class="opcao__radio-personalizado"
-                type="radio"
-                name="unidade"
-                value="mooca-plaza"
-              />
-              Mooca Plaza Shopping - São Paulo
-            </label>
-          </div>
-          <div class="opcoes-unidades__opcao">
-            <label class="opcao__unidade-texto">
-              <input
-                class="opcao__radio-personalizado"
-                type="radio"
-                name="unidade"
-                value="west-plaza"
-              />
-              Shopping West Plaza - São Paulo
-            </label>
-          </div>
-        </form>
+        <h2
+          class="container__titulo mb-3"
+          style="font-size: 32px; color: #285129; font-weight: bold"
+        >
+          1. Escolha a unidade
+        </h2>
       </div>
 
-      <div class="row">
-        <h2 class="container__titulo">2. Escolha o serviço</h2>
+      <div
+        id="container-unidades"
+        class="row col-12 col-lg-9 container__opcoes-unidades"
+      >
+        <p style="padding: 20px">Carregando unidades...</p>
       </div>
-      <div class="row">
-        <form class="container__opcoes-unidades col-12 col-lg-9">
-          <div class="opcoes-unidades__opcao">
-            <label class="opcao__unidade-texto">
-              <input
-                class="opcao__radio-personalizado"
-                type="radio"
-                name="servico"
-                value="auriculoterapia"
-              />
-              Auriculoterapia
-            </label>
-          </div>
-          <div class="opcoes-unidades__opcao">
-            <label class="opcao__unidade-texto">
-              <input
-                class="opcao__radio-personalizado"
-                type="radio"
-                name="servico"
-                value="reflexologia-podal"
-              />
-              Reflexologia Podal
-            </label>
-          </div>
-          <div class="opcoes-unidades__opcao">
-            <label class="opcao__unidade-texto">
-              <input
-                class="opcao__radio-personalizado"
-                type="radio"
-                name="servico"
-                value="quick-massage"
-              />
-              Quick Massage
-            </label>
-          </div>
-          <div class="opcoes-unidades__opcao">
-            <label class="opcao__unidade-texto">
-              <input
-                class="opcao__radio-personalizado"
-                type="radio"
-                name="servico"
-                value="maca"
-              />
-              Maca
-            </label>
-          </div>
-        </form>
+
+      <div class="row mt-5">
+        <h2
+          class="container__titulo mb-3"
+          style="font-size: 32px; color: #285129; font-weight: bold"
+        >
+          2. Escolha o serviço
+        </h2>
+      </div>
+
+      <div
+        id="container-servicos"
+        class="row col-12 col-lg-9 container__opcoes-unidades"
+      >
+        <p style="padding: 20px; font-size: 1.2rem; color: #285129">
+          Selecione uma unidade acima para ver os serviços.
+        </p>
       </div>
 
       <div id="duracao-container"></div>
 
-      <h2 class="container__titulo">4. Escolha a data</h2>
+      <div class="row mt-5">
+        <h2
+          class="container__titulo mb-3"
+          style="font-size: 32px; color: #285129; font-weight: bold"
+        >
+          4. Escolha a data
+        </h2>
+      </div>
+
       <div class="calendar">
         <div class="calendar__header">
           <button id="prevBtn">
@@ -170,31 +109,48 @@
         <div class="dates" id="dates"></div>
       </div>
 
-      <div class="row">
-        <h2 class="container__titulo">5. Selecione o Terapeuta e o horário</h2>
+      <div class="row mt-5">
+        <h2
+          class="container__titulo mb-3"
+          style="font-size: 32px; color: #285129; font-weight: bold"
+        >
+          5. Selecione o Terapeuta e o horário
+        </h2>
       </div>
 
       <div class="row col-12 col-lg-9">
         <div class="container__opcoes-unidades">
-          <p class="opcao__unidade-texto">
-            Para essa data entre em contato com a unidade pelo WhatsApp Mooca:
-            +55 11 95084 1087
+          <p class="opcao__unidade-texto" id="texto-whatsapp">
+            Selecione uma unidade acima para ver o contato.
           </p>
         </div>
       </div>
 
-      <div class="row">
-        <h2 class="container__titulo">6. Digite seu e-mail</h2>
+      <div class="row mt-5">
+        <h2
+          class="container__titulo mb-3"
+          style="font-size: 32px; color: #285129; font-weight: bold"
+        >
+          6. Digite seu e-mail
+        </h2>
       </div>
       <div class="row col-12 col-lg-9">
         <div class="container__opcoes-unidades">
-          <input class="input-style" type="email" placeholder="Seu e-mail" />
+          <input
+            class="input-style"
+            type="email"
+            id="email-agendamento"
+            placeholder="Seu e-mail"
+            style="width: 100%"
+          />
         </div>
       </div>
 
       <button
-        type="submit"
+        type="button"
+        id="btn-confirmar"
         class="btn btn-success botao-confirmar px-4 py-3 fw-semibold"
+        style="margin-top: 40px"
       >
         Confirmar Pré-agendamento
       </button>
@@ -206,10 +162,33 @@
         direitos reservados.
       </p>
       <div class="footer-icons">
-        <a href="#"><img src="../img/Instagram.png" alt="" /></a>
-        <a href="#"><img src="../img/Mail.png" alt="" /></a>
-        <a href="#"><img src="../img/Facebook.png" alt="" /></a>
-        <a href="#"><img src="../img/Linkedin.png" alt="" /></a>
+        <a
+          href="https://www.instagram.com/rokuzen.massagem"
+          target="_blank"
+          title="Siga nosso Instagram"
+        >
+          <img src="../img/Instagram.png" alt="Instagram" />
+        </a>
+
+        <a href="mailto:contato@rokuzen.com.br" title="Envie um E-mail">
+          <img src="../img/Mail.png" alt="E-mail" />
+        </a>
+
+        <a
+          href="https://www.facebook.com/rokuzen.massagem"
+          target="_blank"
+          title="Curta nosso Facebook"
+        >
+          <img src="../img/Facebook.png" alt="Facebook" />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/company/rokuzen/?trk=top_nav_home"
+          target="_blank"
+          title="Siga no LinkedIn"
+        >
+          <img src="../img/Linkedin.png" alt="LinkedIn" />
+        </a>
       </div>
     </footer>
 
@@ -218,67 +197,9 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
-    <script src="/js/calendario.js"></script>
-    <script>
-      const duracaoContainer = document.getElementById("duracao-container");
 
-      const opcoesDuracao = {
-        auriculoterapia: [{ tempo: "10 minutos", valor: "R$ 69,00" }],
-        "reflexologia-podal": [
-          { tempo: "20 minutos", valor: "R$ 83,00" },
-          { tempo: "30 minutos", valor: "R$ 99,00" },
-          { tempo: "40 minutos", valor: "R$ 118,00" },
-          { tempo: "60 minutos", valor: "R$ 159,00" },
-        ],
-        "quick-massage": [
-          { tempo: "15 minutos", valor: "R$ 52,00" },
-          { tempo: "25 minutos", valor: "R$ 73,00" },
-          { tempo: "35 minutos", valor: "R$ 92,00" },
-        ],
-        maca: [
-          { tempo: "30 minutos", valor: "R$ 114,00" },
-          { tempo: "45 minutos", valor: "R$ 160,00" },
-          { tempo: "60 minutos", valor: "R$ 198,00" },
-          { tempo: "90 minutos", valor: "R$ 292,00" },
-          { tempo: "120 minutos", valor: "R$ 379,00" },
-        ],
-      };
-
-      document.querySelectorAll('input[name="servico"]').forEach((input) => {
-        input.addEventListener("change", (event) => {
-          const servicoSelecionado = event.target.value;
-          const opcoes = opcoesDuracao[servicoSelecionado];
-
-          duracaoContainer.innerHTML = "";
-
-          const titulo = document.createElement("h2");
-          titulo.textContent = "3. Escolha a duração e valor:";
-          titulo.classList.add("container__titulo");
-          titulo.style.fontSize = "64px";
-          duracaoContainer.appendChild(titulo);
-
-          // Cria o container das opções
-          const bloco = document.createElement("div");
-          bloco.classList.add("container__opcoes-unidades");
-          bloco.classList.add("col-12");
-          bloco.classList.add("col-lg-9");
-          duracaoContainer.appendChild(bloco);
-
-          opcoes.forEach((opcao) => {
-            const div = document.createElement("div");
-            div.classList.add("opcoes-unidades__opcao");
-
-            div.innerHTML = `
-                <label class="opcao__unidade-texto">
-                    <input class="opcao__radio-personalizado" type="radio" name="duracao" value="${opcao.tempo}">
-                    ${opcao.tempo} - ${opcao.valor}
-                </label>
-                `;
-            bloco.appendChild(div);
-          });
-        });
-      });
-    </script>
+    <script src="../js/calendario.js"></script>
+    <script src="../js/agendar.js"></script>
 
     <div vw class="enabled">
       <div vw-access-button class="active"></div>
@@ -289,6 +210,16 @@
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
     <script>
       new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+    <script src="../js/auth-header.js"></script>
+
+    <script>
+      const caminho = window.location.pathname.split("/").pop();
+      const links = document.querySelectorAll("nav ul a");
+      links.forEach((link) => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === caminho) link.classList.add("active");
+      });
     </script>
   </body>
 </html>

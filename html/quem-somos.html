@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/quem-somos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
 
   <body>
@@ -20,14 +24,15 @@
       <nav>
         <ul>
           <li><a href="index.html">Início</a></li>
-          <li><a href="quem-somos.html" class="ativo">Quem somos</a></li>
+          <li><a href="quem-somos.html" class="active">Quem somos</a></li>
           <li><a href="parceiros.html">Parceiros</a></li>
+          <li><a href="gift-card.html">Gift Card</a></li>
         </ul>
       </nav>
 
-      <div class="header-buttons">
+      <div class="header-buttons" id="header-auth-area">
         <a href="agendar.html" class="btn agendar">Agendar</a>
-        <a href="login.html" class="btn">Entrar</a>
+        <a href="login.html" class="btn btn-login">Entrar</a>
       </div>
     </header>
 
@@ -101,10 +106,33 @@
         direitos reservados.
       </p>
       <div class="footer-icons">
-        <a href="#"><img src="../img/Instagram.png" alt="Instagram" /></a>
-        <a href="#"><img src="../img/Mail.png" alt="E-mail" /></a>
-        <a href="#"><img src="../img/Facebook.png" alt="Facebook" /></a>
-        <a href="#"><img src="../img/Linkedin.png" alt="Linkedin" /></a>
+        <a
+          href="https://www.instagram.com/rokuzen.massagem"
+          target="_blank"
+          title="Siga nosso Instagram"
+        >
+          <img src="../img/Instagram.png" alt="Instagram" />
+        </a>
+
+        <a href="mailto:contato@rokuzen.com.br" title="Envie um E-mail">
+          <img src="../img/Mail.png" alt="E-mail" />
+        </a>
+
+        <a
+          href="https://www.facebook.com/rokuzen.massagem"
+          target="_blank"
+          title="Curta nosso Facebook"
+        >
+          <img src="../img/Facebook.png" alt="Facebook" />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/company/rokuzen/?trk=top_nav_home"
+          target="_blank"
+          title="Siga no LinkedIn"
+        >
+          <img src="../img/Linkedin.png" alt="LinkedIn" />
+        </a>
       </div>
     </footer>
 
@@ -115,6 +143,16 @@
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
     <script>
       new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+    <script src="../js/auth-header.js"></script>
+
+    <script>
+      const caminho = window.location.pathname.split("/").pop();
+      const links = document.querySelectorAll("nav ul a");
+      links.forEach((link) => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === caminho) link.classList.add("active");
+      });
     </script>
   </body>
 </html>

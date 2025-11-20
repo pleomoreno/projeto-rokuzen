@@ -1,183 +1,120 @@
+/* css/hero.css */
+
 .hero {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 60px 50px;
-  gap: 60px;
-  flex-wrap: wrap;
-  width: 100%;
-  box-sizing: border-box;
-  overflow-x: hidden;
-  margin: 0 auto;
+  align-items: center; /* Volta a centralizar verticalmente, mas em um container menor */
+  justify-content: space-between;
+  /* Reduzi drasticamente o padding superior e inferior para aproximar do Header/Resto do Conteúdo */
+  padding: 15px 5% 20px 5%;
+  background-color: #ebf4e3;
+  overflow: hidden;
+  min-height: 380px; /* Reduzi a altura mínima (era 480px) */
 }
 
 .hero-text {
   flex: 1;
-  min-width: 280px;
   max-width: 600px;
-  text-align: left;
+  padding-bottom: 0; /* Removido padding desnecessário */
+  z-index: 10;
+  margin-top: 0; /* Garante que não haja margem empurrando para baixo */
 }
 
-.hero h1 {
-  font-family: "SF Pro Display", sans-serif;
-  font-size: 96px;
-  font-weight: 700;
-  line-height: 1.1;
-  color: #6b8e54;
-  margin-bottom: 20px;
-}
-
-.hero p {
-  font-family: "SF Pro Display", sans-serif;
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 1.5;
+/* Mantido: Tamanho do Título (para não mudar o visual que você gostou) */
+.hero-text h1 {
+  font-size: 4rem;
   color: #285129;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+/* Mantido: Tamanho do Parágrafo */
+.hero-text p {
+  font-size: 1.5rem;
+  color: #1d1b20;
   margin-bottom: 30px;
+  line-height: 1.6;
 }
 
 .hero-buttons {
   display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
+  gap: 20px;
 }
 
-.hero-buttons a {
+/* Botões (Mantidos Grandes) */
+.btn-primary {
+  background-color: #285129;
+  color: white;
+  padding: 20px 45px;
+  border-radius: 50px;
   text-decoration: none;
-  font-family: "SF Pro Display", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  color: #ffffff;
-  background-color: #6b8e54;
-  padding: 14px 36px;
-  border-radius: 28px;
-  display: inline-block;
-  transition: background 0.3s ease;
-  border: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  transition: transform 0.2s;
 }
 
-.hero-buttons a:hover {
-  background-color: #5a7a47;
+.btn-primary:hover {
+  transform: scale(1.05);
+  background-color: #1d1b20;
 }
 
-.hero-image {
+.btn-secondary {
+  border: 3px solid #285129;
+  color: #285129;
+  padding: 18px 40px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: #285129;
+  color: white;
+}
+
+/* Imagem Gigante */
+.hero-img {
   flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 320px;
-  max-width: 700px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
 }
 
-.hero-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  display: block;
+.hero-img img {
+  width: 130%;
+  max-width: 900px;
+  margin-right: -10%;
+  margin-bottom: -5px;
 }
 
 @media (max-width: 1024px) {
-  .hero {
-    padding: 40px 50px;
-    gap: 50px;
+  .hero-text h1 {
+    font-size: 3rem;
   }
-
-  .hero-text {
-    max-width: 90%;
-    text-align: center;
-  }
-
-  .hero h1 {
-    font-size: 64px;
-  }
-
-  .hero p {
-    font-size: 22px;
-  }
-
-  .hero-buttons {
-    justify-content: center;
-  }
-
-  .hero-image img {
-    max-width: 520px;
+  .hero-img img {
+    width: 100%;
+    margin-right: 0;
   }
 }
 
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
     align-items: center;
-    text-align: center;
-    gap: 35px;
-    padding: 35px 20px;
   }
-
-  .hero-text {
-    max-width: 100%;
-    text-align: center;
-  }
-
-  .hero h1 {
-    font-size: 48px;
-  }
-
-  .hero p {
-    font-size: 18px;
-  }
-
   .hero-buttons {
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-    width: 100%;
+    justify-content: center;
   }
-
-  .hero-buttons a {
-    width: 100%;
-    max-width: 300px;
-    font-size: 18px;
-    padding: 12px 28px;
+  .hero-img img {
+    margin-top: 40px;
+    width: 110%;
+    margin-right: -5%;
   }
-
-  .hero-image img {
-    max-width: 400px;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero {
-    padding: 30px 18px;
-    gap: 30px;
-  }
-
   .hero-text {
-    text-align: center;
-  }
-
-  .hero h1 {
-    font-size: 34px;
-  }
-
-  .hero p {
-    font-size: 16px;
-  }
-
-  .hero-buttons {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .hero-buttons a {
-    width: 100%;
-    max-width: 280px;
-    text-align: center;
-    font-size: 16px;
-    padding: 10px 24px;
-  }
-
-  .hero-image img {
-    max-width: 320px;
+    margin-top: 0;
   }
 }
