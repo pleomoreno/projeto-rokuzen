@@ -2,12 +2,11 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import bcrypt from "bcrypt";
 
-// Importando os modelos
 import Cliente from "./src/models/cliente.js";
 import Servico from "./src/models/servico.js";
 import Unidade from "./src/models/unidade.js";
 import Atendimento from "./src/models/atendimento.js";
-import Colaborador from "./src/models/colaborador.js"; // <--- NOVO IMPORT
+import Colaborador from "./src/models/colaborador.js";
 
 dotenv.config();
 
@@ -22,9 +21,8 @@ const popularBanco = async () => {
     await Servico.deleteMany({});
     await Unidade.deleteMany({});
     await Atendimento.deleteMany({});
-    await Colaborador.deleteMany({}); // <--- LIMPA COLABORADORES
+    await Colaborador.deleteMany({});
 
-    // 1. Criar Unidades
     console.log("buildings Criando Unidades...");
     const unidades = await Unidade.insertMany([
       {
@@ -45,7 +43,6 @@ const popularBanco = async () => {
       },
     ]);
 
-    // 2. Serviços
     const servicosData = [
       {
         nome_servico: "Quick Massage",
@@ -96,14 +93,12 @@ const popularBanco = async () => {
       await Servico.insertMany(servicosParaUnidade);
     }
 
-    // 3. Criar Funcionários (MOCK)
     console.log("👷 Criando Colaboradores...");
     await Colaborador.insertMany([
       { nome: "Carlos Silva", cargo: "Massoterapeuta" },
       { nome: "Ana Souza", cargo: "Reflexologista" },
     ]);
 
-    // 4. Criar Usuários
     console.log("👑 Criando Usuários...");
     const salt = await bcrypt.genSalt(10);
     const senhaHash = await bcrypt.hash("12345", salt);

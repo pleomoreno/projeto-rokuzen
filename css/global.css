@@ -67,7 +67,7 @@ h3 {
 
 @media (max-width: 600px) {
   .services-units-container {
-    flex-direction: column; /* Empilha no mobile */
+    flex-direction: column; 
     gap: 20px;
     padding: 0 10px;
   }

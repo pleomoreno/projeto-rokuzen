@@ -174,14 +174,14 @@
 .card-opcao {
   padding: 15px;
   margin: 10px 0;
-  background-color: #e0eecd; /* Cor do seu fundo */
+  background-color: #e0eecd; 
   border: 2px solid transparent;
   cursor: pointer;
   border-radius: 10px;
 }
 
 .card-opcao.selecionado {
-  border-color: #285129; /* Verde mais escuro da sua marca */
+  border-color: #285129; 
   background-color: #d1e2b5;
   font-weight: bold;
 }

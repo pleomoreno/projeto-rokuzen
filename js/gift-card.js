@@ -1,5 +1,3 @@
-// js/gift-card.js
-
 let giftSelection = {
   servico_nome: null,
   valor: null,
@@ -12,18 +10,15 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 async function carregarServicosGift() {
   try {
-    // Busca unidades para pegar o ID da primeira
     const respUnidades = await fetch("http://localhost:3000/unidades");
     const unidades = await respUnidades.json();
 
     if (unidades.length === 0) return;
     const unidadeExemploId = unidades[0]._id;
 
-    // Busca serviços
     const respServicos = await fetch("http://localhost:3000/servicos");
     const todosServicos = await respServicos.json();
 
-    // Filtra serviços dessa unidade e remove COMBO
     const servicosUnicos = todosServicos.filter(
       (s) =>
         s.unidade_id === unidadeExemploId &&
@@ -61,11 +56,7 @@ function mostrarOpcoesDuracao(opcoes) {
   const container = document.getElementById("duracao-container");
   container.innerHTML = "";
 
-  // CORREÇÃO: Removido a criação do <h2> aqui dentro.
-  // O HTML já tem o título fora da caixa.
-
   const formContainer = document.createElement("div");
-  // Usa apenas classes de layout interno, sem bordas extras se não necessário
   formContainer.className = "col-12";
 
   opcoes.forEach((opcao) => {

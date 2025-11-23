@@ -1,5 +1,3 @@
-// js/agendar.js
-
 let agendamento = {
   unidade_id: null,
   servico_id: null,
@@ -210,11 +208,10 @@ function mostrarOpcoesDuracao(opcoes, isCombo = false) {
 
   if (!opcoes || opcoes.length === 0) return;
 
-  // CORREÇÃO DE ESTILO DO TÍTULO DINÂMICO
   const rowTitulo = document.createElement("div");
   rowTitulo.className = "row mt-5";
   const h2 = document.createElement("h2");
-  // Aplicando estilo inline para garantir o padrão
+
   h2.className = "container__titulo mb-3";
   h2.style.fontSize = "32px";
   h2.style.color = "#285129";

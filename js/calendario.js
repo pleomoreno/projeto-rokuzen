@@ -44,20 +44,16 @@ const updateCalendar = () => {
 
   document.querySelectorAll(".date").forEach((dateEl) => {
     dateEl.addEventListener("click", (e) => {
-      if (e.target.classList.contains("inactive")) return; // ignora dias de outro mês
+      if (e.target.classList.contains("inactive")) return;
 
-      // remove seleção anterior
       document
         .querySelectorAll(".date")
         .forEach((d) => d.classList.remove("selected"));
 
-      // adiciona seleção no clicado
       e.target.classList.add("selected");
 
-      // guarda a data selecionada
       selectedDate = new Date(e.target.dataset.date);
 
-      // Exemplo: envia pro console (no lugar disso, você enviará ao BD depois)
       console.log("Data selecionada:", selectedDate.toISOString());
     });
   });

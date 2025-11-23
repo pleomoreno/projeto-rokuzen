@@ -1,25 +1,22 @@
-/* css/hero.css */
 
 .hero {
   display: flex;
-  align-items: center; /* Volta a centralizar verticalmente, mas em um container menor */
+  align-items: center; 
   justify-content: space-between;
-  /* Reduzi drasticamente o padding superior e inferior para aproximar do Header/Resto do Conteúdo */
   padding: 15px 5% 20px 5%;
   background-color: #ebf4e3;
   overflow: hidden;
-  min-height: 380px; /* Reduzi a altura mínima (era 480px) */
+  min-height: 380px;
 }
 
 .hero-text {
   flex: 1;
   max-width: 600px;
-  padding-bottom: 0; /* Removido padding desnecessário */
+  padding-bottom: 0;
   z-index: 10;
-  margin-top: 0; /* Garante que não haja margem empurrando para baixo */
+  margin-top: 0;
 }
 
-/* Mantido: Tamanho do Título (para não mudar o visual que você gostou) */
 .hero-text h1 {
   font-size: 4rem;
   color: #285129;
@@ -27,7 +24,6 @@
   line-height: 1.1;
 }
 
-/* Mantido: Tamanho do Parágrafo */
 .hero-text p {
   font-size: 1.5rem;
   color: #1d1b20;
@@ -40,7 +36,6 @@
   gap: 20px;
 }
 
-/* Botões (Mantidos Grandes) */
 .btn-primary {
   background-color: #285129;
   color: white;

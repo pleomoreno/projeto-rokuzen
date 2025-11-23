@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const giftCardSchema = new mongoose.Schema({
-  comprador_id: { type: mongoose.Schema.Types.ObjectId, ref: "Cliente" }, // Opcional se não estiver logado
+  comprador_id: { type: mongoose.Schema.Types.ObjectId, ref: "Cliente" },
   nome_comprador: String,
   email_comprador: String,
   celular_comprador: String,
@@ -11,7 +11,7 @@ const giftCardSchema = new mongoose.Schema({
   valor: Number,
   duracao: Number,
   data_compra: { type: Date, default: Date.now },
-  codigo_resgate: String // Um código único para usar depois
+  codigo_resgate: String,
 });
 
 export default mongoose.model("GiftCard", giftCardSchema);

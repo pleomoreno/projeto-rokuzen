@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const usuarioLogado = localStorage.getItem("usuario");
   const headerButtons = document.querySelector(".header-buttons");
 
-  // --- 1. LOGO AS LINK (Logic for Clicável Logo) ---
   const logoDiv = document.querySelector(".logo");
   if (logoDiv && !logoDiv.querySelector("a")) {
     const img = logoDiv.querySelector("img");
@@ -13,7 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
     link.appendChild(img);
   }
 
-  // --- 2. MENU DE USUÁRIO ---
   if (usuarioLogado && headerButtons) {
     const usuario = JSON.parse(usuarioLogado);
     const iniciais = getIniciais(usuario.nome || "U");
@@ -25,7 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const userContainer = document.createElement("div");
     userContainer.className = "user-profile-container";
 
-    // HTML DO DROPDOWN (EMAIL E TELEFONE REMOVIDOS)
     userContainer.innerHTML = `
           <div class="user-icon" title="${usuario.nome}">${iniciais}</div>
           <div class="user-dropdown">
@@ -51,7 +48,6 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
       `;
 
-    // Eventos de Click
     userContainer.addEventListener("click", (e) => {
       const dropdown = userContainer.querySelector(".user-dropdown");
       dropdown.classList.toggle("active");

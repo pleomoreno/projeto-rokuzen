@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   carregarColaboradores();
 
-  // Botão de Adicionar (Abre os inputs)
   const botoesAdicionar = document.querySelectorAll(".btn-adicionar");
   botoesAdicionar.forEach((botao) => {
     botao.addEventListener("click", () => {
@@ -10,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// --- 1. LISTAR COLABORADORES ---
 async function carregarColaboradores() {
   const lista = document.querySelector(".funcionarios-lista");
   lista.innerHTML = "Carregando...";
@@ -19,7 +17,7 @@ async function carregarColaboradores() {
     const response = await fetch("http://localhost:3000/colaboradores");
     const colaboradores = await response.json();
 
-    lista.innerHTML = ""; // Limpa
+    lista.innerHTML = "";
 
     colaboradores.forEach((colab) => {
       const li = document.createElement("li");
@@ -40,11 +38,9 @@ async function carregarColaboradores() {
   }
 }
 
-// --- 2. ADICIONAR COLABORADOR ---
 function criarFormularioAdicao(botao) {
   const container = botao.parentElement;
 
-  // Cria inputs
   const inputNome = document.createElement("input");
   inputNome.type = "text";
   inputNome.placeholder = "Nome";
@@ -63,14 +59,12 @@ function criarFormularioAdicao(botao) {
   btnCancelar.textContent = "Cancelar";
   btnCancelar.classList.add("btn", "btn-secondary", "ms-2");
 
-  // Troca o botão "Adicionar" pelo formulário
   container.innerHTML = "";
   container.appendChild(inputNome);
   container.appendChild(inputCargo);
   container.appendChild(btnSalvar);
   container.appendChild(btnCancelar);
 
-  // Ação Salvar
   btnSalvar.addEventListener("click", async () => {
     const nome = inputNome.value.trim();
     const cargo = inputCargo.value.trim();
@@ -84,7 +78,6 @@ function criarFormularioAdicao(botao) {
         body: JSON.stringify({ nome, cargo }),
       });
 
-      // Recarrega a lista e restaura o botão
       carregarColaboradores();
       restaurarBotaoAdicionar(container);
     } catch (error) {
@@ -92,7 +85,6 @@ function criarFormularioAdicao(botao) {
     }
   });
 
-  // Ação Cancelar
   btnCancelar.addEventListener("click", () => {
     restaurarBotaoAdicionar(container);
   });
@@ -104,13 +96,12 @@ function restaurarBotaoAdicionar(container) {
           <i class="fa-solid fa-plus"></i> Adicionar Funcionário
       </button>
   `;
-  // Reativa o evento de click no novo botão criado
+
   container.querySelector(".btn-adicionar").addEventListener("click", (e) => {
     criarFormularioAdicao(e.target);
   });
 }
 
-// --- 3. DELETAR COLABORADOR ---
 async function deletarColaborador(id) {
   if (!confirm("Tem certeza que deseja remover este funcionário?")) return;
 

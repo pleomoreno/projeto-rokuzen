@@ -1,10 +1,9 @@
-/* css/quem-somos.css */
 
 .sobre-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 60px 5%;
-  color: #285129; /* COR PADRONIZADA */
+  color: #285129; 
 }
 
 section {
@@ -12,7 +11,7 @@ section {
 }
 
 h1, h2 {
-  font-size: 3rem; /* Títulos grandes como na Home */
+  font-size: 3rem;
   font-weight: 800;
   margin-bottom: 30px;
   color: #285129;
@@ -26,7 +25,7 @@ p {
   font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 20px;
-  color: #285129; /* Garante o verde escuro no texto corrido */
+  color: #285129; 
 }
 
 ul {
@@ -41,7 +40,6 @@ li {
   color: #285129;
 }
 
-/* Imagens da Estrutura */
 .estrutura-imgs {
   display: flex;
   justify-content: center;
@@ -51,10 +49,10 @@ li {
 }
 
 .estrutura-imgs img {
-  max-width: 400px; /* Largura máxima */
-  width: 100%;      /* Responsivo */
-  height: auto;     /* ISSO CORRIGE A DEFORMAÇÃO (Mantém a proporção) */
-  object-fit: contain; /* Garante que a imagem caiba sem cortar */
+  max-width: 400px; 
+  width: 100%;      
+  height: auto;   
+  object-fit: contain; 
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
