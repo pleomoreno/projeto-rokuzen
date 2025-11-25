@@ -51,17 +51,15 @@ async function carregarAgendamentos() {
           });
       }
 
-      // Dados do Cliente (Com proteção contra nulos)
       const cliente = item.cliente_id || {};
       const nomeCliente = cliente.nome_cliente || "Cliente Removido";
       const emailCliente = cliente.email_cliente || "";
-      const telCliente = cliente.telefone_cliente || "Sem telefone"; // <--- AQUI O TELEFONE
+      const telCliente = cliente.telefone_cliente || "Sem telefone";
 
-      // Outros dados
+
       const nomeServico = item.servico_id?.nome_servico || "Serviço Removido";
       const nomeUnidade = item.unidade_id?.nome_unidade || "Unidade Removida";
 
-      // Formatação do Valor (Se não tiver valor salvo, mostra 0,00)
       const valorFormatado = item.valor_servico
         ? `R$ ${item.valor_servico.toFixed(2).replace(".", ",")}`
         : "R$ 0,00";

@@ -18,6 +18,10 @@
         <img src="../img/logo.svg" alt="Logo Rokuzen" />
       </div>
 
+      <button class="btn-mobile" id="btn-mobile">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
       <nav>
         <ul>
           <li><a href="index.html" id="link-inicio">Início</a></li>
@@ -168,6 +172,29 @@
           link.classList.add("active");
         }
       });
+    </script>
+    <script>
+      const btnMobile = document.getElementById('btn-mobile');
+      
+      function toggleMenu(event) {
+          if (event.type === 'touchstart') event.preventDefault();
+          const header = document.querySelector('header');
+          header.classList.toggle('active');
+          
+          const icon = btnMobile.querySelector('i');
+          if (header.classList.contains('active')) {
+              icon.classList.remove('fa-bars');
+              icon.classList.add('fa-xmark');
+          } else {
+              icon.classList.remove('fa-xmark');
+              icon.classList.add('fa-bars');
+          }
+      }
+
+      if(btnMobile) {
+          btnMobile.addEventListener('click', toggleMenu);
+          btnMobile.addEventListener('touchstart', toggleMenu);
+      }
     </script>
   </body>
 </html>

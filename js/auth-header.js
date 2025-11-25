@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const usuario = JSON.parse(usuarioLogado);
     const iniciais = getIniciais(usuario.nome || "U");
 
-    // Remove botão de entrar
+
     const btnLogin = headerButtons.querySelector('a[href="login.html"]');
     if (btnLogin) btnLogin.remove();
 

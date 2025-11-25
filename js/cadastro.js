@@ -32,7 +32,7 @@ formCadastro.addEventListener("submit", async (event) => {
 
     if (resposta.ok) {
       alert("Conta criada com sucesso! Você será redirecionado para o login.");
-      window.location.href = "login.html"; // Manda o usuário para o login
+      window.location.href = "login.html";
     } else {
       alert("Erro ao criar conta: " + dados.message);
     }
