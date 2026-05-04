@@ -40,4 +40,8 @@ projeto-rokuzen/
 ## 👤 Author
 
 **Leonardo Alves Moreno**  
-[linkedin.com/in/leomoreno](https://linkedin.com/in/leomoreno) · [github.com/pleomoreno](https://github.com/pleomoreno)
+**Santiago Ciapina Martinez Salazar**
+**Juliano Galhardo de Oliveira**
+**Erik Kenji Sakura**
+**Eduardo Borges dos Santos Junior**
+**João Carlos Soares Sartorelli**
