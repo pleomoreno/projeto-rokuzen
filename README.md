@@ -40,8 +40,8 @@ projeto-rokuzen/
 ## 👤 Author
 
 **Leonardo Alves Moreno**  
-**Santiago Ciapina Martinez Salazar**
-**Juliano Galhardo de Oliveira**
-**Erik Kenji Sakura**
-**Eduardo Borges dos Santos Junior**
+**Santiago Ciapina Martinez Salazar**  
+**Juliano Galhardo de Oliveira**  
+**Erik Kenji Sakura**  
+**Eduardo Borges dos Santos Junior**  
 **João Carlos Soares Sartorelli**
